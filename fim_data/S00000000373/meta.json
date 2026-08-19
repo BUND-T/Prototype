@@ -1,0 +1,18 @@
+{
+  "fim_id": "S00000000373",
+  "fim_version": "1.0.0",
+  "name": "Anzeige Bestellung verantwortliche Person Sprengstoffgesetz",
+  "bezeichnung": "Mitteilung über eine bestellte verantwortliche Person nach dem Sprengstoffgesetz",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 21 (4) SprengG v. 25.10.2024",
+    "§ 19 (1) Nr. 3, 4 SprengG v. 25.10.2024"
+  ],
+  "letzte_aenderung": "2026-02-13T13:28:52Z",
+  "n_rules": 1,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000373/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:23Z"
+}

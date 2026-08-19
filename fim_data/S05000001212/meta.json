@@ -1,0 +1,17 @@
+{
+  "fim_id": "S05000001212",
+  "fim_version": "3.3.0",
+  "name": "Versicherungsvermittler Erlaubnis Erteilung (OZG)",
+  "bezeichnung": "Erlaubnis als Versicherungsvermittler beantragen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34d Abs. 1 Gewerbeordnung (GewO) § 11a Gewerbeordnung (GewO) Versicherungsvermittlungsverordnung (VersVermV) Versicherungsvertragsgesetz (VVG) Versicherungsaufsichtsgesetz (VAG)"
+  ],
+  "letzte_aenderung": "2025-01-24T12:54:13Z",
+  "n_rules": 27,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001212/3.3.0/xdf",
+  "fetched_at": "2026-08-12T13:16:45Z"
+}

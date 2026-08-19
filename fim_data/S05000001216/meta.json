@@ -1,0 +1,17 @@
+{
+  "fim_id": "S05000001216",
+  "fim_version": "3.4.0",
+  "name": "Erlaubnis für Versicherungsvermittler Befreiung (OZG)",
+  "bezeichnung": "Befreiung von der Erlaubnispflicht als Versicherungsvermittler beantragen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34d Abs. 6 Gewerbeordnung (GewO) § 34d Abs. 8 Gewerbeordnung (GewO) § 11a Gewerbeordnung (GewO) Versicherungsvermittungsverordnung (VersVermV) Gesetz über die Beaufsichtigung der Versicherungsunternehmen (VAG)"
+  ],
+  "letzte_aenderung": "2025-04-04T07:03:43Z",
+  "n_rules": 5,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001216/3.4.0/xdf",
+  "fetched_at": "2026-08-12T13:16:47Z"
+}

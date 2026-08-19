@@ -1,0 +1,18 @@
+{
+  "fim_id": "S00000000362",
+  "fim_version": "1.0.0",
+  "name": "Antrag Beschäftigungserlaubnis bei Aufenthaltsgestattung Erteilung",
+  "bezeichnung": "Antrag auf Erteilung einer Beschäftigungserlaubnis bei Aufenthaltsgestattung",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 61 AsylG vom 15.07.2024",
+    "§ 32 BeschV vom 07.12.2023"
+  ],
+  "letzte_aenderung": "2024-10-10T11:18:57Z",
+  "n_rules": 19,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000362/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:08Z"
+}

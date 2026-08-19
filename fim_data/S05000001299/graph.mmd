@@ -1,0 +1,21 @@
+flowchart TD
+  G05000011697_G05000011700_F05000017547["Geben Sie den Ort ein, an dem die Kind"] ==>|"= ? → required"| G05000011696_F05000017566["Mietvertrag"]
+  G05000011697_G05000011700_F05000017547["Geben Sie den Ort ein, an dem die Kind"] ==>|"= ? → required"| G05000011697_G05000011702["Kinder und weitere Haushaltangehörige"]
+  G05000011697_G05000011700_F05000017547["Geben Sie den Ort ein, an dem die Kind"] ==>|"= ? → required"| G05000011712_F05000017577["Aktuelle Haushaltsbescheinigung"]
+  G05000011697_G05000011700_F05000017547["Geben Sie den Ort ein, an dem die Kind"] ==>|"= ? → required"| G05000011712_G05000000855["Bundeszentralregisterauszug der Hausha"]
+  F05000017549["Planen Sie eine Kindertagespflege mit "] ==>|"= wahr → required"| F05000017550["Ist Ihnen diese Person bereits bekannt"]
+  F05000017550["Ist Ihnen diese Person bereits bekannt"] ==>|"= wahr → required"| G05000011701["Angaben der weiteren Kindertagespflege"]
+  G05000011684_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G05000011684_G60000000083_F60000000232["Monat"]
+  G05000011684_G05000013144_F05000017637["Wollen Sie eine Straßenanschrift oder "] ==>|"= 001 → required"| G05000011684_G05000013144_G05000011743["Straßenanschrift Inland"]
+  G05000011684_G05000013144_F05000017637["Wollen Sie eine Straßenanschrift oder "] -.->|"<> 001 → forbidden"| G05000011684_G05000013144_G05000011743["Straßenanschrift Inland"]
+  G05000011684_G05000013144_F05000017637["Wollen Sie eine Straßenanschrift oder "] ==>|"= 002 → required"| G05000011684_G05000013144_G60000000087["Anschrift Postfach"]
+  G05000011684_G05000013144_F05000017637["Wollen Sie eine Straßenanschrift oder "] -.->|"<> 002 → forbidden"| G05000011684_G05000013144_G60000000087["Anschrift Postfach"]
+  G05000011701_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G05000011701_G60000000083_F60000000232["Monat"]
+  G05000011697_F05000017544["Ist die Adresse der Kindertagespfleges"] ==>|"= falsch → required"| G05000011697_F05000017545["Name der Kindertagestpflege"]
+  G05000011697_G05000011702_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G05000011697_G05000011702_G60000000083_F60000000232["Monat"]
+  unclear0["?: Wenn in F05000017579 "Strafverfahren" = Auswahl 01 "ja, dann"]:::unclear
+  unclear1["?: Wenn in F05000017616 Auswahl = 01 "Ist beantragt", dann ersc"]:::unclear
+  unclear2["?: Wenn in F05000017616 Auswahl = 02 "Ist noch nicht beantragt""]:::unclear
+  unclear3["?: Wenn in F05000017616 Auswahl = 01 "Ist beantragt", dann ersc"]:::unclear
+  unclear4["?: Wenn in F05000017616 Auswahl = 02 "Ist noch nicht beantragt""]:::unclear
+  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000

@@ -1,0 +1,25 @@
+{
+  "fim_id": "S05000001398",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Operationstechnischer Assistent\" (OTA)",
+  "bezeichnung": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Operationstechnische Assistentin\" oder \"Operationstechnischer Assistent\" (OTA)",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 2 ATA-OTA-G vom 20.07.2022",
+    "§ 8 ATA-OTA-G vom 20.07.2022",
+    "§ 10 ATA-OTA-G vom 20.07.2022",
+    "§ 12 ATA-OTA-G vom 20.07.2022",
+    "§ 21 ATA-OTA-G vom 20.07.2022",
+    "§ 38 ATA-OTA-G vom 20.07.2022",
+    "§ 10 (1) Nr. 5 StAG vom 22.12.2025",
+    "§ 30a BZRG vom 19.07.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-27T15:15:03Z",
+  "n_rules": 33,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001398/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:19:02Z"
+}

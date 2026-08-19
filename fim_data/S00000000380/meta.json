@@ -1,0 +1,18 @@
+{
+  "fim_id": "S00000000380",
+  "fim_version": "1.0.0",
+  "name": "Antrag Erteilung Ausbildungsduldung",
+  "bezeichnung": "Antrag auf Erteilung einer Ausbildungsduldung",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 60a AufenthG vom 08.05.2024",
+    "§ 60c AufenthG vom 08.05.2024"
+  ],
+  "letzte_aenderung": "2024-10-22T11:36:21Z",
+  "n_rules": 22,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000380/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:33Z"
+}

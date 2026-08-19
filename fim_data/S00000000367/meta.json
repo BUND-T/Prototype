@@ -1,0 +1,17 @@
+{
+  "fim_id": "S00000000367",
+  "fim_version": "1.0.0",
+  "name": "Antrag Erklärung Zulässigkeit Kündigungen bei besonderen Kündigungsverboten (MuSchG)",
+  "bezeichnung": "Antrag für die Zulässigkeit von Kündigungen bei besonderen Kündigungsverboten",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 17 (2) MuSchG v. 12.12.2019"
+  ],
+  "letzte_aenderung": "2025-06-05T08:54:36Z",
+  "n_rules": 1,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000367/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:15Z"
+}

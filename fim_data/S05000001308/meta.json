@@ -1,0 +1,19 @@
+{
+  "fim_id": "S05000001308",
+  "fim_version": "1.0.0",
+  "name": "Anzeige bei Gewerben mit Zuverlässigkeitsüberprüfung",
+  "bezeichnung": "Anzeige bei Gewerben mit Zuverlässigkeitsüberprüfung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 7 GewO vom 27.12.2024",
+    "§ 34c GewO vom 27.12.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-03-12T13:45:20Z",
+  "n_rules": 54,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001308/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:42Z"
+}

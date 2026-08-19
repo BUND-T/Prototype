@@ -1,0 +1,22 @@
+flowchart TD
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= ? → required"| G05000011617_G05000011625_F05000017423["Laden Sie hier für die genannte sachku"]
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= ? → required"| G05000011617_G05000011625_F05000017424["Laden Sie für die genannte sachkundige"]
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= ? → required"| G05000011617_G05000011625_F05000017425["Laden Sie für die genannte sachkundige"]
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= ? → required"| G05000011617_G05000011625_F05000017426["Laden Sie für die genannte sachkundige"]
+  G05000011615_F05000017409["Möchten Sie die Erlaubnis uneingeschrä"] ==>|"= ? → required"| G05000011615_G05000011616["Produktangaben"]
+  G05000011765_G05000011544["Betriebsangaben (Hauptsitz)"] ==>|"= ? → required"| G05000011765_G05000011768["Anschrift und Vertreter"]
+  G05000011765_G05000011544["Betriebsangaben (Hauptsitz)"] -.->|"= ? → hide"| G05000011765_G05000011768_G05000011771["Gesellschafter"]
+  G05000011765_G05000011544["Betriebsangaben (Hauptsitz)"] ==>|"= ? → required"| G05000011765_G05000011768["Anschrift und Vertreter"]
+  G05000011765_G05000011544["Betriebsangaben (Hauptsitz)"] -.->|"= ? → hide"| G05000011765_G05000011768_G05000011770["Gesetzlicher Vertreter JP"]
+  G05000011765_G05000011544_F60000000319["Eingetragener Name"] ==>|"? ? → required"| G05000011765_G05000011544_F60000000320["Geschäftsbezeichnung"]
+  G05000011547_F05000017315["Befindet sich diese Betriebsstätte an "] ==>|"= wahr → required"| G05000011547_G05000012253["Straßenanschrift Inland"]
+  G05000011617_G05000011618_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G05000011617_G05000011618_G60000000083_F60000000232["Monat"]
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= 02 → required"| G05000011617_G05000011622_F05000017422["Spezifizieren Sie die eingeschränkte S"]
+  G05000011617_G05000011622_F05000017420["Auswahl der Sachkunde"] ==>|"= 06 → required"| G05000011617_G05000011622_F05000017421["Wählen Sie eine anderweitige Qualifika"]
+  G05000011617_G05000011625_G05000011629_F05000017430["Haben Sie einen Bundeszentralregistera"] ==>|"= 01 → required"| G05000011617_G05000011625_G05000011629_F05000017431["Datum der Beantragung*"]
+  G05000011617_G05000011625_G05000011629_F05000017430["Haben Sie einen Bundeszentralregistera"] ==>|"= 02 → required"| G05000011617_G05000011625_G05000011629_F05000017432["Hinweis:"]
+  unclear0["?: WENN aus der Eingabe/ Auswahl in G05000011547 "Betriebsstätt"]:::unclear
+  unclear1["?: Im Datenfeld F05000018286 "Art des Antragstellers" muss die "]:::unclear
+  unclear2["?: WENN in F60000000319 "Eingetragener Name / Organisationsname"]:::unclear
+  unclear3["?: Im Datenfeld F05000018285 "Art Person Gesellschafter" muss d"]:::unclear
+  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000

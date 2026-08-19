@@ -1,0 +1,17 @@
+{
+  "fim_id": "S05000001198",
+  "fim_version": "3.3.0",
+  "name": "Erlaubnis für Finanzanlagenvermittler Erteilung (OZG)",
+  "bezeichnung": "Erlaubnis als Finanzanlagenvermittler beantragen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34f Abs 1 Gewerbeordnung (GewO) Finanzanlagenvermittlungsverordnung § 11a Abs. 3a GewO"
+  ],
+  "letzte_aenderung": "2025-01-24T12:50:34Z",
+  "n_rules": 29,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001198/3.3.0/xdf",
+  "fetched_at": "2026-08-12T13:16:34Z"
+}

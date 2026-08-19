@@ -1,0 +1,11 @@
+flowchart TD
+  G00000002193_F00000003391["In welcher Art Beschäftigungsverhältni"] ==>|"= 999 → required"| G00000002193_F17000009298["Beschreibung sonstiges Beschäftigungsv"]
+  G00000002193_F00000003391["In welcher Art Beschäftigungsverhältni"] -.->|"<> 999 → forbidden"| G00000002193_F17000009298["Beschreibung sonstiges Beschäftigungsv"]
+  G00000002193_F17000009294["Auswahl zum Status der Frau (schwanger"] ==>|"= 001 → required"| G00000002193_F17000009295["Geben Sie den (voraussichtlichen) Entb"]
+  G00000002193_F17000009294["Auswahl zum Status der Frau (schwanger"] -.->|"<> 001 → forbidden"| G00000002193_F17000009295["Geben Sie den (voraussichtlichen) Entb"]
+  G00000002193_F17000009294["Auswahl zum Status der Frau (schwanger"] -.->|"= 001 → forbidden"| G00000002193_F17000009296["Wann war der tatsächliche Entbindungst"]
+  G00000002193_F17000009294["Auswahl zum Status der Frau (schwanger"] ==>|"= 002 → required"| G00000002193_F17000009296["Wann war der tatsächliche Entbindungst"]
+  G00000002193_F17000009294["Auswahl zum Status der Frau (schwanger"] -.->|"<> 002 → forbidden"| G00000002193_F17000009296["Wann war der tatsächliche Entbindungst"]
+  G00000002193_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G00000002193_G60000000083_F60000000232["Monat"]
+  G00000002193_G00000002194_F00000003390["Wo befindet sich der Beschäftigungsort"] -.->|"= 001 → forbidden"| G00000002193_G00000002194_G60000000086["Straßenanschrift"]
+  G00000002193_G00000002194_F00000003390["Wo befindet sich der Beschäftigungsort"] ==>|"= 002 → required"| G00000002193_G00000002194_G60000000086["Straßenanschrift"]

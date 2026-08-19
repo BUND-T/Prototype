@@ -1,0 +1,17 @@
+{
+  "fim_id": "S05000001162",
+  "fim_version": "3.3.0",
+  "name": "Erlaubnis als gewerbsmäßiger Immobiliardarlehensvermittler Erteilung (OZG)",
+  "bezeichnung": "Erlaubnis beantragen, um als gewerbsmäßiger Immobiliardarlehensvermittler tätig zu werden ",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34i Gewerbeordnung (GewO) § 34j Gewerbeordnung (GewO) Immobiliardarlehensvermittlungsverordnung (ImmVermV) § 11a Abs. 3b GewO Wohnimmobilienkreditrichtlinie"
+  ],
+  "letzte_aenderung": "2025-01-24T12:49:02Z",
+  "n_rules": 33,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001162/3.3.0/xdf",
+  "fetched_at": "2026-08-12T13:16:25Z"
+}

@@ -1,0 +1,26 @@
+{
+  "fim_id": "S05000001397",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Pharmazeutisch-technischer Assistent\" (PTA)",
+  "bezeichnung": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Pharmazeutisch-technische Assistentin\" oder \"Pharmazeutisch-technischer Assistent\" (PTA)",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 1 PTAG vom 20.7.2022",
+    "§ 2 PTAG vom 20.7.2022",
+    "§ 9 PTAG vom 20.7.2022",
+    "§ 11 PTAG vom 20.7.2022",
+    "§ 14 PTAG vom 20.7.2022",
+    "§ 28 PTAG vom 20.7.2022",
+    "§ 3 (1) Nr. 3 VwVfG vom 15.07.2024",
+    "§ 10 (1) Nr. 5 StAG vom 22.12.2025",
+    "§ 30a BZRG vom 19.07.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-27T15:18:39Z",
+  "n_rules": 32,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001397/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:59Z"
+}

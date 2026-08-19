@@ -1,0 +1,8 @@
+flowchart TD
+  G07000002577_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G07000002577_G60000000083_F60000000232["Monat"]
+  G07000002577_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 001 → required"| G07000002577_G07000002558_G60000000086["Straßenanschrift"]
+  G07000002577_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 001 → forbidden"| G07000002577_G07000002558_G60000000086["Straßenanschrift"]
+  G07000002577_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 002 → required"| G07000002577_G07000002558_G60000000091["Auslandsanschrift"]
+  G07000002577_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 002 → forbidden"| G07000002577_G07000002558_G60000000091["Auslandsanschrift"]
+  unclear0["?: WENN G60000000083 Geburtsdatum (teilbekannt) = < 18 Jahre, D"]:::unclear
+  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000

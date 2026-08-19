@@ -1,0 +1,28 @@
+{
+  "fim_id": "S05000001291",
+  "fim_version": "3.0.0",
+  "name": "Antrag Erlaubnis zum Inverkehrbringen und zur Abgabe bestimmter Stoffe, Gemische und Erzeugnisse (§6 ChemVerbotsV)",
+  "bezeichnung": "Antrag auf Erlaubnis zum Inverkehrbringen und zur Abgabe bestimmter Stoffe, Gemische und Erzeugnisse (§6 ChemVerbotsV)",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 6 (1-4) ChemVerbotsV vom 14.10.1993",
+    "§ 13 VwVfG vom 8.08.2009",
+    "§ 2 EGovG vom 1.07.20214",
+    "DVO (EU) 2024/197 vom 25.01.2024",
+    "§ 8 HGB vom 27.12.2024",
+    "11 (1) ChemVerbotsV vom 14.10.1993",
+    "§ 23 VwVfG vom 8.08.2009",
+    "§ 9 HGB vom 27.12.2024",
+    "§ 10 HGB vom 27.12.2024",
+    "WiPG NRW vom 30.06.2020",
+    "WiPG-DVO vom 1.07.2020",
+    "Anlage 2 Eintrag 1 ChemVerbotsV vom 14.10.1993"
+  ],
+  "letzte_aenderung": "2025-11-19T11:07:40Z",
+  "n_rules": 19,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001291/3.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:07Z"
+}

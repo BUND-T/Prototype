@@ -1,0 +1,21 @@
+{
+  "fim_id": "S05000001346",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf EU-Zulassung von Lebensmittelbetrieben",
+  "bezeichnung": "Antrag auf EU-Zulassung von Lebensmittelbetrieben",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "Art. 6 (1-3) VO (EG) Nr. 852/2004",
+    "Art. 3 Nr. 3 VO (EG) Nr. 178/2002",
+    "Art. 4 VO (EG) 853/2004",
+    "§9 Tier-LMHV vom 18.04.2018",
+    ": Artikel 3 Nr. 2 VO (EG) Nr. 178/2002"
+  ],
+  "letzte_aenderung": "2026-04-17T07:48:46Z",
+  "n_rules": 199,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001346/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:38Z"
+}

@@ -1,0 +1,27 @@
+{
+  "fim_id": "S05000001310",
+  "fim_version": "2.0.0",
+  "name": "Antrag auf eine Gemeinschaftslizenz oder Erlaubnisurkunde für den gewerblichen Güterkraftverkehr",
+  "bezeichnung": "Antrag auf eine Gemeinschaftslizenz oder Erlaubnisurkunde für den gewerblichen Güterkraftverkehr",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 3 GBZugV vom 11.4.2024",
+    "§ 5 (7) GBZugV vom 11.4.2024",
+    "§ 10 GBZugV vom 11.4.2024",
+    "§ 3 GüKG vom 15.7.2024",
+    "Nr. 17 GüKVwV vom 09.11.2012",
+    "Art. 5 VO (EG) 1071/2009",
+    "Art. 4 VO (EG) NR. 1072/2009",
+    "Art. 4 (3) VO (EG) Nr. 1072/2009",
+    "Art. 4 (2c) VO (EG) Nr. 1071/2009",
+    "§ 26 (2) InsO",
+    "§ 882b ZPO"
+  ],
+  "letzte_aenderung": "2026-03-31T14:09:15Z",
+  "n_rules": 128,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001310/2.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:51Z"
+}

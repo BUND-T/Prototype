@@ -1,0 +1,18 @@
+{
+  "fim_id": "S00000000374",
+  "fim_version": "1.0.0",
+  "name": "Antrag Erteilung Aufenthaltserlaubnis Staatsangehörige Schweiz",
+  "bezeichnung": "Antrag auf Erteilung einer Aufenthaltserlaubnis für Staatsangehörige der Schweiz",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 56 (2) AufenthV vom 08.05.2024",
+    "Abkommen zwischen der Europäischen Gemeinschaft und ihren Mitgliedstaaten einerseits und der Schweizerischen Eidgenossenschaft andererseits über die Freizügigkeit vom 15.12.2020"
+  ],
+  "letzte_aenderung": "2025-07-18T12:53:41Z",
+  "n_rules": 39,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000374/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:26Z"
+}

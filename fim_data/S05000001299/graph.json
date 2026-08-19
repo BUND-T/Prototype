@@ -1,0 +1,5907 @@
+{
+  "schema": {
+    "fim_id": "S05000001299",
+    "fim_version": "1.0.0",
+    "bezeichnung": "Antrag auf Erlaubnis zur Kindertagespflege",
+    "definition": "",
+    "freigabe_status_label": "fachlich freigegeben (silber)",
+    "bezug": [
+      "§ 43 SGB VIII vom 03.04.2025",
+      "§ 43 (2) Nr. 1 SGB VIII vom 03.04.2025",
+      "§ 43 (2) Nr. 2 SGB VIII vom 03.04.2025",
+      "§ 20 (8) Nr 1 IfSG vom 03.04.2025",
+      "§ 33 Nr. 2 IfSG vom 12.12.2023",
+      "§ 22 SGB VIII vom 03.04.2025",
+      "§ 20 (8) Nr. 1 IfSG vom 12.12.2023"
+    ],
+    "source_url": "https://fimportal.de/api/v1/schemas/S05000001299/1.0.0/xdf",
+    "compiled_at": "2026-08-13T15:43:49Z"
+  },
+  "leistung": {
+    "leistungsschluessel": "99071002001000",
+    "join": "unbestaetigt",
+    "evidence": "Rechtsgrundlage stimmt nicht überein (D99000001951)"
+  },
+  "statistics": {
+    "nodes": 102,
+    "fields": 82,
+    "edges_contains": 93,
+    "edges_condition": 27,
+    "edges_certain": 22,
+    "edges_unclear": 5,
+    "edges_from_api": 11,
+    "edges_from_freitext": 16,
+    "edges_unresolved": 0,
+    "cycles": 0,
+    "order_violations": 0
+  },
+  "ask_order": [
+    "F05000018286",
+    "F05000017543",
+    "G05000011684.F60000000332",
+    "G05000011684.F60000000275",
+    "G05000011684.F60000000228",
+    "G05000011684.F60000000227",
+    "G05000011684.F60000000230",
+    "G05000011684.G60000000083.F60000000231",
+    "G05000011684.G60000000083.F60000000232",
+    "G05000011684.G60000000083.F60000000233",
+    "G05000011684.F60000000234",
+    "G05000011684.F60000000235",
+    "G05000011684.F60000000236",
+    "G05000011684.G05000013144.F05000017637",
+    "G05000011684.G05000013144.G05000011743.F05000017636",
+    "G05000011684.G05000013144.G05000011743.F60000000243",
+    "G05000011684.G05000013144.G05000011743.F60000000244",
+    "G05000011684.G05000013144.G05000011743.F60000000246",
+    "G05000011684.G05000013144.G05000011743.F60000000247",
+    "G05000011684.G05000013144.G05000011743.F60000000364",
+    "G05000011684.G05000013144.G05000011743.F60000000248",
+    "G05000011684.G05000013144.G60000000087.F60000000249",
+    "G05000011684.G05000013144.G60000000087.F60000000246",
+    "G05000011684.G05000013144.G60000000087.F60000000247",
+    "G05000011684.G05000011747.F60000000240",
+    "G05000011684.G05000011747.F60000000241",
+    "G05000011684.G05000011747.F60000000242",
+    "G05000011684.G05000011747.F60000000321",
+    "G05000011684.G05000011703.F05000017554",
+    "G05000011684.G05000011703.F05000017555",
+    "G05000011684.G05000011703.G05000011707.F05000017554",
+    "G05000011684.G05000011703.G05000011707.F05000017555",
+    "G05000011684.G05000011703.F05000017556",
+    "G05000011684.G05000011703.F05000017557",
+    "F05000017549",
+    "F05000017550",
+    "G05000011701.F60000000227",
+    "G05000011701.F60000000228",
+    "G05000011701.G60000000083.F60000000231",
+    "G05000011701.G60000000083.F60000000232",
+    "G05000011701.G60000000083.F60000000233",
+    "G05000011697.F60000000363",
+    "G05000011697.F05000017544",
+    "G05000011697.F05000017545",
+    "G05000011697.G05000012613.F05000017636",
+    "G05000011697.G05000012613.F60000000243",
+    "G05000011697.G05000012613.F60000000244",
+    "G05000011697.G05000012613.F60000000246",
+    "G05000011697.G05000012613.F60000000247",
+    "G05000011697.G05000012613.F60000000364",
+    "G05000011697.G05000012613.F60000000248",
+    "G05000011697.G05000011700.F05000017546",
+    "G05000011697.G05000011700.F05000017547",
+    "G05000011697.G05000011700.F05000017548",
+    "G05000011697.G05000011702.F60000000227",
+    "G05000011697.G05000011702.F60000000228",
+    "G05000011697.G05000011702.G60000000083.F60000000231",
+    "G05000011697.G05000011702.G60000000083.F60000000232",
+    "G05000011697.G05000011702.G60000000083.F60000000233",
+    "G05000011696.F05000017558",
+    "G05000011696.F05000017559",
+    "G05000011696.F05000017561",
+    "G05000011696.G05000012392.F05000018445",
+    "G05000011696.G05000012392.F05000007322",
+    "G05000011696.F05000017562",
+    "G05000011696.F05000017563",
+    "G05000011696.F05000017564",
+    "G05000011696.F05000017565",
+    "G05000011696.F05000017566",
+    "G05000011696.F05000017309",
+    "G05000011712.F05000017577",
+    "G05000011712.F05000017578",
+    "G05000011712.F05000017579",
+    "G05000011712.F05000017580",
+    "G05000011712.G05000000855.F05000017616",
+    "G05000011712.G05000000855.F05000017617",
+    "G05000011712.G05000000855.F05000017618",
+    "G05000011712.G05000000855.F05000017619",
+    "G05000011712.G05000000998.F05000017616",
+    "G05000011712.G05000000998.F05000017617",
+    "G05000011712.G05000000998.F05000017618",
+    "G05000011712.G05000000998.F05000017619"
+  ],
+  "cycles_detail": [],
+  "order_violations": [],
+  "mermaid": "flowchart TD\n  G05000011697_G05000011700_F05000017547[\"Geben Sie den Ort ein, an dem die Kind\"] ==>|\"= ? → required\"| G05000011696_F05000017566[\"Mietvertrag\"]\n  G05000011697_G05000011700_F05000017547[\"Geben Sie den Ort ein, an dem die Kind\"] ==>|\"= ? → required\"| G05000011697_G05000011702[\"Kinder und weitere Haushaltangehörige\"]\n  G05000011697_G05000011700_F05000017547[\"Geben Sie den Ort ein, an dem die Kind\"] ==>|\"= ? → required\"| G05000011712_F05000017577[\"Aktuelle Haushaltsbescheinigung\"]\n  G05000011697_G05000011700_F05000017547[\"Geben Sie den Ort ein, an dem die Kind\"] ==>|\"= ? → required\"| G05000011712_G05000000855[\"Bundeszentralregisterauszug der Hausha\"]\n  F05000017549[\"Planen Sie eine Kindertagespflege mit \"] ==>|\"= wahr → required\"| F05000017550[\"Ist Ihnen diese Person bereits bekannt\"]\n  F05000017550[\"Ist Ihnen diese Person bereits bekannt\"] ==>|\"= wahr → required\"| G05000011701[\"Angaben der weiteren Kindertagespflege\"]\n  G05000011684_G60000000083_F60000000231[\"Tag\"] ==>|\"nicht leer ? → required\"| G05000011684_G60000000083_F60000000232[\"Monat\"]\n  G05000011684_G05000013144_F05000017637[\"Wollen Sie eine Straßenanschrift oder \"] ==>|\"= 001 → required\"| G05000011684_G05000013144_G05000011743[\"Straßenanschrift Inland\"]\n  G05000011684_G05000013144_F05000017637[\"Wollen Sie eine Straßenanschrift oder \"] -.->|\"<> 001 → forbidden\"| G05000011684_G05000013144_G05000011743[\"Straßenanschrift Inland\"]\n  G05000011684_G05000013144_F05000017637[\"Wollen Sie eine Straßenanschrift oder \"] ==>|\"= 002 → required\"| G05000011684_G05000013144_G60000000087[\"Anschrift Postfach\"]\n  G05000011684_G05000013144_F05000017637[\"Wollen Sie eine Straßenanschrift oder \"] -.->|\"<> 002 → forbidden\"| G05000011684_G05000013144_G60000000087[\"Anschrift Postfach\"]\n  G05000011701_G60000000083_F60000000231[\"Tag\"] ==>|\"nicht leer ? → required\"| G05000011701_G60000000083_F60000000232[\"Monat\"]\n  G05000011697_F05000017544[\"Ist die Adresse der Kindertagespfleges\"] ==>|\"= falsch → required\"| G05000011697_F05000017545[\"Name der Kindertagestpflege\"]\n  G05000011697_G05000011702_G60000000083_F60000000231[\"Tag\"] ==>|\"nicht leer ? → required\"| G05000011697_G05000011702_G60000000083_F60000000232[\"Monat\"]\n  unclear0[\"?: Wenn in F05000017579 \"Strafverfahren\" = Auswahl 01 \"ja, dann\"]:::unclear\n  unclear1[\"?: Wenn in F05000017616 Auswahl = 01 \"Ist beantragt\", dann ersc\"]:::unclear\n  unclear2[\"?: Wenn in F05000017616 Auswahl = 02 \"Ist noch nicht beantragt\"\"]:::unclear\n  unclear3[\"?: Wenn in F05000017616 Auswahl = 01 \"Ist beantragt\", dann ersc\"]:::unclear\n  unclear4[\"?: Wenn in F05000017616 Auswahl = 02 \"Ist noch nicht beantragt\"\"]:::unclear\n  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000",
+  "nodes": [
+    {
+      "path_id": "F05000018286",
+      "id": "F05000018286",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Stellen Sie diesen Antrag / diese Anzeige als Privatperson oder geschäftlich?",
+      "name": "Art des Antragstellers",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Natürliche Person"
+        },
+        {
+          "code": "002",
+          "name": "Unternehmen"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "WiPG NRW",
+        "WiPG-DVO"
+      ],
+      "bezug_effective": [
+        "WiPG NRW",
+        "WiPG-DVO"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": []
+    },
+    {
+      "path_id": "F05000017543",
+      "id": "F05000017543",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Worum handelt es sich bei diesem Antrag?",
+      "name": "Antragsangaben",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Erstantrag"
+        },
+        {
+          "code": "002",
+          "name": "Weiterbewilligung (nach Ablauf der Pflegeerlaubnis gem. §43 SGB VIII)"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": []
+    },
+    {
+      "path_id": "G05000011684",
+      "id": "G05000011684",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Angaben zur Kindertagespflegeperson",
+      "name": "Kindertagespflegeperson",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB",
+        "§ 22 (1) SGB 8",
+        "§ 43 (1) SGB 8",
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019"
+      ],
+      "bezug_effective": [
+        "§ 43 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB",
+        "§ 22 (1) SGB 8",
+        "§ 43 (1) SGB 8",
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G05000011684.F60000000332",
+        "G05000011684.F60000000275",
+        "G05000011684.F60000000228",
+        "G05000011684.F60000000227",
+        "G05000011684.F60000000230",
+        "G05000011684.G60000000083",
+        "G05000011684.F60000000234",
+        "G05000011684.F60000000235",
+        "G05000011684.F60000000236",
+        "G05000011684.G05000013144",
+        "G05000011684.G05000011747",
+        "G05000011684.G05000011703"
+      ]
+    },
+    {
+      "path_id": "G05000011684.F60000000332",
+      "id": "F60000000332",
+      "version": "1.3.0",
+      "kind": "field",
+      "label": "Geschlecht",
+      "name": "Geschlecht",
+      "definition": "Beschreibt das Geschlecht einer Person.\nFolgende Angaben sind möglich: divers, männlich, weiblich, keine Angabe",
+      "hilfetext": "Geben Sie das Geschlecht an, das auch beim Personenstandsregister oder Standesamt hinterlegt ist.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XPersonenstand:Code.Geschlecht Version 1.7.5",
+        "basierend auf DSMeld.Code.Geschlecht urn:de:dsmeld:schluesseltabelle:geschlecht Version 3"
+      ],
+      "bezug_effective": [
+        "XPersonenstand:Code.Geschlecht Version 1.7.5",
+        "basierend auf DSMeld.Code.Geschlecht urn:de:dsmeld:schluesseltabelle:geschlecht Version 3"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000275",
+      "id": "F60000000275",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Familienstand",
+      "name": "Familienstand",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "urn:de:dsmeld:schluesseltabelle:familienstand_2",
+        "XMeld.type.Familienstand Version 2.4.4"
+      ],
+      "bezug_effective": [
+        "urn:de:dsmeld:schluesseltabelle:familienstand_2",
+        "XMeld.type.Familienstand Version 2.4.4"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000230",
+      "id": "F60000000230",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Geburtsname",
+      "name": "Geburtsname",
+      "definition": "Der Geburtsname entspricht dem Familiennamen einer natürlichen Person vor der Schließung der ersten Ehe bzw. vor dem Eingehen der ersten Lebenspartnerschaft.",
+      "hilfetext": "Geben Sie den Geburtsnamen an. Manche Menschen ändern ihren Familiennamen, wenn sie heiraten oder eine Lebenspartnerschaft eingehen. Der  Geburtsname ist der Familienname den die Person bei der Geburt hatte, bevor sie ihren Namen geändert hat.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.geburtsname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.geburtsname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G60000000083",
+      "id": "G60000000083",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Geburtsdatum",
+      "name": "Geburtsdatum (teilbekannt)",
+      "definition": "Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.",
+      "hilfetext": "Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": [
+        "G05000011684.G60000000083.F60000000231",
+        "G05000011684.G60000000083.F60000000232",
+        "G05000011684.G60000000083.F60000000233"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G60000000083.F60000000231",
+      "id": "F60000000231",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Tag",
+      "name": "Tag (ohne Monat und Jahr)",
+      "definition": "Tag (ohne Monat und Jahr)",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011684.G60000000083",
+      "path": [
+        "G05000011684",
+        "G60000000083"
+      ],
+      "parent": "G05000011684.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G60000000083.F60000000232",
+      "id": "F60000000232",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Monat",
+      "name": "Monat",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011684.G60000000083",
+      "path": [
+        "G05000011684",
+        "G60000000083"
+      ],
+      "parent": "G05000011684.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G60000000083.F60000000233",
+      "id": "F60000000233",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Jahr",
+      "name": "Jahr",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011684.G60000000083",
+      "path": [
+        "G05000011684",
+        "G60000000083"
+      ],
+      "parent": "G05000011684.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000234",
+      "id": "F60000000234",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Geburtsort",
+      "name": "Geburtsort",
+      "definition": "Der Ort der Geburt einer natürlichen Person",
+      "hilfetext": "Geben Sie die Bezeichnung des Ortes an, in dem die Person geboren wurde, Beispiel Düsseldorf.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.Geburt.geburtsort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.Geburt.geburtsort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000235",
+      "id": "F60000000235",
+      "version": "1.3.0",
+      "kind": "field",
+      "label": "Staat der Geburt",
+      "name": "Geburtsland / Staat der Geburt",
+      "definition": "Der Staat der Geburt einer natürlichen Person.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.3",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_effective": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.3",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.F60000000236",
+      "id": "F60000000236",
+      "version": "1.4.0",
+      "kind": "field",
+      "label": "Staatsangehörigkeit",
+      "name": "Staatsangehörigkeit",
+      "definition": "Die Staatsangehörigkeit beschreibt den/die Staat(en), dem/denen ein Bürger juristisch zugehörig ist (Wahlrecht etc.).",
+      "hilfetext": "Wählen Sie aus, welcher Nationalität bzw. welchen Nationalitäten die Person angehört. Es ist auch die Auswahl \"ohne Angabe\" möglich, falls die Person keiner Nationalität angehört.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "XOEV.Kernkomponente.NatuerlichePerson.staatsangehoerigkeit vom 31.08.2020",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staatsangehörigkeit (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehörigkeit)"
+      ],
+      "bezug_effective": [
+        "XOEV.Kernkomponente.NatuerlichePerson.staatsangehoerigkeit vom 31.08.2020",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staatsangehörigkeit (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehörigkeit)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144",
+      "id": "G05000013144",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Anschrift in Deutschland",
+      "name": "Anschrift Inland - einzeln",
+      "definition": "Angaben für die Adressierung im Inland. Eine Inlandsanschrift ist entweder eine\nStraßenanschrift oder eine Postfachanschrift.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_effective": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": [
+        "G05000011684.G05000013144.F05000017637",
+        "G05000011684.G05000013144.G05000011743",
+        "G05000011684.G05000013144.G60000000087"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000013144.F05000017637",
+      "id": "F05000017637",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Wollen Sie eine Straßenanschrift oder eine Postfach- bzw. Großempfängeranschrift angeben?",
+      "name": "Frage Art der Anschrift",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Straßenanschrift Inland"
+        },
+        {
+          "code": "002",
+          "name": "Postfach- oder Großempfängeranschrift"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "WiPG NRW",
+        "WiPG-DVO"
+      ],
+      "bezug_effective": [
+        "WiPG NRW",
+        "WiPG-DVO"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "parent": "G05000011684.G05000013144",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743",
+      "id": "G05000011743",
+      "version": "1.1.0",
+      "kind": "group",
+      "label": "Straßenanschrift Inland",
+      "name": "Anschrift Inland Straßenanschrift",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_effective": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "parent": "G05000011684.G05000013144",
+      "children": [
+        "G05000011684.G05000013144.G05000011743.F05000017636",
+        "G05000011684.G05000013144.G05000011743.F60000000243",
+        "G05000011684.G05000013144.G05000011743.F60000000244",
+        "G05000011684.G05000013144.G05000011743.F60000000246",
+        "G05000011684.G05000013144.G05000011743.F60000000247",
+        "G05000011684.G05000013144.G05000011743.F60000000364",
+        "G05000011684.G05000013144.G05000011743.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F05000017636",
+      "id": "F05000017636",
+      "version": "0.1.1",
+      "kind": "field",
+      "label": "Adresssuche",
+      "name": "Adresssuche",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "referenzbasiert"
+      ],
+      "bezug_effective": [
+        "referenzbasiert"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000364",
+      "id": "F60000000364",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Früherer Gemeindename",
+      "name": "Früherer Gemeindename",
+      "definition": "Der frühere Gemeindename, der als Stadt- bzw. Ortsteilname dem jetzigen Gemeindenamen hinzugefügt wird. Der frühere Gemeindename (jetziger Ortsteil- oder Stadtteilname) ist bei Adressierungen unterhalb  des Namens (oberhalb der Straßenbezeichnung) anzugeben.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_effective": [
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G05000011743.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G05000011743"
+      ],
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G60000000087",
+      "id": "G60000000087",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Anschrift Postfach",
+      "name": "Anschrift Inland Postfachanschrift",
+      "definition": "Postfachanschrift im Inland mit Postfach(nummer), PLZ und Ort.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "parent": "G05000011684.G05000013144",
+      "children": [
+        "G05000011684.G05000013144.G60000000087.F60000000249",
+        "G05000011684.G05000013144.G60000000087.F60000000246",
+        "G05000011684.G05000013144.G60000000087.F60000000247"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G60000000087.F60000000249",
+      "id": "F60000000249",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postfach",
+      "name": "Postfach",
+      "definition": "Ein Postfach (oft Postfachnummer) ist ein Schlüssel zur Identifikation eines Postfaches in einer Postfiliale.",
+      "hilfetext": "Geben Sie die Nummer oder Zeichenkette des Postfachs an. Das wird manchmal Postfachnummer genannt.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.PostalischeInlandsanschrift.postfach Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.PostalischeInlandsanschrift.postfach Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G60000000087"
+      ],
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G60000000087.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G60000000087"
+      ],
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000013144.G60000000087.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000013144",
+        "G60000000087"
+      ],
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011747",
+      "id": "G05000011747",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Erreichbarkeit",
+      "name": "Kommunikation (Telefon Pflicht)",
+      "definition": "Spezifisch, nicht abstrakt. Fasst Angaben zur Erreichbarkeit über elektronische Kommunikationskanäle (z.B. Telefon, Fax, E-Mail) zusammen.",
+      "hilfetext": "Geben Sie für mögliche Rückfragen der zuständigen Stelle Informationen zu Ihrer Erreichbarkeit an. Es muss mindestens eine Rufnummer angegeben werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "Art. 6 Abs. 1 VO (EU) 2016/679"
+      ],
+      "bezug_effective": [
+        "Art. 6 Abs. 1 VO (EU) 2016/679"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": [
+        "G05000011684.G05000011747.F60000000240",
+        "G05000011684.G05000011747.F60000000241",
+        "G05000011684.G05000011747.F60000000242",
+        "G05000011684.G05000011747.F60000000321"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000011747.F60000000240",
+      "id": "F60000000240",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Telefonnummer",
+      "name": "Telefon",
+      "definition": "Telefonnummer",
+      "hilfetext": "Geben Sie bei Telefonnummern innerhalb Deutschlands zuerst die Ortsvorwahl bzw. Mobilnetzvorwahl in Klammern, gefolgt von der Rufnummer an, Beispiel (0211) 12345678.\nGeben Sie bei Telefonnummern außerhalb Deutschlands zuerst den Internationalen Ländercode mit vorgestelltem Plus, gefolgt von der Ortsvorwahl bzw. Mobilnetzvorwahl ohne der führenden Null, gefolgt von der Rufnummer an, Beispiel +49 211 123456789.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "ITU E.123"
+      ],
+      "bezug_effective": [
+        "ITU E.123"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011747"
+      ],
+      "parent": "G05000011684.G05000011747",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011747.F60000000241",
+      "id": "F60000000241",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Telefaxnummer",
+      "name": "Telefax",
+      "definition": "Nummer zum Empfangen und Versenden von Telefaxkopien.",
+      "hilfetext": "Geben Sie bei Telefaxnummern innerhalb Deutschlands zuerst die Ortsvorwahl bzw. Mobilnetzvorwahl in Klammern, gefolgt von der Rufnummer an, Beispiel (0211) 12345678.\nGeben Sie bei Telefaxnummern außerhalb Deutschlands zuerst den Internationalen Ländercode mit vorgestelltem Plus, gefolgt von der Ortsvorwahl bzw. Mobilnetzvorwahl ohne der führenden Null, gefolgt von der Rufnummer an, Beispiel +49 211 123456789.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "ITU E.123"
+      ],
+      "bezug_effective": [
+        "ITU E.123"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011747"
+      ],
+      "parent": "G05000011684.G05000011747",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011747.F60000000242",
+      "id": "F60000000242",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "E-Mail-Adresse",
+      "name": "E-Mail",
+      "definition": "Elektronische Adresse zum Senden und Empfangen von digitalen Nachrichten (E-Mails) z.B. MaxMustermann@email.de",
+      "hilfetext": "Geben Sie eine E-Mail-Adresse an, z.B. Max.Mustermann@email.de",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "RFC 5322",
+        "RFC 5321"
+      ],
+      "bezug_effective": [
+        "RFC 5322",
+        "RFC 5321"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011747"
+      ],
+      "parent": "G05000011684.G05000011747",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011747.F60000000321",
+      "id": "F60000000321",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Webadresse / Website",
+      "name": "Web Adresse",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "Art. 6 Abs. 1 VO (EU) 2016/679"
+      ],
+      "bezug_source": "G05000011684.G05000011747",
+      "path": [
+        "G05000011684",
+        "G05000011747"
+      ],
+      "parent": "G05000011684.G05000011747",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703",
+      "id": "G05000011703",
+      "version": "0.5.0",
+      "kind": "group",
+      "label": "Qualifikation",
+      "name": "Qualifikation Kindertagespflege",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684"
+      ],
+      "parent": "G05000011684",
+      "children": [
+        "G05000011684.G05000011703.F05000017554",
+        "G05000011684.G05000011703.F05000017555",
+        "G05000011684.G05000011703.G05000011707",
+        "G05000011684.G05000011703.F05000017556",
+        "G05000011684.G05000011703.F05000017557"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000011703.F05000017554",
+      "id": "F05000017554",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Art der Qualifikation",
+      "name": "Art der Qualifikation",
+      "definition": "",
+      "hilfetext": "Dies kann bspw. die Grundqualifikation nach dem Qualifizierungshandbuch, staatlich anerkannte Erzieherin oder  staatlich anerkannter Erzieher umfassen.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703"
+      ],
+      "parent": "G05000011684.G05000011703",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703.F05000017555",
+      "id": "F05000017555",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Umfang der Qualifikation",
+      "name": "Umfang der Qualifikation",
+      "definition": "",
+      "hilfetext": "Geben Sie den zeitlichen Umfang (Unterrichtsstunden, Unterrichtseinheiten, Tagen, Wochen) der Qualifikation ein.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703"
+      ],
+      "parent": "G05000011684.G05000011703",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703.G05000011707",
+      "id": "G05000011707",
+      "version": "0.4.0",
+      "kind": "group",
+      "label": "Weitere Qualifikation",
+      "name": "Weitere Qualifikationen",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703"
+      ],
+      "parent": "G05000011684.G05000011703",
+      "children": [
+        "G05000011684.G05000011703.G05000011707.F05000017554",
+        "G05000011684.G05000011703.G05000011707.F05000017555"
+      ]
+    },
+    {
+      "path_id": "G05000011684.G05000011703.G05000011707.F05000017554",
+      "id": "F05000017554",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Art der Qualifikation",
+      "name": "Art der Qualifikation",
+      "definition": "",
+      "hilfetext": "Dies kann bspw. die Grundqualifikation nach dem Qualifizierungshandbuch, staatlich anerkannte Erzieherin oder  staatlich anerkannter Erzieher umfassen.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703",
+        "G05000011707"
+      ],
+      "parent": "G05000011684.G05000011703.G05000011707",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703.G05000011707.F05000017555",
+      "id": "F05000017555",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Umfang der Qualifikation",
+      "name": "Umfang der Qualifikation",
+      "definition": "",
+      "hilfetext": "Geben Sie den zeitlichen Umfang (Unterrichtsstunden, Unterrichtseinheiten, Tagen, Wochen) der Qualifikation ein.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703",
+        "G05000011707"
+      ],
+      "parent": "G05000011684.G05000011703.G05000011707",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703.F05000017556",
+      "id": "F05000017556",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Höchster allgemeinbildender Schulabschluss",
+      "name": "Höchster Schulabschluss",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703"
+      ],
+      "parent": "G05000011684.G05000011703",
+      "children": []
+    },
+    {
+      "path_id": "G05000011684.G05000011703.F05000017557",
+      "id": "F05000017557",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Höchster beruflicher Ausbildungs- und Hochschulabschluss",
+      "name": "Höchster Ausbildungs- und Hochschulabschluss",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011684",
+        "G05000011703"
+      ],
+      "parent": "G05000011684.G05000011703",
+      "children": []
+    },
+    {
+      "path_id": "F05000017549",
+      "id": "F05000017549",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Planen Sie eine Kindertagespflege mit einer anderen Kindertagespflegeperson?",
+      "name": "Abfrage andere Kindertagespflegeperson",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": []
+    },
+    {
+      "path_id": "F05000017550",
+      "id": "F05000017550",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Ist Ihnen diese Person bereits bekannt?",
+      "name": "Abfrage bereits bekannt",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB",
+        "§ 22 (1) SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB",
+        "§ 22 (1) SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": []
+    },
+    {
+      "path_id": "G05000011701",
+      "id": "G05000011701",
+      "version": "0.5.0",
+      "kind": "group",
+      "label": "Angaben der weiteren Kindertagespflegeperson",
+      "name": "Angaben zur anderen Person",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (1) SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 43 (1) SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G05000011701.F60000000227",
+        "G05000011701.F60000000228",
+        "G05000011701.G60000000083"
+      ]
+    },
+    {
+      "path_id": "G05000011701.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011701"
+      ],
+      "parent": "G05000011701",
+      "children": []
+    },
+    {
+      "path_id": "G05000011701.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011701"
+      ],
+      "parent": "G05000011701",
+      "children": []
+    },
+    {
+      "path_id": "G05000011701.G60000000083",
+      "id": "G60000000083",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Geburtsdatum",
+      "name": "Geburtsdatum (teilbekannt)",
+      "definition": "Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.",
+      "hilfetext": "Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011701"
+      ],
+      "parent": "G05000011701",
+      "children": [
+        "G05000011701.G60000000083.F60000000231",
+        "G05000011701.G60000000083.F60000000232",
+        "G05000011701.G60000000083.F60000000233"
+      ]
+    },
+    {
+      "path_id": "G05000011701.G60000000083.F60000000231",
+      "id": "F60000000231",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Tag",
+      "name": "Tag (ohne Monat und Jahr)",
+      "definition": "Tag (ohne Monat und Jahr)",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011701.G60000000083",
+      "path": [
+        "G05000011701",
+        "G60000000083"
+      ],
+      "parent": "G05000011701.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011701.G60000000083.F60000000232",
+      "id": "F60000000232",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Monat",
+      "name": "Monat",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011701.G60000000083",
+      "path": [
+        "G05000011701",
+        "G60000000083"
+      ],
+      "parent": "G05000011701.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011701.G60000000083.F60000000233",
+      "id": "F60000000233",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Jahr",
+      "name": "Jahr",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011701.G60000000083",
+      "path": [
+        "G05000011701",
+        "G60000000083"
+      ],
+      "parent": "G05000011701.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697",
+      "id": "G05000011697",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Angaben der Kindertagespflegestelle",
+      "name": "Angaben der Kindertagespflegestelle",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG",
+        "§ 22 (1) SGB VIII",
+        "§ 43 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG",
+        "§ 22 (1) SGB VIII",
+        "§ 43 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G05000011697.F60000000363",
+        "G05000011697.F05000017544",
+        "G05000011697.F05000017545",
+        "G05000011697.G05000012613",
+        "G05000011697.G05000011700",
+        "G05000011697.G05000011702"
+      ]
+    },
+    {
+      "path_id": "G05000011697.F60000000363",
+      "id": "F60000000363",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Art der Niederlassung",
+      "name": "Art der Betriebsstätte",
+      "definition": "Nähere Bestimmung der Art der Betriebsstätte.  Die möglichen Ausprägungen dieses Attributes sind durch eine Codeliste bestimmt.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "urn: xoev-de:xunternehmen:codeliste:artniederlassung_1"
+      ],
+      "bezug_effective": [
+        "urn: xoev-de:xunternehmen:codeliste:artniederlassung_1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.F05000017544",
+      "id": "F05000017544",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Ist die Adresse der Kindertagespflegestelle identisch zur Wohnanschrift der Kindertagespflegeperson?",
+      "name": "Abfrage Adresse identisch",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.F05000017545",
+      "id": "F05000017545",
+      "version": "0.4.0",
+      "kind": "field",
+      "label": "Name der Kindertagestpflege",
+      "name": "Name Kindertagespflege",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613",
+      "id": "G05000012613",
+      "version": "0.2.0",
+      "kind": "group",
+      "label": "Straßenanschrift Inland",
+      "name": "Anschrift Inland Straßenanschrift Kindertagespflege",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_effective": [
+        "WiPG NRW",
+        "WiPG-DVO",
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift",
+        "referenzbasiert",
+        "§ 69 GewO",
+        "XInneres.Meldeanschrift.strasse Version 8",
+        "XInneres.Meldeanschrift.hausnummer Version 8",
+        "XInneres.Meldeanschrift.postleitzahl Version 8",
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020",
+        "XInneres.Meldeanschrift.zusatzangaben Version 8",
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": [
+        "G05000011697.G05000012613.F05000017636",
+        "G05000011697.G05000012613.F60000000243",
+        "G05000011697.G05000012613.F60000000244",
+        "G05000011697.G05000012613.F60000000246",
+        "G05000011697.G05000012613.F60000000247",
+        "G05000011697.G05000012613.F60000000364",
+        "G05000011697.G05000012613.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F05000017636",
+      "id": "F05000017636",
+      "version": "0.1.1",
+      "kind": "field",
+      "label": "Adresssuche",
+      "name": "Adresssuche",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "referenzbasiert"
+      ],
+      "bezug_effective": [
+        "referenzbasiert"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000364",
+      "id": "F60000000364",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Früherer Gemeindename",
+      "name": "Früherer Gemeindename",
+      "definition": "Der frühere Gemeindename, der als Stadt- bzw. Ortsteilname dem jetzigen Gemeindenamen hinzugefügt wird. Der frühere Gemeindename (jetziger Ortsteil- oder Stadtteilname) ist bei Adressierungen unterhalb  des Namens (oberhalb der Straßenbezeichnung) anzugeben.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_effective": [
+        "urn:xoev-de:xunternehmen:standard:basismodul_1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000012613.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000012613"
+      ],
+      "parent": "G05000011697.G05000012613",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011700",
+      "id": "G05000011700",
+      "version": "0.5.0",
+      "kind": "group",
+      "label": "Räumlichkeiten",
+      "name": "Räumlichkeiten",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": [
+        "G05000011697.G05000011700.F05000017546",
+        "G05000011697.G05000011700.F05000017547",
+        "G05000011697.G05000011700.F05000017548"
+      ]
+    },
+    {
+      "path_id": "G05000011697.G05000011700.F05000017546",
+      "id": "F05000017546",
+      "version": "0.3.0",
+      "kind": "field",
+      "label": "Beschreiben Sie die Räumlichkeiten, in denen die Kinderbetreuung stattfinden soll.",
+      "name": "Beschreibung Räumlichkeiten",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011700"
+      ],
+      "parent": "G05000011697.G05000011700",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011700.F05000017547",
+      "id": "F05000017547",
+      "version": "0.3.0",
+      "kind": "field",
+      "label": "Geben Sie den Ort ein, an dem die Kindertagespflege stattfinden soll:",
+      "name": "Angabe Ort Kindertagespflege",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Eigener Haushalt"
+        },
+        {
+          "code": "002",
+          "name": "Haushalt des Erziehungsberechtigten"
+        },
+        {
+          "code": "003",
+          "name": "Andere geeignete Räume"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011700"
+      ],
+      "parent": "G05000011697.G05000011700",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011700.F05000017548",
+      "id": "F05000017548",
+      "version": "0.3.0",
+      "kind": "field",
+      "label": "Angabe zur Größe der Räumlichkeiten:",
+      "name": "Angaben Größe der Räumlichkeiten",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Ausreichend für eine Einzel-Kindertagespflege (bis zu fünf Kinder)"
+        },
+        {
+          "code": "002",
+          "name": "Ausreichend für eine Großtagespflege / Zusammenarbeit / Zusammenschluss von Kindertagespflegepersonen (ab fünf Kindern)"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 22 (1) SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011700"
+      ],
+      "parent": "G05000011697.G05000011700",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011702",
+      "id": "G05000011702",
+      "version": "0.6.0",
+      "kind": "group",
+      "label": "Kinder und weitere Haushaltangehörige",
+      "name": "Kinder und weitere Haushaltangehörige",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697"
+      ],
+      "parent": "G05000011697",
+      "children": [
+        "G05000011697.G05000011702.F60000000227",
+        "G05000011697.G05000011702.F60000000228",
+        "G05000011697.G05000011702.G60000000083"
+      ]
+    },
+    {
+      "path_id": "G05000011697.G05000011702.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011702"
+      ],
+      "parent": "G05000011697.G05000011702",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011702.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011702"
+      ],
+      "parent": "G05000011697.G05000011702",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011702.G60000000083",
+      "id": "G60000000083",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Geburtsdatum",
+      "name": "Geburtsdatum (teilbekannt)",
+      "definition": "Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.",
+      "hilfetext": "Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011697",
+        "G05000011702"
+      ],
+      "parent": "G05000011697.G05000011702",
+      "children": [
+        "G05000011697.G05000011702.G60000000083.F60000000231",
+        "G05000011697.G05000011702.G60000000083.F60000000232",
+        "G05000011697.G05000011702.G60000000083.F60000000233"
+      ]
+    },
+    {
+      "path_id": "G05000011697.G05000011702.G60000000083.F60000000231",
+      "id": "F60000000231",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Tag",
+      "name": "Tag (ohne Monat und Jahr)",
+      "definition": "Tag (ohne Monat und Jahr)",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011697.G05000011702.G60000000083",
+      "path": [
+        "G05000011697",
+        "G05000011702",
+        "G60000000083"
+      ],
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011702.G60000000083.F60000000232",
+      "id": "F60000000232",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Monat",
+      "name": "Monat",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011697.G05000011702.G60000000083",
+      "path": [
+        "G05000011697",
+        "G05000011702",
+        "G60000000083"
+      ],
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011697.G05000011702.G60000000083.F60000000233",
+      "id": "F60000000233",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Jahr",
+      "name": "Jahr",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G05000011697.G05000011702.G60000000083",
+      "path": [
+        "G05000011697",
+        "G05000011702",
+        "G60000000083"
+      ],
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696",
+      "id": "G05000011696",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Nachweise",
+      "name": "Nachweise (Kindertagespflege)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII",
+        "§ 43 (2) Nr. 2 SGB VIII",
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G05000011696.F05000017558",
+        "G05000011696.F05000017559",
+        "G05000011696.F05000017561",
+        "G05000011696.G05000012392",
+        "G05000011696.F05000017562",
+        "G05000011696.F05000017563",
+        "G05000011696.F05000017564",
+        "G05000011696.F05000017565",
+        "G05000011696.F05000017566",
+        "G05000011696.F05000017309"
+      ]
+    },
+    {
+      "path_id": "G05000011696.F05000017558",
+      "id": "F05000017558",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Nachweis über die erforderliche Qualifikation als Kindertagespflegeperson",
+      "name": "Erforderliche Qualifikation",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle den Qualifikationsnachweis hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017559",
+      "id": "F05000017559",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Ärztliche Unbedenklichkeitsbescheinigung",
+      "name": "Ärztliche Unbedenklichkeitsbescheinigung",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle Ihre ärztliche Unbedenklichkeitsbescheinigung hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017561",
+      "id": "F05000017561",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Lebenslauf",
+      "name": "Lebenslauf",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle Ihren Lebenslauf hoch, der nachvollziehbar Ihre Befähigung zur Ausübung der Kindertagespflege darlegt.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.G05000012392",
+      "id": "G05000012392",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Immunität gegen Masern",
+      "name": "Immunität gegen Masern",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_effective": [
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": [
+        "G05000011696.G05000012392.F05000018445",
+        "G05000011696.G05000012392.F05000007322"
+      ]
+    },
+    {
+      "path_id": "G05000011696.G05000012392.F05000018445",
+      "id": "F05000018445",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Hinweis:",
+      "name": "Hinweis Immunität Masern",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_effective": [
+        "§ 20 (8) Nr 1 IfSG",
+        "§ 33 Nr 2 IfSG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696",
+        "G05000012392"
+      ],
+      "parent": "G05000011696.G05000012392",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.G05000012392.F05000007322",
+      "id": "F05000007322",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Immunität gegen Masern",
+      "name": "Immunität gegen Masern",
+      "definition": "",
+      "hilfetext": "Beachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§43 SGB VIII",
+        "§22 KiBiz"
+      ],
+      "bezug_effective": [
+        "§43 SGB VIII",
+        "§22 KiBiz"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696",
+        "G05000012392"
+      ],
+      "parent": "G05000011696.G05000012392",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017562",
+      "id": "F05000017562",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Nachweise über die erfolgreiche Teilnahme an den Qualifikationskursen des QHB (Zertifikat des Bundesverbands für Kindertagespflege) oder vergleichbare Qualifikation.",
+      "name": "Qualifikationskursen des QHB",
+      "definition": "",
+      "hilfetext": "Laden Sie hier Ihre Bildungsnachweise hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017563",
+      "id": "F05000017563",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Aktueller Nachweis \"Erste Hilfe bei Säuglingen und Kleinkindern\"",
+      "name": "Erste Hilfe bei Säuglingen und Kleinkindern",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle Ihren aktuellen Nachweis \"Erste Hilfe bei Säuglingen und Kleinkindern\" hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017564",
+      "id": "F05000017564",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Hygieneschulung",
+      "name": "Hygieneschulung",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle Nachweis über die absolvierten Hygieneschulungen hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017565",
+      "id": "F05000017565",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Pädagogische Konzeption",
+      "name": "Pädagogische Konzeption",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle Ihre pädagogische Konzeption hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 1 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017566",
+      "id": "F05000017566",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Mietvertrag",
+      "name": "Mietvertrag",
+      "definition": "",
+      "hilfetext": "Laden Sie an dieser Stelle den Mietvertrag oder andere Dokumente, die die Nutzungsberechtigung belegen, hoch.\nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 43 (2) Nr. 2 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011696.F05000017309",
+      "id": "F05000017309",
+      "version": "1.3.1",
+      "kind": "field",
+      "label": "Sonstige Unterlagen",
+      "name": "Nachweis Sonstige Unterlagen",
+      "definition": "",
+      "hilfetext": "Laden Sie weitere Unterlagen hoch, falls nötig. \nBeachten Sie, dass das maximal zulässige Datenvolumen von 20MB nicht überschritten werden darf. Akzeptierte Dateiformate sind JPG, PNG und PDF.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "leer, da Referenzkontext"
+      ],
+      "bezug_effective": [
+        "leer, da Referenzkontext"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011696"
+      ],
+      "parent": "G05000011696",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712",
+      "id": "G05000011712",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Landesspezifika",
+      "name": "Landesspezifika",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G05000011712.F05000017577",
+        "G05000011712.F05000017578",
+        "G05000011712.F05000017579",
+        "G05000011712.F05000017580",
+        "G05000011712.G05000000855",
+        "G05000011712.G05000000998"
+      ]
+    },
+    {
+      "path_id": "G05000011712.F05000017577",
+      "id": "F05000017577",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Aktuelle Haushaltsbescheinigung",
+      "name": "Aktuelle Haushaltsbescheinigung",
+      "definition": "",
+      "hilfetext": "Laden Sie eine aktuelle Haushaltsbescheinigung hoch.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.F05000017578",
+      "id": "F05000017578",
+      "version": "0.3.0",
+      "kind": "field",
+      "label": "Sprachzertifikat",
+      "name": "Sprachzertifikat",
+      "definition": "",
+      "hilfetext": "Laden Sie bei Bedarf das Sprachzertifikat hoch.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 45 SGB VIII"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB VIII"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.F05000017579",
+      "id": "F05000017579",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Strafverfahren",
+      "name": "Strafverfahren",
+      "definition": "",
+      "hilfetext": "Gibt oder gab es in den letzten fünf Jahren strafrechtliche Ermittlungsverfahren, abhängige (schwebende) oder per Verurteilung rechtskräftig abgeschlossene Strafverfahren gegen Sie oder andere Mitglieder ihres Haushaltes, in dem Sie betreuen werden?",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Ja"
+        },
+        {
+          "code": "002",
+          "name": "Nein"
+        }
+      ],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.F05000017580",
+      "id": "F05000017580",
+      "version": "0.3.0",
+      "kind": "field",
+      "label": "Strafverfahren Angabe",
+      "name": "Strafverfahren Angabe",
+      "definition": "",
+      "hilfetext": "Geben Sie das Aktenzeichen des/der Verfahren(s) sowie die zuständige Behörde an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000855",
+      "id": "G05000000855",
+      "version": "2.6.0",
+      "kind": "group",
+      "label": "Bundeszentralregisterauszug der Haushaltsangehörigen über 14 Jahren (erweitertes Führungszeugnis gem. § 30 a BZRG)",
+      "name": "Bundeszentralregisterauszug der Haushaltsangehörigen über 14 Jahren (erweitertes Führungszeugnis gem. § 30 a BZRG)",
+      "definition": "",
+      "hilfetext": "Die Auskunft wird von der ausstellenden Behörde automatisch zugesandt. Ein Upload ist nicht notwendig.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": [
+        "G05000011712.G05000000855.F05000017616",
+        "G05000011712.G05000000855.F05000017617",
+        "G05000011712.G05000000855.F05000017618",
+        "G05000011712.G05000000855.F05000017619"
+      ]
+    },
+    {
+      "path_id": "G05000011712.G05000000855.F05000017616",
+      "id": "F05000017616",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Haben Sie einen Bundeszentralregisterauszug, d.h. ein erweitertes Führungszeugnis zur Vorlage bei einer Behörde (Belegart OE) beantragt?",
+      "name": "Beantragung Bundeszentralregisterauszug",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Ist beantragt"
+        },
+        {
+          "code": "002",
+          "name": "Ist noch nicht beantragt"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "parent": "G05000011712.G05000000855",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000855.F05000017617",
+      "id": "F05000017617",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Datum der Beantragung",
+      "name": "Datum der Beantragung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "parent": "G05000011712.G05000000855",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000855.F05000017618",
+      "id": "F05000017618",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Datum der geplanten Beantragung",
+      "name": "Datum der geplanten Beantragung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "parent": "G05000011712.G05000000855",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000855.F05000017619",
+      "id": "F05000017619",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Vollständiger Name der haushaltsangehörigen Person",
+      "name": "Vollständiger Name der haushaltsangehörigen Person",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "parent": "G05000011712.G05000000855",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000998",
+      "id": "G05000000998",
+      "version": "4.6.0",
+      "kind": "group",
+      "label": "Bundeszentralregisterauszug des oder der Antragstellenden (polizeiliches Führungszeugnis)",
+      "name": "Bundeszentralregisterauszug des oder der Antragstellenden (polizeiliches Führungszeugnis)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712"
+      ],
+      "parent": "G05000011712",
+      "children": [
+        "G05000011712.G05000000998.F05000017616",
+        "G05000011712.G05000000998.F05000017617",
+        "G05000011712.G05000000998.F05000017618",
+        "G05000011712.G05000000998.F05000017619"
+      ]
+    },
+    {
+      "path_id": "G05000011712.G05000000998.F05000017616",
+      "id": "F05000017616",
+      "version": "0.2.0",
+      "kind": "field",
+      "label": "Haben Sie einen Bundeszentralregisterauszug, d.h. ein erweitertes Führungszeugnis zur Vorlage bei einer Behörde (Belegart OE) beantragt?",
+      "name": "Beantragung Bundeszentralregisterauszug",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Ist beantragt"
+        },
+        {
+          "code": "002",
+          "name": "Ist noch nicht beantragt"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "parent": "G05000011712.G05000000998",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000998.F05000017617",
+      "id": "F05000017617",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Datum der Beantragung",
+      "name": "Datum der Beantragung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "parent": "G05000011712.G05000000998",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000998.F05000017618",
+      "id": "F05000017618",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Datum der geplanten Beantragung",
+      "name": "Datum der geplanten Beantragung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "parent": "G05000011712.G05000000998",
+      "children": []
+    },
+    {
+      "path_id": "G05000011712.G05000000998.F05000017619",
+      "id": "F05000017619",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Vollständiger Name der haushaltsangehörigen Person",
+      "name": "Vollständiger Name der haushaltsangehörigen Person",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_effective": [
+        "§ 45 SGB 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "parent": "G05000011712.G05000000998",
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000332",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000275",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000230",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.G60000000083",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G60000000083",
+      "child": "G05000011684.G60000000083.F60000000231",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G60000000083",
+      "child": "G05000011684.G60000000083.F60000000232",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G60000000083",
+      "child": "G05000011684.G60000000083.F60000000233",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000234",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000235",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.F60000000236",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.G05000013144",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144",
+      "child": "G05000011684.G05000013144.F05000017637",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144",
+      "child": "G05000011684.G05000013144.G05000011743",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F05000017636",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000364",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G05000011743",
+      "child": "G05000011684.G05000013144.G05000011743.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144",
+      "child": "G05000011684.G05000013144.G60000000087",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "child": "G05000011684.G05000013144.G60000000087.F60000000249",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "child": "G05000011684.G05000013144.G60000000087.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.G60000000087",
+      "child": "G05000011684.G05000013144.G60000000087.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.G05000011747",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011747",
+      "child": "G05000011684.G05000011747.F60000000240",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011747",
+      "child": "G05000011684.G05000011747.F60000000241",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011747",
+      "child": "G05000011684.G05000011747.F60000000242",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011747",
+      "child": "G05000011684.G05000011747.F60000000321",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684",
+      "child": "G05000011684.G05000011703",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703",
+      "child": "G05000011684.G05000011703.F05000017554",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703",
+      "child": "G05000011684.G05000011703.F05000017555",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703",
+      "child": "G05000011684.G05000011703.G05000011707",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703.G05000011707",
+      "child": "G05000011684.G05000011703.G05000011707.F05000017554",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703.G05000011707",
+      "child": "G05000011684.G05000011703.G05000011707.F05000017555",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703",
+      "child": "G05000011684.G05000011703.F05000017556",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000011703",
+      "child": "G05000011684.G05000011703.F05000017557",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701",
+      "child": "G05000011701.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701",
+      "child": "G05000011701.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701",
+      "child": "G05000011701.G60000000083",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701.G60000000083",
+      "child": "G05000011701.G60000000083.F60000000231",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701.G60000000083",
+      "child": "G05000011701.G60000000083.F60000000232",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701.G60000000083",
+      "child": "G05000011701.G60000000083.F60000000233",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.F60000000363",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.F05000017544",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.F05000017545",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.G05000012613",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F05000017636",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000364",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000012613",
+      "child": "G05000011697.G05000012613.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.G05000011700",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700",
+      "child": "G05000011697.G05000011700.F05000017546",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700",
+      "child": "G05000011697.G05000011700.F05000017547",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700",
+      "child": "G05000011697.G05000011700.F05000017548",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697",
+      "child": "G05000011697.G05000011702",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702",
+      "child": "G05000011697.G05000011702.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702",
+      "child": "G05000011697.G05000011702.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702",
+      "child": "G05000011697.G05000011702.G60000000083",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "child": "G05000011697.G05000011702.G60000000083.F60000000231",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "child": "G05000011697.G05000011702.G60000000083.F60000000232",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702.G60000000083",
+      "child": "G05000011697.G05000011702.G60000000083.F60000000233",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017558",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017559",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017561",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.G05000012392",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696.G05000012392",
+      "child": "G05000011696.G05000012392.F05000018445",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696.G05000012392",
+      "child": "G05000011696.G05000012392.F05000007322",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017562",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017563",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017564",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017565",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017566",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011696",
+      "child": "G05000011696.F05000017309",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.F05000017577",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.F05000017578",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.F05000017579",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.F05000017580",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.G05000000855",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000855",
+      "child": "G05000011712.G05000000855.F05000017616",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000855",
+      "child": "G05000011712.G05000000855.F05000017617",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000855",
+      "child": "G05000011712.G05000000855.F05000017618",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000855",
+      "child": "G05000011712.G05000000855.F05000017619",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712",
+      "child": "G05000011712.G05000000998",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000998",
+      "child": "G05000011712.G05000000998.F05000017616",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000998",
+      "child": "G05000011712.G05000000998.F05000017617",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000998",
+      "child": "G05000011712.G05000000998.F05000017618",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011712.G05000000998",
+      "child": "G05000011712.G05000000998.F05000017619",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": "G05000011696.G05000012392",
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "required",
+        "show"
+      ],
+      "scope": null,
+      "rule_id": "R05000012459",
+      "text": "Wenn das Feld (G05000011684.G60000000083.F60000000233 \"Jahr\" ODER das Feld G05000011684.G05000011701.G60000000083.F60000000233 \"Jahr\" ODER das Feld G05000011697.G05000011702.G60000000083.F60000000233 \"Jahr\" > 1970, dann muss die Gruppe G05000011696.G05000012392 \"Immunität gegen Masern\" angezeigt und befüllt werden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F60000000233",
+      "target_id": "G05000012392",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": "G05000011696.G05000012392",
+      "kind": "condition",
+      "operator": "=",
+      "values": [],
+      "actions": [
+        "hide"
+      ],
+      "scope": null,
+      "rule_id": "R05000012459",
+      "text": "Wenn das Feld (G05000011684.G60000000083.F60000000233 \"Jahr\" UND das Feld G05000011684.G05000011701.G60000000083.F60000000233 \"Jahr\" UND das Feld G05000011697.G05000011702.G60000000083.F60000000233 \"Jahr\" <= 1970, dann ist die Gruppe G05000011696.G05000012392 \"Immunität gegen Masern\" ausgeblendet.",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F60000000233",
+      "target_id": "G05000012392",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700.F05000017547",
+      "child": "G05000011696.F05000017566",
+      "kind": "condition",
+      "operator": "=",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000012460",
+      "text": "Wenn in Feld F05000017547 \"Angabe Ort Kindertagespflege\" Auswahl=03, dann muss Feld F05000017566 \"Mietvertrag\" befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017547",
+      "target_id": "F05000017566",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700.F05000017547",
+      "child": "G05000011697.G05000011702",
+      "kind": "condition",
+      "operator": "=",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000012461",
+      "text": "Wenn in Feld F05000017547 \"Angabe Ort Kindertagespflege\" Auswahl=01, dann muss Gruppe G05000011702 \"Kinder und weitere Haushaltange\" befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017547",
+      "target_id": "G05000011702",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700.F05000017547",
+      "child": "G05000011712.F05000017577",
+      "kind": "condition",
+      "operator": "=",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000012464",
+      "text": "Wenn in Feld F05000017547 \"Angabe Ort Kindertagespflege\" Auswahl=01, dann muss F05000017577 \"Aktuelle Haushaltsbescheinigung\" befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017547",
+      "target_id": "F05000017577",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011700.F05000017547",
+      "child": "G05000011712.G05000000855",
+      "kind": "condition",
+      "operator": "=",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000012465",
+      "text": "Wenn in Feld F05000017547 \"Angabe Ort Kindertagespflege\" Auswahl=01, dann muss G05000000855 befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017547",
+      "target_id": "G05000000855",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "F05000017549",
+      "child": "F05000017550",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "wahr"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000013518",
+      "text": "Wenn Feld F05000017549 \"Abfrage andere Kindertagespflegeperson\" Auswahl=wahr, dann muss Feld F05000017550 \"Abfrage bereits bekannt\" befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017549",
+      "target_id": "F05000017550",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "F05000017550",
+      "child": "G05000011701",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "wahr"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000013519",
+      "text": "Wenn Feld Feld F05000017550 \"Abfrage bereits bekannt\" Auswahl=wahr, dann muss Gruppe G05000011701 \"Angaben zur anderen Person\" befüllt werden",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017550",
+      "target_id": "G05000011701",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": "F05000018286",
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "hide",
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000014965",
+      "text": "Das Feld F05000018286 \"Art des Antragstellers\" ist mit 001= Natürliche Person vorzubefüllen und auszublenden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "F05000018286",
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G60000000083.F60000000231",
+      "child": "G05000011684.G60000000083.F60000000232",
+      "kind": "condition",
+      "operator": "nicht leer",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Monat muss angegeben werden, wenn Tag (ohne Monat und Jahr) angegeben ist.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not": {
+          "is_empty": {
+            "identifier": "F60000000231"
+          }
+        }
+      },
+      "source_id": "F60000000231",
+      "target_id": "F60000000232",
+      "context": [
+        "G05000011684",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Das angegebene Datum muss ein gültiges Kalenderdatum sein.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "and": [
+              {
+                "is_empty": {
+                  "identifier": "F60000000231"
+                }
+              },
+              {
+                "is_empty": {
+                  "identifier": "F60000000232"
+                }
+              }
+            ]
+          },
+          {
+            "is_valid_date": [
+              {
+                "identifier": "F60000000231"
+              },
+              {
+                "identifier": "F60000000232"
+              },
+              {
+                "identifier": "F60000000233"
+              }
+            ]
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G05000011684",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G05000013144",
+      "text": "Es muss entweder 'Anschrift Inland Straßenanschrift' oder 'Anschrift Inland Postfachanschrift' angegeben werden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "not": {
+              "is_empty": {
+                "identifier": "self.G05000011743"
+              }
+            }
+          },
+          {
+            "not": {
+              "is_empty": {
+                "identifier": "self.G60000000087"
+              }
+            }
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.F05000017637",
+      "child": "G05000011684.G05000013144.G05000011743",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G05000013144",
+      "text": "Die 'Anschrift Inland Straßenanschrift' muss angegeben werden, wenn 'Frage Art der Anschrift' den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F05000017637"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F05000017637",
+      "target_id": "G05000011743",
+      "context": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.F05000017637",
+      "child": "G05000011684.G05000013144.G05000011743",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G05000013144",
+      "text": "Die 'Anschrift Inland Straßenanschrift' darf nicht angegeben werden, wenn 'Frage Art der Anschrift' nicht den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F05000017637"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F05000017637",
+      "target_id": "G05000011743",
+      "context": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.F05000017637",
+      "child": "G05000011684.G05000013144.G60000000087",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G05000013144",
+      "text": "Die 'Anschrift Inland Postfachanschrift' muss angegeben werden, wenn 'Frage Art der Anschrift' den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F05000017637"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F05000017637",
+      "target_id": "G60000000087",
+      "context": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011684.G05000013144.F05000017637",
+      "child": "G05000011684.G05000013144.G60000000087",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G05000013144",
+      "text": "Die 'Anschrift Inland Postfachanschrift' darf nicht angegeben werden, wenn 'Frage Art der Anschrift' nicht den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F05000017637"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F05000017637",
+      "target_id": "G60000000087",
+      "context": [
+        "G05000011684",
+        "G05000013144"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011701.G60000000083.F60000000231",
+      "child": "G05000011701.G60000000083.F60000000232",
+      "kind": "condition",
+      "operator": "nicht leer",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Monat muss angegeben werden, wenn Tag (ohne Monat und Jahr) angegeben ist.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not": {
+          "is_empty": {
+            "identifier": "F60000000231"
+          }
+        }
+      },
+      "source_id": "F60000000231",
+      "target_id": "F60000000232",
+      "context": [
+        "G05000011701",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Das angegebene Datum muss ein gültiges Kalenderdatum sein.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "and": [
+              {
+                "is_empty": {
+                  "identifier": "F60000000231"
+                }
+              },
+              {
+                "is_empty": {
+                  "identifier": "F60000000232"
+                }
+              }
+            ]
+          },
+          {
+            "is_valid_date": [
+              {
+                "identifier": "F60000000231"
+              },
+              {
+                "identifier": "F60000000232"
+              },
+              {
+                "identifier": "F60000000233"
+              }
+            ]
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G05000011701",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.F05000017544",
+      "child": "G05000011697.F05000017545",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "falsch"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "R05000012431",
+      "text": "Wenn Datenfeld F05000017544 \"Abfrage Adresse identisch\" Auswahl=falsch, dann muss Datenfeld F05000017545 \"Name Kindertagespflege\" und Datenfeldgruppe G05000012613 \"Anschrift Inland Straßenanschrift Kindertagespflege\" befüllt werden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": "F05000017544",
+      "target_id": "F05000017545",
+      "context": [
+        "G05000011697"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": "G05000011697.F60000000363",
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "hide"
+      ],
+      "scope": null,
+      "rule_id": "R05000014966",
+      "text": "Das Feld F60000000363 \"Art der Betriebsstätte\" muss mit 04 = Betriebsstätte (unspezifisch) vorbefüllt und ausgeblendet werden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "F60000000363",
+      "context": [
+        "G05000011697"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G05000011697.G05000011702.G60000000083.F60000000231",
+      "child": "G05000011697.G05000011702.G60000000083.F60000000232",
+      "kind": "condition",
+      "operator": "nicht leer",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Monat muss angegeben werden, wenn Tag (ohne Monat und Jahr) angegeben ist.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not": {
+          "is_empty": {
+            "identifier": "F60000000231"
+          }
+        }
+      },
+      "source_id": "F60000000231",
+      "target_id": "F60000000232",
+      "context": [
+        "G05000011697",
+        "G05000011702",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Das angegebene Datum muss ein gültiges Kalenderdatum sein.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "and": [
+              {
+                "is_empty": {
+                  "identifier": "F60000000231"
+                }
+              },
+              {
+                "is_empty": {
+                  "identifier": "F60000000232"
+                }
+              }
+            ]
+          },
+          {
+            "is_valid_date": [
+              {
+                "identifier": "F60000000231"
+              },
+              {
+                "identifier": "F60000000232"
+              },
+              {
+                "identifier": "F60000000233"
+              }
+            ]
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G05000011697",
+        "G05000011702",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R05000012442",
+      "text": "Wenn in F05000017579 \"Strafverfahren\" = Auswahl 01 \"ja, dann erscheint F05000017580 \"Strafverfahren Angabe\"",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [
+        "G05000011712"
+      ],
+      "resolved": false
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R05000012467",
+      "text": "Wenn in F05000017616 Auswahl = 01 \"Ist beantragt\", dann erscheint F05000017617 \"Datum der Beantragung\" und muss befüllt werden",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "resolved": false
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R05000012468",
+      "text": "Wenn in F05000017616 Auswahl = 02 \"Ist noch nicht beantragt\", dann erscheint F05000017618 \"Datum der geplanten Beantragung\" und muss ausgefüllt werden.",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [
+        "G05000011712",
+        "G05000000855"
+      ],
+      "resolved": false
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R05000012471",
+      "text": "Wenn in F05000017616 Auswahl = 01 \"Ist beantragt\", dann erscheint F05000017617 \"Datum der Beantragung\" und muss befüllt werden",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "resolved": false
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R05000012472",
+      "text": "Wenn in F05000017616 Auswahl = 02 \"Ist noch nicht beantragt\", dann erscheint F05000017618 \"Datum der geplanten Beantragung\" und muss ausgefüllt werden.",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [
+        "G05000011712",
+        "G05000000998"
+      ],
+      "resolved": false
+    }
+  ]
+}

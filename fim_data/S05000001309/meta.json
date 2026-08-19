@@ -1,0 +1,18 @@
+{
+  "fim_id": "S05000001309",
+  "fim_version": "1.0.0",
+  "name": "Übermittlung von Prüfungsberichten von Baubetreuern und Bauträgern",
+  "bezeichnung": "Übermittlung von Prüfungsberichten von Baubetreuern und Bauträgern",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34c (3) GewO vom 27.12.2024",
+    "§ 16 (1) MaBV vom 11.12.2024"
+  ],
+  "letzte_aenderung": "2026-03-11T18:42:28Z",
+  "n_rules": 19,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001309/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:45Z"
+}

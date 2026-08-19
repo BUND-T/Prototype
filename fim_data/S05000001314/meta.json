@@ -1,0 +1,27 @@
+{
+  "fim_id": "S05000001314",
+  "fim_version": "2.0.0",
+  "name": "Antrag einer Betriebserlaubnis für eine öffentliche Apotheke",
+  "bezeichnung": "Antrag einer Betriebserlaubnis für eine öffentliche Apotheke",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 1 (2) ApoG vom 22.12.2025",
+    "§ 2 ApoG vom 22.12.2025",
+    "§ 8 ApoG vom 22.12.2025",
+    "§ 9 (1) ApoG vom 22.12.2025",
+    "§ 10 ApoG vom 22.12.2025",
+    "§ 11 ApoG vom 22.12.2025",
+    "§ 14 ApoG vom 22.12.2025",
+    "§ 4 (1-2) ApBetrO vom 12.12.2023",
+    "§ 156 StGB vom 09.01.2026",
+    "§ 161 (1) StGB vom 09.01.2026",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-03-31T13:08:50Z",
+  "n_rules": 87,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001314/2.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:09Z"
+}

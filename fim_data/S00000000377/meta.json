@@ -1,0 +1,23 @@
+{
+  "fim_id": "S00000000377",
+  "fim_version": "1.0.0",
+  "name": "Antrag Erteilung Aufenthaltserlaubnis aus völkerrechtlichen, humanitären oder politischen Gründen",
+  "bezeichnung": "Antrag auf Aufenthaltserlaubnis aus völkerrechtlichen, humanitären oder politischen Gründen Erteilung",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 22 AufenthG v. 08.05.2024",
+    "§ 23 AufenthG v. 08.05.2024",
+    "§ 24 AufenthG v. 08.05.2024",
+    "§ 25 AufenthG v. 08.05.2024",
+    "§ 25a AufenthG v. 08.05.2024",
+    "§ 25b AufenthG v. 08.05.2024",
+    "§ 26 AufenthG v. 08.05.2024"
+  ],
+  "letzte_aenderung": "2024-09-20T10:57:28Z",
+  "n_rules": 22,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000377/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:28Z"
+}

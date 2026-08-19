@@ -1,0 +1,27 @@
+{
+  "fim_id": "S05000001395",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Medizinischer Technologe für Radiologie\" (MTR)",
+  "bezeichnung": "Antrag auf Erlaubnis zum Führen der Berufsbezeichnung \"Medizinische Technologin für Radiologie\" oder \"Medizinischer Technologe für Radiologie\" (MTR)",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 1 MTBG vom 12.12.2023",
+    "§ 2 MTBG vom 12.12.2023",
+    "§ 11 MTBG vom 12.12.2023",
+    "§ 13 MTBG vom 12.12.2023",
+    "§ 25 MTBG vom 12.12.2023",
+    "§ 46 MTBG vom 12.12.2023",
+    "§ 75 MTBG vom 12.12.2023",
+    "§ 10 (1) StAG vom 22.12.2025",
+    "§ 30a BZRG vom 19.07.2024",
+    "§ 3 (1) VwVfG vom 15.07.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-27T15:00:49Z",
+  "n_rules": 32,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001395/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:52Z"
+}

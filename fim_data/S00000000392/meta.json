@@ -1,0 +1,17 @@
+{
+  "fim_id": "S00000000392",
+  "fim_version": "1.1.0",
+  "name": "Antrag Erteilung unionsrechtliche Aufenthaltserlaubnis für Drittstaatsangehörige im Ausnahmefall bei Vorliegen eines ganz besonderen Abhängigkeitsverhältnisses zu einem minderjährigen Unionsbürger",
+  "bezeichnung": "Antrag auf Erteilung einer unionsrechtlichen Aufenthaltserlaubnis für Drittstaatsangehörige im Ausnahmefall bei Vorliegen eines ganz besonderen Abhängigkeitsverhältnisses zu einem minderjährigen Unionsbürger",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "Art. 20 AEUV"
+  ],
+  "letzte_aenderung": "2025-07-28T13:56:09Z",
+  "n_rules": 25,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000392/1.1.0/xdf",
+  "fetched_at": "2026-08-12T13:12:46Z"
+}

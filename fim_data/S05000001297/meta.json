@@ -1,0 +1,26 @@
+{
+  "fim_id": "S05000001297",
+  "fim_version": "2.2.0",
+  "name": "Anzeige der Gewerbeummeldung",
+  "bezeichnung": "Gewerbeummeldung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 14 GewO vom 27.12.2024",
+    "§ 11 GewO vom 27.12.2024",
+    "§ 15 GewO vom 27.12.2024",
+    "referenzbasiert",
+    "§ 8a HGB",
+    "§ 705 BGB",
+    "§ 11 (1) S. 2 Nr. 4 GewO vom 27.12.2024",
+    "§ 8b HGB",
+    "§ 706 BGB",
+    "§ 707 BGB"
+  ],
+  "letzte_aenderung": "2025-12-10T14:00:22Z",
+  "n_rules": 51,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001297/2.2.0/xdf",
+  "fetched_at": "2026-08-12T13:17:24Z"
+}

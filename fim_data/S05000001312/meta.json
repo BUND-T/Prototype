@@ -1,0 +1,20 @@
+{
+  "fim_id": "S05000001312",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf eine zusätzliche Ausfertigung der Gemeinschaftslizenz oder Erlaubnisurkunde für den gewerblichen Güterkraftverkehr",
+  "bezeichnung": "Antrag auf eine zusätzliche Ausfertigung der Gemeinschaftslizenz oder Erlaubnisurkunde für den gewerblichen Güterkraftverkehr",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 3 (3) GüKG vom 15.7.2024",
+    "Art. 4 (3) der Verordnung (EG) Nr. 1072/2009",
+    "Nr. 17 GüKVwV vom 9.11.2012",
+    "§ 12 VwVfG vom 15.7.2024"
+  ],
+  "letzte_aenderung": "2026-03-31T15:52:19Z",
+  "n_rules": 77,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001312/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:59Z"
+}

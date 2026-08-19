@@ -1,0 +1,18 @@
+{
+  "fim_id": "S07000000201",
+  "fim_version": "1.2.0",
+  "name": "Antrag auf Zulassung zur Jägerprüfung",
+  "bezeichnung": "Antrag auf Zulassung zur Jägerprüfung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 15 BJagdG vom 25.10.2024",
+    "§ 12 VwVfG vom 15.07.2024"
+  ],
+  "letzte_aenderung": "2026-01-14T07:24:33Z",
+  "n_rules": 5,
+  "source_url": "https://fimportal.de/api/v1/schemas/S07000000201/1.2.0/xdf",
+  "fetched_at": "2026-08-12T13:36:41Z"
+}

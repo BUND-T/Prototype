@@ -1,0 +1,18 @@
+{
+  "fim_id": "S05000001307",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis für Immobilienmakler, Darlehensvermittler, Bauträger, Baubetreuer und Wohnimmobilienverwalter",
+  "bezeichnung": "Antrag auf Erlaubnis für Immobilienmakler, Darlehensvermittler, Bauträger, Baubetreuer und Wohnimmobilienverwalter",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34c GewO vom 27.12.2024",
+    "§ 802 ZPO vom 01.01.20213"
+  ],
+  "letzte_aenderung": "2026-03-18T16:37:44Z",
+  "n_rules": 126,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001307/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:38Z"
+}

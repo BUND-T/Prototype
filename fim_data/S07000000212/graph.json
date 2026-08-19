@@ -1,0 +1,3432 @@
+{
+  "schema": {
+    "fim_id": "S07000000212",
+    "fim_version": "1.2.0",
+    "bezeichnung": "Antrag auf Änderung eines Jugendjagdscheins",
+    "definition": "",
+    "freigabe_status_label": "fachlich freigegeben (silber)",
+    "bezug": [
+      "§ 15 BJagdG vom 25.10.2024",
+      "§ 12 VwVfG vom 15.07.2024",
+      "§ 24 (1) VwVfG vom 15.07.2024",
+      "§ 25 (1), (2) VwVfG vom 15.07.2024",
+      "§ 26 (1) VwVfG vom 15.07.2024"
+    ],
+    "source_url": "https://fimportal.de/api/v1/schemas/S07000000212/1.2.0/xdf",
+    "compiled_at": "2026-08-13T15:58:07Z"
+  },
+  "leistung": {
+    "leistungsschluessel": null,
+    "join": "keiner",
+    "evidence": ""
+  },
+  "statistics": {
+    "nodes": 59,
+    "fields": 41,
+    "edges_contains": 56,
+    "edges_condition": 13,
+    "edges_certain": 11,
+    "edges_unclear": 2,
+    "edges_from_api": 11,
+    "edges_from_freitext": 2,
+    "edges_unresolved": 0,
+    "cycles": 0,
+    "order_violations": 0
+  },
+  "ask_order": [
+    "G07000002566.F60000000227",
+    "G07000002566.F60000000230",
+    "G07000002566.F60000000228",
+    "G07000002566.F60000000229",
+    "G07000002566.G60000000083.F60000000231",
+    "G07000002566.G60000000083.F60000000232",
+    "G07000002566.G60000000083.F60000000233",
+    "G07000002566.F60000000234",
+    "G07000002566.F60000000235",
+    "G07000002566.F60000000236",
+    "G07000002566.G07000002558.F60000000263",
+    "G07000002566.G07000002558.G60000000086.F60000000243",
+    "G07000002566.G07000002558.G60000000086.F60000000244",
+    "G07000002566.G07000002558.G60000000086.F60000000246",
+    "G07000002566.G07000002558.G60000000086.F60000000247",
+    "G07000002566.G07000002558.G60000000086.F60000000248",
+    "G07000002566.G07000002558.G60000000091.F60000000261",
+    "G07000002566.G07000002558.G60000000091.G60000000092.F60000000262",
+    "G07000002566.G07000000827.F60000000240",
+    "G07000002566.G07000000827.F60000000242",
+    "G07000002566.F07000001249",
+    "G07000002566.F07000001283",
+    "G07000002570.F07000003635",
+    "G07000002570.F07000003660",
+    "G07000002570.G07000002571.F07000001236",
+    "G07000002570.G07000002571.G07000002572.F07000003642",
+    "G07000002570.G07000002571.G07000002572.F60000000296",
+    "G07000000831.G07000002573.F60000000263",
+    "G07000000831.G07000002573.G60000000088.G60000000086.F60000000243",
+    "G07000000831.G07000002573.G60000000088.G60000000086.F60000000244",
+    "G07000000831.G07000002573.G60000000088.G60000000086.F60000000246",
+    "G07000000831.G07000002573.G60000000088.G60000000086.F60000000247",
+    "G07000000831.G07000002573.G60000000088.G60000000086.F60000000248",
+    "G07000000831.G07000002573.G60000000088.G60000000087.F60000000249",
+    "G07000000831.G07000002573.G60000000088.G60000000087.F60000000246",
+    "G07000000831.G07000002573.G60000000088.G60000000087.F60000000247",
+    "G07000000831.G07000002573.G60000000091.F60000000261",
+    "G07000000831.G07000002573.G60000000091.G60000000092.F60000000262",
+    "G07000000831.G07000000832.F60000000229",
+    "G07000000831.G07000000832.F60000000227",
+    "G07000000831.G07000000832.F60000000228"
+  ],
+  "cycles_detail": [],
+  "order_violations": [],
+  "mermaid": "flowchart TD\n  G07000002566_G60000000083_F60000000231[\"Tag\"] ==>|\"nicht leer ? → required\"| G07000002566_G60000000083_F60000000232[\"Monat\"]\n  G07000002566_G07000002558_F60000000263[\"Wo befindet sich die Anschrift?\"] ==>|\"= 001 → required\"| G07000002566_G07000002558_G60000000086[\"Straßenanschrift\"]\n  G07000002566_G07000002558_F60000000263[\"Wo befindet sich die Anschrift?\"] -.->|\"<> 001 → forbidden\"| G07000002566_G07000002558_G60000000086[\"Straßenanschrift\"]\n  G07000002566_G07000002558_F60000000263[\"Wo befindet sich die Anschrift?\"] ==>|\"= 002 → required\"| G07000002566_G07000002558_G60000000091[\"Auslandsanschrift\"]\n  G07000002566_G07000002558_F60000000263[\"Wo befindet sich die Anschrift?\"] -.->|\"<> 002 → forbidden\"| G07000002566_G07000002558_G60000000091[\"Auslandsanschrift\"]\n  G07000000831_G07000002573_F60000000263[\"Wo befindet sich die Anschrift?\"] ==>|\"= 001 → required\"| G07000000831_G07000002573_G60000000088[\"Anschrift in Deutschland\"]\n  G07000000831_G07000002573_F60000000263[\"Wo befindet sich die Anschrift?\"] -.->|\"<> 001 → forbidden\"| G07000000831_G07000002573_G60000000088[\"Anschrift in Deutschland\"]\n  G07000000831_G07000002573_F60000000263[\"Wo befindet sich die Anschrift?\"] ==>|\"= 002 → required\"| G07000000831_G07000002573_G60000000091[\"Auslandsanschrift\"]\n  G07000000831_G07000002573_F60000000263[\"Wo befindet sich die Anschrift?\"] -.->|\"<> 002 → forbidden\"| G07000000831_G07000002573_G60000000091[\"Auslandsanschrift\"]\n  unclear0[\"?: WENN G07000002570.G07000002571.F07000001236 Antragsgegenstan\"]:::unclear\n  unclear1[\"?: WENN G07000002570.G07000002571.F07000001236 Antragsgegenstan\"]:::unclear\n  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000",
+  "nodes": [
+    {
+      "path_id": "G07000002566",
+      "id": "G07000002566",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Antragstellende Person",
+      "name": "Persönliche Angaben bei Bearbeitung Jagdschein (mit Einverständniserklärung)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG",
+        "§ 12 VwVfG",
+        "§ 24 (1) VwVfG",
+        "§ 25 (1), (2) VwVfG",
+        "§ 26 (1) VwVfG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG",
+        "§ 12 VwVfG",
+        "§ 24 (1) VwVfG",
+        "§ 25 (1), (2) VwVfG",
+        "§ 26 (1) VwVfG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G07000002566.F60000000227",
+        "G07000002566.F60000000230",
+        "G07000002566.F60000000228",
+        "G07000002566.F60000000229",
+        "G07000002566.G60000000083",
+        "G07000002566.F60000000234",
+        "G07000002566.F60000000235",
+        "G07000002566.F60000000236",
+        "G07000002566.G07000002558",
+        "G07000002566.G07000000827",
+        "G07000002566.F07000001249",
+        "G07000002566.F07000001283"
+      ]
+    },
+    {
+      "path_id": "G07000002566.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000230",
+      "id": "F60000000230",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Geburtsname",
+      "name": "Geburtsname",
+      "definition": "Der Geburtsname entspricht dem Familiennamen einer natürlichen Person vor der Schließung der ersten Ehe bzw. vor dem Eingehen der ersten Lebenspartnerschaft.",
+      "hilfetext": "Geben Sie den Geburtsnamen an. Manche Menschen ändern ihren Familiennamen, wenn sie heiraten oder eine Lebenspartnerschaft eingehen. Der  Geburtsname ist der Familienname den die Person bei der Geburt hatte, bevor sie ihren Namen geändert hat.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.geburtsname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.geburtsname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000229",
+      "id": "F60000000229",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Doktorgrade",
+      "name": "Doktorgrade",
+      "definition": "Dieses Datenfeld erlaubt die Angabe von Doktorgraden. Es sind nur diejenigen Doktorgrade anzugeben, die in Pässe eingetragen werden dürfen. Sind mehrere Doktorgrade anzugeben, so sind sie durch ein Leerzeichen zu trennen.\n\nZulässig sind derzeit: \"DR.\", \"Dr.\", \"DR.HC.\", \"Dr.hc.\", \"DR.EH.\" und \"Dr.eh.\".",
+      "hilfetext": "Geben Sie anerkannte Doktorgrade an. Zulässig sind: \"Dr.\", \"Dr.hc.\" und \"Dr.eh.\". Wollen Sie mehrere Doktorgrade angeben, trennen Sie diese durch ein Leerzeichen.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 5 (2) Nr. 3 PAuswG vom 21.6.2019",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1 (dort als Titel)",
+        "XMeld.type.NameNatuerlichePerson.doktorgrad Version 2.4.4"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 3 PAuswG vom 21.6.2019",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1 (dort als Titel)",
+        "XMeld.type.NameNatuerlichePerson.doktorgrad Version 2.4.4"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G60000000083",
+      "id": "G60000000083",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Geburtsdatum",
+      "name": "Geburtsdatum (teilbekannt)",
+      "definition": "Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.",
+      "hilfetext": "Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": [
+        "G07000002566.G60000000083.F60000000231",
+        "G07000002566.G60000000083.F60000000232",
+        "G07000002566.G60000000083.F60000000233"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G60000000083.F60000000231",
+      "id": "F60000000231",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Tag",
+      "name": "Tag (ohne Monat und Jahr)",
+      "definition": "Tag (ohne Monat und Jahr)",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G07000002566.G60000000083",
+      "path": [
+        "G07000002566",
+        "G60000000083"
+      ],
+      "parent": "G07000002566.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G60000000083.F60000000232",
+      "id": "F60000000232",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Monat",
+      "name": "Monat",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G07000002566.G60000000083",
+      "path": [
+        "G07000002566",
+        "G60000000083"
+      ],
+      "parent": "G07000002566.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G60000000083.F60000000233",
+      "id": "F60000000233",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Jahr",
+      "name": "Jahr",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G07000002566.G60000000083",
+      "path": [
+        "G07000002566",
+        "G60000000083"
+      ],
+      "parent": "G07000002566.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000234",
+      "id": "F60000000234",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Geburtsort",
+      "name": "Geburtsort",
+      "definition": "Der Ort der Geburt einer natürlichen Person",
+      "hilfetext": "Geben Sie die Bezeichnung des Ortes an, in dem die Person geboren wurde, Beispiel Düsseldorf.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.Geburt.geburtsort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 4 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.Geburt.geburtsort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000235",
+      "id": "F60000000235",
+      "version": "1.3.0",
+      "kind": "field",
+      "label": "Staat der Geburt",
+      "name": "Geburtsland / Staat der Geburt",
+      "definition": "Der Staat der Geburt einer natürlichen Person.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.3",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_effective": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.3",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F60000000236",
+      "id": "F60000000236",
+      "version": "1.4.0",
+      "kind": "field",
+      "label": "Staatsangehörigkeit",
+      "name": "Staatsangehörigkeit",
+      "definition": "Die Staatsangehörigkeit beschreibt den/die Staat(en), dem/denen ein Bürger juristisch zugehörig ist (Wahlrecht etc.).",
+      "hilfetext": "Wählen Sie aus, welcher Nationalität bzw. welchen Nationalitäten die Person angehört. Es ist auch die Auswahl \"ohne Angabe\" möglich, falls die Person keiner Nationalität angehört.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "XOEV.Kernkomponente.NatuerlichePerson.staatsangehoerigkeit vom 31.08.2020",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staatsangehörigkeit (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehörigkeit)"
+      ],
+      "bezug_effective": [
+        "XOEV.Kernkomponente.NatuerlichePerson.staatsangehoerigkeit vom 31.08.2020",
+        "Codeliste laut XMeld und DSMeld: Codeliste Destatis Staatsangehörigkeit (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehörigkeit)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558",
+      "id": "G07000002558",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Wohnsitz",
+      "name": "Wohnsitz bei Bearbeitung Jagdschein",
+      "definition": "",
+      "hilfetext": "Es ist die Anschrift des Wohnsitzes in Deutschland oder im Ausland anzugeben.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": [
+        "G07000002566.G07000002558.F60000000263",
+        "G07000002566.G07000002558.G60000000086",
+        "G07000002566.G07000002558.G60000000091"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G07000002558.F60000000263",
+      "id": "F60000000263",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Wo befindet sich die Anschrift?",
+      "name": "Abfrage Anschrift Inland oder Ausland",
+      "definition": "",
+      "hilfetext": "Geben Sie an, ob sich die Anschrift im Inland oder im Ausland befindet.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "in Deutschland"
+        },
+        {
+          "code": "002",
+          "name": "außerhalb von Deutschland"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "G07000002566.G07000002558",
+      "path": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "parent": "G07000002566.G07000002558",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086",
+      "id": "G60000000086",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Straßenanschrift",
+      "name": "Anschrift Inland Straßenanschrift",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_effective": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "parent": "G07000002566.G07000002558",
+      "children": [
+        "G07000002566.G07000002558.G60000000086.F60000000243",
+        "G07000002566.G07000002558.G60000000086.F60000000244",
+        "G07000002566.G07000002558.G60000000086.F60000000246",
+        "G07000002566.G07000002558.G60000000086.F60000000247",
+        "G07000002566.G07000002558.G60000000086.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000086"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000086"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000086"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000086"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000086.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000086"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000091",
+      "id": "G60000000091",
+      "version": "3.0.0",
+      "kind": "group",
+      "label": "Auslandsanschrift",
+      "name": "Anschrift Ausland",
+      "definition": "Mit der Auslandsanschrift.Druckbild wird in XInneres ein Datentyp für die Übermittlung einer Anschrift im Ausland bereitgestellt. Anders als bei dem Datentyp Meldeanschrift werden die Bestandteile einer Auslandsanschrift nicht strukturiert, sondern in bis zu fünf Zeilen als Freitext übermittelt. Dies ermöglicht der Sachbearbeitung, die Auslandsanschrift exakt in der Form zu erfassen, in der sie der Sachbearbeitung vorliegt. Die Übermittlung des Zielstaates erfolgt unter Verwendung einer Schlüsseltabelle, um dem Empfänger der elektronischen Mitteilung ein (teil-)automatisierte Weiterbearbeitung zu ermöglichen, z.B. für die Prüfung, ob die Anschrift in der EU liegt.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "Xinneres.Auslandsanschrift.Druckbild Version 8"
+      ],
+      "bezug_effective": [
+        "Xinneres.Auslandsanschrift.Druckbild Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "parent": "G07000002566.G07000002558",
+      "children": [
+        "G07000002566.G07000002558.G60000000091.F60000000261",
+        "G07000002566.G07000002558.G60000000091.G60000000092"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000091.F60000000261",
+      "id": "F60000000261",
+      "version": "2.1.0",
+      "kind": "field",
+      "label": "Staat",
+      "name": "Staat",
+      "definition": "",
+      "hilfetext": "Geben Sie den Namen des Staates bzw. des Landes an, Beispiel Deutschland, Frankreich, ...",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.4",
+        "Codeliste laut Xmeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_effective": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.4",
+        "Codeliste laut Xmeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000091"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000091",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000091.G60000000092",
+      "id": "G60000000092",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Ausländische Anschrift",
+      "name": "Anschriftzone",
+      "definition": "Anschriftzone",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Auslandsanschrift.Druckbild.anschriftzone Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Auslandsanschrift.Druckbild.anschriftzone Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000091"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000091",
+      "children": [
+        "G07000002566.G07000002558.G60000000091.G60000000092.F60000000262"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G07000002558.G60000000091.G60000000092.F60000000262",
+      "id": "F60000000262",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Anschriftzeile",
+      "name": "ZeileAnschrift",
+      "definition": "Hier sind die für die Zustellung erforderlichen Angaben zur Anschriftzone zu übermitteln.",
+      "hilfetext": "Geben Sie die ausländische Anschrift an",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "2:5",
+      "required": false,
+      "bezug": [
+        "XInneres.Auslandsanschrift.Anschriftzone.zeile.anschrift Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Auslandsanschrift.Anschriftzone.zeile.anschrift Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000002558",
+        "G60000000091",
+        "G60000000092"
+      ],
+      "parent": "G07000002566.G07000002558.G60000000091.G60000000092",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000000827",
+      "id": "G07000000827",
+      "version": "1.2.0",
+      "kind": "group",
+      "label": "Kontaktdaten",
+      "name": "Kontaktdaten bei Bearbeitung Jagdschein",
+      "definition": "",
+      "hilfetext": "Sie können hier Kontaktdaten angeben, unter denen Sie erreichbar sind.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": [
+        "G07000002566.G07000000827.F60000000240",
+        "G07000002566.G07000000827.F60000000242"
+      ]
+    },
+    {
+      "path_id": "G07000002566.G07000000827.F60000000240",
+      "id": "F60000000240",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Telefonnummer",
+      "name": "Telefon",
+      "definition": "Telefonnummer",
+      "hilfetext": "Geben Sie bei Telefonnummern innerhalb Deutschlands zuerst die Ortsvorwahl bzw. Mobilnetzvorwahl in Klammern, gefolgt von der Rufnummer an, Beispiel (0211) 12345678.\nGeben Sie bei Telefonnummern außerhalb Deutschlands zuerst den Internationalen Ländercode mit vorgestelltem Plus, gefolgt von der Ortsvorwahl bzw. Mobilnetzvorwahl ohne der führenden Null, gefolgt von der Rufnummer an, Beispiel +49 211 123456789.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "ITU E.123"
+      ],
+      "bezug_effective": [
+        "ITU E.123"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000000827"
+      ],
+      "parent": "G07000002566.G07000000827",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.G07000000827.F60000000242",
+      "id": "F60000000242",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "E-Mail-Adresse",
+      "name": "E-Mail",
+      "definition": "Elektronische Adresse zum Senden und Empfangen von digitalen Nachrichten (E-Mails) z.B. MaxMustermann@email.de",
+      "hilfetext": "Geben Sie eine E-Mail-Adresse an, z.B. Max.Mustermann@email.de",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "RFC 5322",
+        "RFC 5321"
+      ],
+      "bezug_effective": [
+        "RFC 5322",
+        "RFC 5321"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566",
+        "G07000000827"
+      ],
+      "parent": "G07000002566.G07000000827",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F07000001249",
+      "id": "F07000001249",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Ausweisdokument",
+      "name": "Ausweisdokument (Jagdschein)",
+      "definition": "Personalausweis",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 24 (1) VwVfG",
+        "§ 25 (1), (2) VwVfG",
+        "§ 26 (1) VwVfG"
+      ],
+      "bezug_effective": [
+        "§ 24 (1) VwVfG",
+        "§ 25 (1), (2) VwVfG",
+        "§ 26 (1) VwVfG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002566.F07000001283",
+      "id": "F07000001283",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Einverständniserklärung der Erziehungsberechtigten",
+      "name": "Einverständniserklärung der Erziehungsberechtigten bei Anträgen Jagdschein",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 12 VwVfG"
+      ],
+      "bezug_effective": [
+        "§ 12 VwVfG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002566"
+      ],
+      "parent": "G07000002566",
+      "children": []
+    },
+    {
+      "path_id": "G07000002570",
+      "id": "G07000002570",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Angaben zum Jagdschein",
+      "name": "Angaben zum Jagdschein (Änderung)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G07000002570.F07000003635",
+        "G07000002570.F07000003660",
+        "G07000002570.G07000002571"
+      ]
+    },
+    {
+      "path_id": "G07000002570.F07000003635",
+      "id": "F07000003635",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Landkreis, in dem der Jagdschein ausgestellt oder zuletzt verlängert wurde",
+      "name": "Auswahl Landkreis Ausstellung Jagdschein",
+      "definition": "Ein Landkreis (abgekürzt: Lk, Lkr, Lkrs oder Landkrs.) oder Kreis (abgekürzt: Kr) ist nach deutschem Kommunalrecht ein Gemeindeverband und eine Gebietskörperschaft. Er verwaltet sein Gebiet nach den Grundsätzen der kommunalen Selbstverwaltung.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis"
+      ],
+      "bezug_effective": [
+        "urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570"
+      ],
+      "parent": "G07000002570",
+      "children": []
+    },
+    {
+      "path_id": "G07000002570.F07000003660",
+      "id": "F07000003660",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Jagdschein",
+      "name": "Jagdschein",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570"
+      ],
+      "parent": "G07000002570",
+      "children": []
+    },
+    {
+      "path_id": "G07000002570.G07000002571",
+      "id": "G07000002571",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Beantragte Änderung",
+      "name": "Beantragte Änderung (Jagdschein)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570"
+      ],
+      "parent": "G07000002570",
+      "children": [
+        "G07000002570.G07000002571.F07000001236",
+        "G07000002570.G07000002571.G07000002572"
+      ]
+    },
+    {
+      "path_id": "G07000002570.G07000002571.F07000001236",
+      "id": "F07000001236",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Antragsgegenstand",
+      "name": "Antragsgegenstand (Änderung Jagdschein)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Änderung des Namens"
+        },
+        {
+          "code": "002",
+          "name": "Änderung der Anschrift"
+        },
+        {
+          "code": "003",
+          "name": "Änderung des Namens und der Anschrift"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570",
+        "G07000002571"
+      ],
+      "parent": "G07000002570.G07000002571",
+      "children": []
+    },
+    {
+      "path_id": "G07000002570.G07000002571.G07000002572",
+      "id": "G07000002572",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Begründung der Änderung",
+      "name": "Begründung der Änderung (Jagdschein)",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570",
+        "G07000002571"
+      ],
+      "parent": "G07000002570.G07000002571",
+      "children": [
+        "G07000002570.G07000002571.G07000002572.F07000003642",
+        "G07000002570.G07000002571.G07000002572.F60000000296"
+      ]
+    },
+    {
+      "path_id": "G07000002570.G07000002571.G07000002572.F07000003642",
+      "id": "F07000003642",
+      "version": "0.1.0",
+      "kind": "field",
+      "label": "Grund der Änderung",
+      "name": "Grund der Änderung (Jagdschein)",
+      "definition": "",
+      "hilfetext": "Gründe für eine Änderung können z. B. eine Namensänderung oder ein Umzug sein.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000002570",
+        "G07000002571",
+        "G07000002572"
+      ],
+      "parent": "G07000002570.G07000002571.G07000002572",
+      "children": []
+    },
+    {
+      "path_id": "G07000002570.G07000002571.G07000002572.F60000000296",
+      "id": "F60000000296",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Nachweis",
+      "name": "Nachweis",
+      "definition": "Nachweisdokument, um eine Information zu bestätigen, z.B. Sachkundenachweis.",
+      "hilfetext": "Fügen Sie einen Nachweis bei, der die Angaben bestätigt.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "G07000002570.G07000002571.G07000002572",
+      "path": [
+        "G07000002570",
+        "G07000002571",
+        "G07000002572"
+      ],
+      "parent": "G07000002570.G07000002571.G07000002572",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831",
+      "id": "G07000000831",
+      "version": "1.2.0",
+      "kind": "group",
+      "label": "Zu ändernder Eintrag im Jagdschein",
+      "name": "Zu ändernder Eintrag im Jagdschein",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:*",
+      "required": true,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G07000000831.G07000002573",
+        "G07000000831.G07000000832"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573",
+      "id": "G07000002573",
+      "version": "0.1.0",
+      "kind": "group",
+      "label": "Früherer Wohnsitz",
+      "name": "Früherer Wohnsitz (Jagdschein)",
+      "definition": "",
+      "hilfetext": "Es ist der Wohnsitz anzugeben, der derzeit auf dem Jagdschein vermerkt ist.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831"
+      ],
+      "parent": "G07000000831",
+      "children": [
+        "G07000000831.G07000002573.F60000000263",
+        "G07000000831.G07000002573.G60000000088",
+        "G07000000831.G07000002573.G60000000091"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.F60000000263",
+      "id": "F60000000263",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Wo befindet sich die Anschrift?",
+      "name": "Abfrage Anschrift Inland oder Ausland",
+      "definition": "",
+      "hilfetext": "Geben Sie an, ob sich die Anschrift im Inland oder im Ausland befindet.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "in Deutschland"
+        },
+        {
+          "code": "002",
+          "name": "außerhalb von Deutschland"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "G07000000831.G07000002573",
+      "path": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "parent": "G07000000831.G07000002573",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088",
+      "id": "G60000000088",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Anschrift in Deutschland",
+      "name": "Anschrift Inland",
+      "definition": "Angaben für die Adressierung im Inland. Eine Inlandsanschrift ist entweder eine\nStraßenanschrift oder eine Postfachanschrift.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "G07000000831.G07000002573",
+      "path": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "parent": "G07000000831.G07000002573",
+      "children": [
+        "G07000000831.G07000002573.G60000000088.G60000000086",
+        "G07000000831.G07000002573.G60000000088.G60000000087"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "id": "G60000000086",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Straßenanschrift",
+      "name": "Anschrift Inland Straßenanschrift",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_effective": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088",
+      "children": [
+        "G07000000831.G07000002573.G60000000088.G60000000086.F60000000243",
+        "G07000000831.G07000002573.G60000000088.G60000000086.F60000000244",
+        "G07000000831.G07000002573.G60000000088.G60000000086.F60000000246",
+        "G07000000831.G07000002573.G60000000088.G60000000086.F60000000247",
+        "G07000000831.G07000002573.G60000000088.G60000000086.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000086"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000086"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000086"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000086"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000086"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "id": "G60000000087",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Anschrift Postfach",
+      "name": "Anschrift Inland Postfachanschrift",
+      "definition": "Postfachanschrift im Inland mit Postfach(nummer), PLZ und Ort.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.PostalischeInlandsanschrift.Postfachanschrift Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088",
+      "children": [
+        "G07000000831.G07000002573.G60000000088.G60000000087.F60000000249",
+        "G07000000831.G07000002573.G60000000088.G60000000087.F60000000246",
+        "G07000000831.G07000002573.G60000000088.G60000000087.F60000000247"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000249",
+      "id": "F60000000249",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postfach",
+      "name": "Postfach",
+      "definition": "Ein Postfach (oft Postfachnummer) ist ein Schlüssel zur Identifikation eines Postfaches in einer Postfiliale.",
+      "hilfetext": "Geben Sie die Nummer oder Zeichenkette des Postfachs an. Das wird manchmal Postfachnummer genannt.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.PostalischeInlandsanschrift.postfach Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.PostalischeInlandsanschrift.postfach Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000087"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000087"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088",
+        "G60000000087"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000091",
+      "id": "G60000000091",
+      "version": "3.0.0",
+      "kind": "group",
+      "label": "Auslandsanschrift",
+      "name": "Anschrift Ausland",
+      "definition": "Mit der Auslandsanschrift.Druckbild wird in XInneres ein Datentyp für die Übermittlung einer Anschrift im Ausland bereitgestellt. Anders als bei dem Datentyp Meldeanschrift werden die Bestandteile einer Auslandsanschrift nicht strukturiert, sondern in bis zu fünf Zeilen als Freitext übermittelt. Dies ermöglicht der Sachbearbeitung, die Auslandsanschrift exakt in der Form zu erfassen, in der sie der Sachbearbeitung vorliegt. Die Übermittlung des Zielstaates erfolgt unter Verwendung einer Schlüsseltabelle, um dem Empfänger der elektronischen Mitteilung ein (teil-)automatisierte Weiterbearbeitung zu ermöglichen, z.B. für die Prüfung, ob die Anschrift in der EU liegt.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "Xinneres.Auslandsanschrift.Druckbild Version 8"
+      ],
+      "bezug_effective": [
+        "Xinneres.Auslandsanschrift.Druckbild Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "parent": "G07000000831.G07000002573",
+      "children": [
+        "G07000000831.G07000002573.G60000000091.F60000000261",
+        "G07000000831.G07000002573.G60000000091.G60000000092"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000091.F60000000261",
+      "id": "F60000000261",
+      "version": "2.1.0",
+      "kind": "field",
+      "label": "Staat",
+      "name": "Staat",
+      "definition": "",
+      "hilfetext": "Geben Sie den Namen des Staates bzw. des Landes an, Beispiel Deutschland, Frankreich, ...",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.4",
+        "Codeliste laut Xmeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_effective": [
+        "XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.4",
+        "Codeliste laut Xmeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000091"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000091",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000091.G60000000092",
+      "id": "G60000000092",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Ausländische Anschrift",
+      "name": "Anschriftzone",
+      "definition": "Anschriftzone",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Auslandsanschrift.Druckbild.anschriftzone Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Auslandsanschrift.Druckbild.anschriftzone Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000091"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000091",
+      "children": [
+        "G07000000831.G07000002573.G60000000091.G60000000092.F60000000262"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000002573.G60000000091.G60000000092.F60000000262",
+      "id": "F60000000262",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Anschriftzeile",
+      "name": "ZeileAnschrift",
+      "definition": "Hier sind die für die Zustellung erforderlichen Angaben zur Anschriftzone zu übermitteln.",
+      "hilfetext": "Geben Sie die ausländische Anschrift an",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "2:5",
+      "required": false,
+      "bezug": [
+        "XInneres.Auslandsanschrift.Anschriftzone.zeile.anschrift Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Auslandsanschrift.Anschriftzone.zeile.anschrift Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000091",
+        "G60000000092"
+      ],
+      "parent": "G07000000831.G07000002573.G60000000091.G60000000092",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000000832",
+      "id": "G07000000832",
+      "version": "1.2.0",
+      "kind": "group",
+      "label": "Früherer Name",
+      "name": "Früherer Name (Jagdschein)",
+      "definition": "",
+      "hilfetext": "Es ist der Name anzugeben, der derzeit auf dem Jagdschein vermerkt ist.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_effective": [
+        "§ 15 BJagdG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831"
+      ],
+      "parent": "G07000000831",
+      "children": [
+        "G07000000831.G07000000832.F60000000229",
+        "G07000000831.G07000000832.F60000000227",
+        "G07000000831.G07000000832.F60000000228"
+      ]
+    },
+    {
+      "path_id": "G07000000831.G07000000832.F60000000229",
+      "id": "F60000000229",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Doktorgrade",
+      "name": "Doktorgrade",
+      "definition": "Dieses Datenfeld erlaubt die Angabe von Doktorgraden. Es sind nur diejenigen Doktorgrade anzugeben, die in Pässe eingetragen werden dürfen. Sind mehrere Doktorgrade anzugeben, so sind sie durch ein Leerzeichen zu trennen.\n\nZulässig sind derzeit: \"DR.\", \"Dr.\", \"DR.HC.\", \"Dr.hc.\", \"DR.EH.\" und \"Dr.eh.\".",
+      "hilfetext": "Geben Sie anerkannte Doktorgrade an. Zulässig sind: \"Dr.\", \"Dr.hc.\" und \"Dr.eh.\". Wollen Sie mehrere Doktorgrade angeben, trennen Sie diese durch ein Leerzeichen.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 5 (2) Nr. 3 PAuswG vom 21.6.2019",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1 (dort als Titel)",
+        "XMeld.type.NameNatuerlichePerson.doktorgrad Version 2.4.4"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 3 PAuswG vom 21.6.2019",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1 (dort als Titel)",
+        "XMeld.type.NameNatuerlichePerson.doktorgrad Version 2.4.4"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000000832"
+      ],
+      "parent": "G07000000831.G07000000832",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000000832.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000000832"
+      ],
+      "parent": "G07000000831.G07000000832",
+      "children": []
+    },
+    {
+      "path_id": "G07000000831.G07000000832.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G07000000831",
+        "G07000000832"
+      ],
+      "parent": "G07000000831.G07000000832",
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000230",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000229",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.G60000000083",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G60000000083",
+      "child": "G07000002566.G60000000083.F60000000231",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G60000000083",
+      "child": "G07000002566.G60000000083.F60000000232",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G60000000083",
+      "child": "G07000002566.G60000000083.F60000000233",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000234",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000235",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F60000000236",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.G07000002558",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558",
+      "child": "G07000002566.G07000002558.F60000000263",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558",
+      "child": "G07000002566.G07000002558.G60000000086",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "child": "G07000002566.G07000002558.G60000000086.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "child": "G07000002566.G07000002558.G60000000086.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "child": "G07000002566.G07000002558.G60000000086.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "child": "G07000002566.G07000002558.G60000000086.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000086",
+      "child": "G07000002566.G07000002558.G60000000086.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558",
+      "child": "G07000002566.G07000002558.G60000000091",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000091",
+      "child": "G07000002566.G07000002558.G60000000091.F60000000261",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000091",
+      "child": "G07000002566.G07000002558.G60000000091.G60000000092",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.G60000000091.G60000000092",
+      "child": "G07000002566.G07000002558.G60000000091.G60000000092.F60000000262",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.G07000000827",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000000827",
+      "child": "G07000002566.G07000000827.F60000000240",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000000827",
+      "child": "G07000002566.G07000000827.F60000000242",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F07000001249",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566",
+      "child": "G07000002566.F07000001283",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570",
+      "child": "G07000002570.F07000003635",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570",
+      "child": "G07000002570.F07000003660",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570",
+      "child": "G07000002570.G07000002571",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570.G07000002571",
+      "child": "G07000002570.G07000002571.F07000001236",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570.G07000002571",
+      "child": "G07000002570.G07000002571.G07000002572",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570.G07000002571.G07000002572",
+      "child": "G07000002570.G07000002571.G07000002572.F07000003642",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002570.G07000002571.G07000002572",
+      "child": "G07000002570.G07000002571.G07000002572.F60000000296",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831",
+      "child": "G07000000831.G07000002573",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573",
+      "child": "G07000000831.G07000002573.F60000000263",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573",
+      "child": "G07000000831.G07000002573.G60000000088",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000086",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000086.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000249",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000088.G60000000087",
+      "child": "G07000000831.G07000002573.G60000000088.G60000000087.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573",
+      "child": "G07000000831.G07000002573.G60000000091",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000091",
+      "child": "G07000000831.G07000002573.G60000000091.F60000000261",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000091",
+      "child": "G07000000831.G07000002573.G60000000091.G60000000092",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.G60000000091.G60000000092",
+      "child": "G07000000831.G07000002573.G60000000091.G60000000092.F60000000262",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831",
+      "child": "G07000000831.G07000000832",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000000832",
+      "child": "G07000000831.G07000000832.F60000000229",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000000832",
+      "child": "G07000000831.G07000000832.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000000832",
+      "child": "G07000000831.G07000000832.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R07000000781",
+      "text": "WENN G07000002570.G07000002571.F07000001236 Antragsgegenstand (Änderung Jagdschein) = 001 - Änderung des Namens ODER 003 - Änderung des Namens und der Anschrift, DANN zeige G07000000831.G07000000832 Früherer Name (Jagdschein) als Pflicht an, SONST zeige G07000000831.G07000000832 Früherer Name (Jagdschein) nicht an.",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [],
+      "resolved": false
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "unclear"
+      ],
+      "scope": null,
+      "rule_id": "R07000002223",
+      "text": "WENN G07000002570.G07000002571.F07000001236 Antragsgegenstand (Änderung Jagdschein) = 002 - Änderung der Anschrift ODER 003 - Änderung des Namens und der Anschrift, DANN zeige als Pflicht G07000000831.G07000002573 Früherer Wohnsitz (Jagdschein) als Pflicht an, SONST zeige G07000000831.G07000002573 Früherer Wohnsitz (Jagdschein) nicht an.",
+      "bezug": [],
+      "certain": false,
+      "origin": "freitext",
+      "condition": null,
+      "source_id": null,
+      "target_id": "?",
+      "context": [],
+      "resolved": false
+    },
+    {
+      "parent": "G07000002566.G60000000083.F60000000231",
+      "child": "G07000002566.G60000000083.F60000000232",
+      "kind": "condition",
+      "operator": "nicht leer",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Monat muss angegeben werden, wenn Tag (ohne Monat und Jahr) angegeben ist.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not": {
+          "is_empty": {
+            "identifier": "F60000000231"
+          }
+        }
+      },
+      "source_id": "F60000000231",
+      "target_id": "F60000000232",
+      "context": [
+        "G07000002566",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Das angegebene Datum muss ein gültiges Kalenderdatum sein.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "and": [
+              {
+                "is_empty": {
+                  "identifier": "F60000000231"
+                }
+              },
+              {
+                "is_empty": {
+                  "identifier": "F60000000232"
+                }
+              }
+            ]
+          },
+          {
+            "is_valid_date": [
+              {
+                "identifier": "F60000000231"
+              },
+              {
+                "identifier": "F60000000232"
+              },
+              {
+                "identifier": "F60000000233"
+              }
+            ]
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G07000002566",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.F60000000263",
+      "child": "G07000002566.G07000002558.G60000000086",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G07000002558",
+      "text": "Die Feldgruppe 'Anschrift Inland Straßenanschrift' muss befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000086",
+      "context": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.F60000000263",
+      "child": "G07000002566.G07000002558.G60000000086",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G07000002558",
+      "text": "Die Feldgruppe 'Anschrift Inland Straßenanschrift' darf nicht befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' nicht den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000086",
+      "context": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.F60000000263",
+      "child": "G07000002566.G07000002558.G60000000091",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G07000002558",
+      "text": "Die Feldgruppe 'Anschrift Ausland' muss befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000091",
+      "context": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000002566.G07000002558.F60000000263",
+      "child": "G07000002566.G07000002558.G60000000091",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G07000002558",
+      "text": "Die Feldgruppe 'Anschrift Ausland' darf nicht befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' nicht den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000091",
+      "context": [
+        "G07000002566",
+        "G07000002558"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.F60000000263",
+      "child": "G07000000831.G07000002573.G60000000088",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G07000002573",
+      "text": "Die Feldgruppe 'Anschrift Inland' muss befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000088",
+      "context": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.F60000000263",
+      "child": "G07000000831.G07000002573.G60000000088",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G07000002573",
+      "text": "Die Feldgruppe 'Anschrift Inland' darf nicht befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' nicht den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000088",
+      "context": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.F60000000263",
+      "child": "G07000000831.G07000002573.G60000000091",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G07000002573",
+      "text": "Die Feldgruppe 'Anschrift Ausland' muss befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000091",
+      "context": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G07000000831.G07000002573.F60000000263",
+      "child": "G07000000831.G07000002573.G60000000091",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G07000002573",
+      "text": "Die Feldgruppe 'Anschrift Ausland' darf nicht befüllt sein, wenn 'Abfrage Anschrift Inland oder Ausland' nicht den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F60000000263"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F60000000263",
+      "target_id": "G60000000091",
+      "context": [
+        "G07000000831",
+        "G07000002573"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000088",
+      "text": "Es muss entweder die Feldgruppe 'Anschrift Inland Straßenanschrift' oder die Feldgruppe 'Anschrift Inland Postfachanschrift' befüllt werden.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "xor": [
+          {
+            "not": {
+              "is_empty": {
+                "identifier": "self.G60000000086"
+              }
+            }
+          },
+          {
+            "not": {
+              "is_empty": {
+                "identifier": "self.G60000000087"
+              }
+            }
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G07000000831",
+        "G07000002573",
+        "G60000000088"
+      ],
+      "resolved": true
+    }
+  ]
+}

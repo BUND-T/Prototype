@@ -1,0 +1,11 @@
+flowchart TD
+  G05000010674_G05000010410_F05000016302["Beabsichtigen Sie, in EU-Staaten bzw. "] ==>|"= wahr → required"| G05000010674_G05000010410_G05000010411["Tätigkeit in einem EU/EWR-Staat"]
+  G05000010674_G05000010410_F05000016302["Beabsichtigen Sie, in EU-Staaten bzw. "] -.->|"<> wahr → forbidden"| G05000010674_G05000010410_G05000010411["Tätigkeit in einem EU/EWR-Staat"]
+  G05000010674_G05000010410_G05000010411_F05000016488["Beabsichtigen Sie in diesem Staat eine"] ==>|"= wahr → required"| G05000010674_G05000010410_G05000010411_G05000010580["Zweigniederlassung"]
+  G05000010674_G05000010410_G05000010411_F05000016488["Beabsichtigen Sie in diesem Staat eine"] -.->|"<> wahr → forbidden"| G05000010674_G05000010410_G05000010411_G05000010580["Zweigniederlassung"]
+  G05000010676_G05000010410_F05000016302["Beabsichtigen Sie, in EU-Staaten bzw. "] ==>|"= wahr → required"| G05000010676_G05000010410_G05000010411["Tätigkeit in einem EU/EWR-Staat"]
+  G05000010676_G05000010410_F05000016302["Beabsichtigen Sie, in EU-Staaten bzw. "] -.->|"<> wahr → forbidden"| G05000010676_G05000010410_G05000010411["Tätigkeit in einem EU/EWR-Staat"]
+  G05000010676_G05000010410_G05000010411_F05000016488["Beabsichtigen Sie in diesem Staat eine"] ==>|"= wahr → required"| G05000010676_G05000010410_G05000010411_G05000010580["Zweigniederlassung"]
+  G05000010676_G05000010410_G05000010411_F05000016488["Beabsichtigen Sie in diesem Staat eine"] -.->|"<> wahr → forbidden"| G05000010676_G05000010410_G05000010411_G05000010580["Zweigniederlassung"]
+  unclear0["?: Wenn F05000016480 Auswahl der Person === "Natürliche Person""]:::unclear
+  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000

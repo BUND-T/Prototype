@@ -1,0 +1,25 @@
+{
+  "fim_id": "S07000000266",
+  "fim_version": "1.2.0",
+  "name": "Antrag auf Wiedererteilung eines Jugendjagdscheins",
+  "bezeichnung": "Antrag auf Wiedererteilung eines Jugendjagdscheins",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 3 BJagdG vom 25.10.2024",
+    "§ 4 BJagdG vom 25.10.2024",
+    "§ 11 BJagdG vom 25.10.2024",
+    "§ 15 BJagdG vom 25.10.2024",
+    "§ 17 BJagdG vom 25.10.2024",
+    "§ 12 VwVfG vom 25.10.2024",
+    "§ 24 (1) VwVfG vom 15.07.2024",
+    "§ 25 (1), (2) VwVfG vom 15.07.2024",
+    "§ 26 (1) VwVfG vom 15.07.2024"
+  ],
+  "letzte_aenderung": "2026-01-14T07:43:24Z",
+  "n_rules": 5,
+  "source_url": "https://fimportal.de/api/v1/schemas/S07000000266/1.2.0/xdf",
+  "fetched_at": "2026-08-12T13:38:55Z"
+}

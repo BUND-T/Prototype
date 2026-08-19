@@ -1,0 +1,12 @@
+flowchart TD
+  G05000013427_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G05000013427_G60000000083_F60000000232["Monat"]
+  G05000013427_G05000011492_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 001 → required"| G05000013427_G05000011492_G05000013177["Straßenanschrift Inland"]
+  G05000013427_G05000011492_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 001 → forbidden"| G05000013427_G05000011492_G05000013177["Straßenanschrift Inland"]
+  G05000013427_G05000011492_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 002 → required"| G05000013427_G05000011492_G60000000191["Anschrift Ausland"]
+  G05000013427_G05000011492_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 002 → forbidden"| G05000013427_G05000011492_G60000000191["Anschrift Ausland"]
+  G05000012312_F05000018321["Wurde die Sachkenntnis unter Aufsicht "] ==>|"= wahr → required"| G05000012312_F05000018323["Besitzt die Person, unter deren Aufsic"]
+  G05000012312_F05000018321["Wurde die Sachkenntnis unter Aufsicht "] -.->|"<> wahr → forbidden"| G05000012312_F05000018323["Besitzt die Person, unter deren Aufsic"]
+  G05000012313_G05000012347_F05000018379["Die Auskunft aus dem Bundeszentralregi"] ==>|"= 001 → required"| G05000012313_G05000012347_F05000017693["Datum der Beantragung"]
+  G05000012313_G05000012347_F05000018379["Die Auskunft aus dem Bundeszentralregi"] -.->|"<> 001 → forbidden"| G05000012313_G05000012347_F05000017693["Datum der Beantragung"]
+  G05000012313_G05000012347_F05000018379["Die Auskunft aus dem Bundeszentralregi"] ==>|"= 002 → required"| G05000012313_G05000012347_F05000017694["Datum der geplanten Beantragung"]
+  G05000012313_G05000012347_F05000018379["Die Auskunft aus dem Bundeszentralregi"] -.->|"<> 002 → forbidden"| G05000012313_G05000012347_F05000017694["Datum der geplanten Beantragung"]

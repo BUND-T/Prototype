@@ -1,0 +1,19 @@
+{
+  "fim_id": "S05000001300",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis für den Betrieb einer Kindertageseinrichtung",
+  "bezeichnung": "Antrag auf Erlaubnis für den Betrieb einer Kindertageseinrichtung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 45 SGB VIII vom 3.4.2025",
+    "§ 99 (7) SGB VIII vom 3.4.2025",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-02-18T10:54:09Z",
+  "n_rules": 25,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001300/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:31Z"
+}

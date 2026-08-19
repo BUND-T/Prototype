@@ -1,0 +1,19 @@
+{
+  "fim_id": "S00000000371",
+  "fim_version": "1.0.0",
+  "name": "Antrag Genehmigung Ausnahme Beschäftigung schwangere oder stillende Frau zwischen 20 und 22 Uhr",
+  "bezeichnung": "Antrag über die Beschäftigung einer schwangeren oder stillenden Frau zwischen 20 und 22 Uhr",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 28 (1) MuSchG v. 12.12.2019",
+    "§ 14 (1) MuSchG v. 12.12.2019",
+    "§ 10 (1) MuSchG v. 12.12.2019"
+  ],
+  "letzte_aenderung": "2025-06-05T08:36:24Z",
+  "n_rules": 5,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000371/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:18Z"
+}

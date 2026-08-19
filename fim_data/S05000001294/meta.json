@@ -1,0 +1,24 @@
+{
+  "fim_id": "S05000001294",
+  "fim_version": "2.0.0",
+  "name": "Anzeige der Gewerbeabmeldung",
+  "bezeichnung": "Gewerbeabmeldung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "Anlage 3 Nr. 1 GewAnzV vom 11.12.2024",
+    "Anlage 3 Nr. 2 GewAnzV vom 11.12.2024",
+    "§ 14 GewO vom 27.12.2024",
+    "§ 15 GewO vom 27.12.2024",
+    "§ 11 GewO vom 27.12.2024",
+    "Anlage 3 GewAnzV vom 11.12.2024",
+    "§ 8a HGB",
+    "§ 8b HGB"
+  ],
+  "letzte_aenderung": "2025-12-10T13:27:18Z",
+  "n_rules": 40,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001294/2.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:12Z"
+}

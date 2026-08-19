@@ -1,0 +1,20 @@
+{
+  "fim_id": "S02000000112",
+  "fim_version": "1.0.0",
+  "name": "Antrag Erlaubnis Erteilung zum gemeinschaftlichen Eigenanbau und Weitergabe von Cannabis in Anbauvereinigungen",
+  "bezeichnung": "Antrag Cannabis-Anbau in Anbauvereinigungen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000039",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 11 (4) CanG vom 20.06.2024",
+    "§ 12 (1) CanG vom 20.06.2024",
+    "§ 22 (1) CanG vom 20.06.2024",
+    "§ 23 (4) CanG vom 20.06.2024"
+  ],
+  "letzte_aenderung": "2024-11-21T12:09:23Z",
+  "n_rules": 8,
+  "source_url": "https://fimportal.de/api/v1/schemas/S02000000112/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:15:35Z"
+}

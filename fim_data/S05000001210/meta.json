@@ -1,0 +1,17 @@
+{
+  "fim_id": "S05000001210",
+  "fim_version": "3.3.0",
+  "name": "Erlaubnis für Versicherungsberater Erteilung (OZG)",
+  "bezeichnung": "Erlaubnis zur Arbeit als Versicherungsberater beantragen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 34 d Abs. 2 Gewerbeordnung (GewO) § 11a Gewerbeordnung (GewO) § 156 Gewerbeordnung Versicherungsvermitlterverordnung (VersVermV) Versicherungsvertragsgesetz (VVG) Versicherungsaufsichtsgesetz (VAG)"
+  ],
+  "letzte_aenderung": "2025-01-24T12:52:22Z",
+  "n_rules": 28,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001210/3.3.0/xdf",
+  "fetched_at": "2026-08-12T13:16:40Z"
+}

@@ -1,0 +1,1632 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:xdatenfelder.stammdatenschema.0102 xmlns:ns0="urn:xoev-de:fim:standard:xdatenfelder_3.0.0">
+  <ns0:header>
+    <ns0:nachrichtID>fimportal-export</ns0:nachrichtID>
+    <ns0:erstellungszeitpunkt>2026-08-12T13:12:19.016529+00:00</ns0:erstellungszeitpunkt>
+  </ns0:header>
+  <ns0:stammdatenschema>
+    <ns0:identifikation>
+      <ns0:id>S00000000371</ns0:id>
+      <ns0:version>1.0.0</ns0:version>
+    </ns0:identifikation>
+    <ns0:name>Antrag Genehmigung Ausnahme Beschäftigung schwangere oder stillende Frau zwischen 20 und 22 Uhr</ns0:name>
+    <ns0:beschreibung>Leistungsschlüssel: 99006053006000</ns0:beschreibung>
+    <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG v. 12.12.2019</ns0:bezug>
+    <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG v. 12.12.2019</ns0:bezug>
+    <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__10.html">§ 10 (1) MuSchG v. 12.12.2019</ns0:bezug>
+    <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+      <code>6</code>
+    </ns0:freigabestatus>
+    <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+    <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+    <ns0:versionshinweis>fachlich freigegebene Version (Goldüberführung)</ns0:versionshinweis>
+    <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+    <ns0:letzteAenderung>2025-06-05T08:36:24+00:00</ns0:letzteAenderung>
+    <ns0:stichwort uri="Detaillierungsstufe">Stamminformation</ns0:stichwort>
+    <ns0:stichwort uri="Anwendungsgebiet">Bundesrepublik</ns0:stichwort>
+    <ns0:bezeichnung>Antrag über die Beschäftigung einer schwangeren oder stillenden Frau zwischen 20 und 22 Uhr</ns0:bezeichnung>
+    <ns0:ableitungsmodifikationenStruktur listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenStruktur" listVersionID="1.0">
+      <code>3</code>
+    </ns0:ableitungsmodifikationenStruktur>
+    <ns0:ableitungsmodifikationenRepraesentation listURI="urn:xoev-de:fim:codeliste:xdatenfelder.ableitungsmodifikationenRepraesentation" listVersionID="1.0">
+      <code>1</code>
+    </ns0:ableitungsmodifikationenRepraesentation>
+    <ns0:dokumentsteckbrief>
+      <ns0:id>D99000000001</ns0:id>
+    </ns0:dokumentsteckbrief>
+    <ns0:struktur>
+      <ns0:anzahl>1:1</ns0:anzahl>
+      <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+      <ns0:enthaelt>
+        <ns0:datenfeldgruppe>
+          <ns0:identifikation>
+            <ns0:id>G00000002191</ns0:id>
+            <ns0:version>1.0.0</ns0:version>
+          </ns0:identifikation>
+          <ns0:name>Angaben zum antragstellenden Unternehmen</ns0:name>
+          <ns0:definition>Diese Gruppe enthält Angaben zum Unternehmen (Eingetragener Name und Straßenanschrift Inland), basierend auf BOB-Elementen.</ns0:definition>
+          <ns0:bezug>wird im Verwendungsbezug ergänzt</ns0:bezug>
+          <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+            <code>3</code>
+          </ns0:freigabestatus>
+          <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+          <ns0:statusGesetztDurch>Bundesredaktion</ns0:statusGesetztDurch>
+          <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+          <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+          <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+          <ns0:relation>
+            <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+              <code>ABL</code>
+            </ns0:praedikat>
+            <ns0:objekt>
+              <ns0:id>G17000005420</ns0:id>
+              <ns0:version>1.0.0</ns0:version>
+            </ns0:objekt>
+          </ns0:relation>
+          <ns0:bezeichnungEingabe>Angaben zum Unternehmen</ns0:bezeichnungEingabe>
+          <ns0:bezeichnungAusgabe>Angaben zum Unternehmen</ns0:bezeichnungAusgabe>
+          <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+            <code>HAR</code>
+          </ns0:schemaelementart>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/sprengg_1976/__21.html">§ 21 (4) SprengG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F60000000319</ns0:id>
+                  <ns0:version>1.3.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Eingetragener Name / Organisationsname</ns0:name>
+                <ns0:beschreibung>Laut XGewerbeanzeige.Betrieb.eingetragenerName soll der eingetragene Name 1-1000 Zeichen betragen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000319
+				Version: 1.3
+				Status: aktiv</ns0:beschreibung>
+                <ns0:definition>Die im Handels- oder Genossenschaftsregister eingetragene Firma eines wirtschaftlich Tätigen bzw. einer wirtschaftlichen Tätigkeit (z. B. eingetragenes Einzelunternehmen,eingetragene Zweigniederlassung) bzw. der im Vereinsregister, Partnerschaftsregister oder Stiftungsverzeichnis eingetragene Name.
+
+Der eingetragene Name kann auch in einem Register festgehalten sein, welches in einem anderen Staat geführt wird.
+
+Der eingetragene Name ist abzugrenzen von der Geschäftsbezeichnung. 
+
+Das Kerndatenobjekt bildet auch die Namen juristischer Personen, Personengesellschaften oder sonstiger Personenvereinigungen ab, die nicht in einem Register, aber kraft Gesetz geführt werden.</ns0:definition>
+                <ns0:bezug>XOEV.Kernkomponente.NameOrganisation.name vom 01.08.2017</ns0:bezug>
+                <ns0:bezug>XGewerbeanzeige.Betrieb.eingetragenerName Version 2.2</ns0:bezug>
+                <ns0:bezug>XUnternehmen.Kerndatenmodell.Eingetragener Name Version 1.1</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2023-05-17</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Schreibfehler in Bezeichnung korrigiert</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Eingetragener Name</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Eingetragener Name</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>HAR</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Geben Sie den im Handelsregister, im Genossenschaftsregister, im Vereinsregister oder im Stiftungsverzeichnis eingetragenen Namen mit Rechtsform an, soweit eine Eintragung vorliegt.</ns0:hilfetextEingabe>
+                <ns0:hilfetextAusgabe>Im Handelsregister, im Genossenschaftsregister, im Vereinsregister oder im Stiftungsverzeichnis eingetragener Namen mit Rechtsform.</ns0:hilfetextAusgabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:praezisierung minLength="1" maxLength="1000" />
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/sprengg_1976/__21.html">§ 21 (4) SprengG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeldgruppe>
+                <ns0:identifikation>
+                  <ns0:id>G60000000086</ns0:id>
+                  <ns0:version>2.1.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Anschrift Inland Straßenanschrift</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: G60000086
+				Version: 2.1
+				Status: aktiv</ns0:beschreibung>
+                <ns0:definition>Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.</ns0:definition>
+                <ns0:bezug>urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2023-11-06</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2023-11-06</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Straßenanschrift</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Straßenanschrift</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>HAR</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.</ns0:hilfetextEingabe>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000243</ns0:id>
+                        <ns0:version>1.2.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Straße</ns0:name>
+                      <ns0:beschreibung>Kompatibilität zu EPA in TR XhD v 1.4 sollte Feldlänge min. 50. Bei XInneres 8 ist die Feldlänge &lt;= 55 Zeichen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000243
+				Version: 1.2
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:bezug>XInneres.Meldeanschrift.strasse Version 8</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2023-11-08</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2025-01-09T07:46:45+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Straße</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Straße</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße</ns0:hilfetextEingabe>
+                      <ns0:hilfetextAusgabe>Dieses Feld enthält den ungekürzten Straßennamen.</ns0:hilfetextAusgabe>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minLength="1" maxLength="55" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>0:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000244</ns0:id>
+                        <ns0:version>1.2.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Hausnummer</ns0:name>
+                      <ns0:beschreibung>Die Modellierung aus XInneres wurde nicht 1:1 übernommen, um die Komplexität für die Ausfüllenden nicht zu hoch zu setzen. Es wurde darauf verzichtet für das Ende von Hausnummernbereichen eigene Felder zu modellieren. Daher ist die Feldlänge hier heraufgesetzt und eine entsprechende Beschreibung wurde eingefügt. Die Feldlänge setzt sich aus der maximalen Feldlänge zweier Hausnummern (jeweils 4), zweier Buchstaben (jeweils 1) und eines Zeichen (-) zusammen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000244
+				Version: 1.2
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d</ns0:definition>
+                      <ns0:bezug>XInneres.Meldeanschrift.hausnummer Version 8</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2021-03-31</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:versionshinweis>Hausnummerzusatz aufgenommen</ns0:versionshinweis>
+                      <ns0:veroeffentlichungsdatum>2021-03-31</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2025-01-09T07:48:26+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Hausnummer</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Hausnummer</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.</ns0:hilfetextEingabe>
+                      <ns0:hilfetextAusgabe>Dieses Feld enthält die Ziffern und Buchstaben der Hausnummer der Anschrift.</ns0:hilfetextAusgabe>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minLength="1" maxLength="11" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000246</ns0:id>
+                        <ns0:version>1.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Postleitzahl</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000246
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Es ist die Postleitzahl anzugeben.
+
+Der Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.</ns0:definition>
+                      <ns0:bezug>XInneres.Meldeanschrift.postleitzahl Version 8</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2025-01-09T07:48:26+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Postleitzahl</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Postleitzahl</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.</ns0:hilfetextEingabe>
+                      <ns0:hilfetextAusgabe>Dieses Feld enthält die Postleitzahl des Ortes.</ns0:hilfetextAusgabe>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minLength="5" maxLength="5" pattern="([0]{1}[1-9]{1}|[1-9]{1}[0-9]{1})[0-9]{3}" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000247</ns0:id>
+                        <ns0:version>2.2.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Ort</ns0:name>
+                      <ns0:beschreibung>Kompatibilität zu EPA in TR XhD v 1.4 sollte Feldlänge min. 44. Laut PAuswV 2*25 = 50 Zeichen. Laut Xinneres.Meldeanschrift.Wohnort Version 8 = 40 Zeichen.
+Laut BSI TR-03123 kleiner gleich 105 Zeichen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000247
+				Version: 2.2
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).</ns0:definition>
+                      <ns0:bezug>§ 5 (2) Nr. 9 PAuswG vom 21.6.2019</ns0:bezug>
+                      <ns0:bezug>Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017</ns0:bezug>
+                      <ns0:bezug>Tabelle 11 BSI TR-03123, Version 1.5.1</ns0:bezug>
+                      <ns0:bezug>Xinneres.Meldeanschrift.Wohnort Version 8</ns0:bezug>
+                      <ns0:bezug>XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2023-11-08</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2025-01-09T07:46:45+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Ort</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Ort</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.</ns0:hilfetextEingabe>
+                      <ns0:hilfetextAusgabe>Dieses Feld enthält den Namen der Ortschaft, Gemeinde oder Stadt, ohne Verwendung von Ortsteilen.</ns0:hilfetextAusgabe>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minLength="1" maxLength="50" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>0:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000248</ns0:id>
+                        <ns0:version>1.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Anschrift Zusatzangaben</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000248
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.
+</ns0:definition>
+                      <ns0:bezug>XInneres.Meldeanschrift.zusatzangaben Version 8</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Adresszusatz</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Adresszusatz</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.</ns0:hilfetextEingabe>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minLength="1" maxLength="21" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+              </ns0:datenfeldgruppe>
+            </ns0:enthaelt>
+          </ns0:struktur>
+        </ns0:datenfeldgruppe>
+      </ns0:enthaelt>
+    </ns0:struktur>
+    <ns0:struktur>
+      <ns0:anzahl>1:1</ns0:anzahl>
+      <ns0:enthaelt>
+        <ns0:datenfeldgruppe>
+          <ns0:identifikation>
+            <ns0:id>G00000002193</ns0:id>
+            <ns0:version>1.0.0</ns0:version>
+          </ns0:identifikation>
+          <ns0:name>Angaben zur schwangeren oder stillenden Frau</ns0:name>
+          <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+          <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+            <code>6</code>
+          </ns0:freigabestatus>
+          <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+          <ns0:statusGesetztDurch>BMFSFJ</ns0:statusGesetztDurch>
+          <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+          <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+          <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+          <ns0:relation>
+            <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+              <code>ABL</code>
+            </ns0:praedikat>
+            <ns0:objekt>
+              <ns0:id>G17000005416</ns0:id>
+              <ns0:version>1.0.0</ns0:version>
+            </ns0:objekt>
+          </ns0:relation>
+          <ns0:bezeichnungEingabe>Angaben zur schwangeren oder stillenden Frau</ns0:bezeichnungEingabe>
+          <ns0:bezeichnungAusgabe>Angaben zur schwangeren oder stillenden Frau</ns0:bezeichnungAusgabe>
+          <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+            <code>RNG</code>
+          </ns0:schemaelementart>
+          <ns0:regel>
+            <ns0:identifikation>
+              <ns0:id>R00000002565</ns0:id>
+              <ns0:version>1.0.0</ns0:version>
+            </ns0:identifikation>
+            <ns0:name>Angaben zur schwangeren oder stillenden Frau II</ns0:name>
+            <ns0:freitextRegel>WENN F00000003391 'Beschäftigungsverhältnis' = 999 'Sonstiges Beschäftigungsverhältnis', DANN aktiviere F17000009298 'Beschreibung sonstiges Beschäftigungsverhältnis'.
+
+WENN F00000003391 'Beschäftigungsverhältnis' = alle anderen möglichen Ausprägungen der Codeliste , DANN deaktiviere F17000009298 'Beschreibung sonstiges Beschäftigungsverhältnis'.</ns0:freitextRegel>
+            <ns0:fachlicherErsteller>BMFSFJ</ns0:fachlicherErsteller>
+            <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+            <ns0:typ listURI="urn:xoev-de:fim:codeliste:xdatenfelder.regeltyp" listVersionID="1.0">
+              <code>K</code>
+            </ns0:typ>
+          </ns0:regel>
+          <ns0:regel>
+            <ns0:identifikation>
+              <ns0:id>R00000002566</ns0:id>
+              <ns0:version>1.0.0</ns0:version>
+            </ns0:identifikation>
+            <ns0:name>Angaben zur schwangeren oder stillenden Frau I</ns0:name>
+            <ns0:freitextRegel>WENN F17000009294 'Status der Frau (schwanger / stillend)' = 001 'schwanger', DANN aktiviere F17000009295 '(voraussichtlicher) Entbindungstermin' UND mache es zu einer Pflichtangabe UND deaktiviere F17000009296 'tatsächlicher Entbindungstermin'.
+
+WENN F17000009294 'Status der Frau (schwanger / stillend)' = 002 'stillend', DANN deaktiviere F17000009295 '(voraussichtlicher) Entbindungstermin' UND aktiviere F17000009296 'tatsächlicher Entbindungstermin' UND mache es zu einer Pflichtangabe.</ns0:freitextRegel>
+            <ns0:fachlicherErsteller>BMFSFJ</ns0:fachlicherErsteller>
+            <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+            <ns0:typ listURI="urn:xoev-de:fim:codeliste:xdatenfelder.regeltyp" listVersionID="1.0">
+              <code>K</code>
+            </ns0:typ>
+          </ns0:regel>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F60000000228</ns0:id>
+                  <ns0:version>2.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Vornamen</ns0:name>
+                <ns0:beschreibung>Laut BSI TR-03123 soll Vorname &lt;= 80 Zeichen betragen.
+Laut PAuswV soll Vorname nicht mehr als 26 Zeichen bzw. 2*40 = 80 Zeichen betragen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000228
+				Version: 2.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:definition>Plural zu Vorname</ns0:definition>
+                <ns0:bezug>§ 5 (2) Nr. 2 PAuswG vom 21.6.2019</ns0:bezug>
+                <ns0:bezug>Anhang 3 PAuswV vom 28.9.2017</ns0:bezug>
+                <ns0:bezug>Tabelle 9 BSI TR-03123 Version 1.5.1</ns0:bezug>
+                <ns0:bezug>XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2023-11-08</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>initiale Version erstellt</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-01-07T19:34:36+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Vornamen</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Vornamen</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>HAR</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.</ns0:hilfetextEingabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:praezisierung minLength="1" maxLength="80" />
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F60000000227</ns0:id>
+                  <ns0:version>1.1.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Familienname</ns0:name>
+                <ns0:beschreibung>Laut BSI TR-03123 soll die Gesamtlänge für Familienname, Titel und Geburtsname nicht mehr als 120 Zeichen betragen. Laut PAuswV soll Name (Familienname und Geburtsname) nicht mehr als 2*26 = 52 Zeichen bzw. 3*40 = 120 Zeichen betragen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000227
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                <ns0:definition>Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.</ns0:definition>
+                <ns0:bezug>§ 5 (2) Nr. 1 PAuswG vom 21.6.2019</ns0:bezug>
+                <ns0:bezug>Anhang 3 PAuswV vom 28.9.2017</ns0:bezug>
+                <ns0:bezug>Tabelle 9 BSI TR-03123 Version 1.5.1</ns0:bezug>
+                <ns0:bezug>XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-01-09T07:48:26+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Familienname</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Familienname</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>HAR</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.</ns0:hilfetextEingabe>
+                <ns0:hilfetextAusgabe>Dieses Feld enthält den Nachnamen, Familiennamen bzw. Zunamen.</ns0:hilfetextAusgabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:praezisierung minLength="1" maxLength="120" />
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeldgruppe>
+                <ns0:identifikation>
+                  <ns0:id>G60000000083</ns0:id>
+                  <ns0:version>2.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Geburtsdatum (teilbekannt)</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: G60000083
+				Version: 2.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:definition>Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.</ns0:definition>
+                <ns0:bezug>§ 5 (2) PAuswG vom 21.6.2019</ns0:bezug>
+                <ns0:bezug>Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017</ns0:bezug>
+                <ns0:bezug>Tabelle 9 BSI TR-03123 Version 1.5.1</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2023-11-06</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>initiale Version erstellt</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2023-11-06</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Geburtsdatum</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Geburtsdatum</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>HAR</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.</ns0:hilfetextEingabe>
+                <ns0:hilfetextAusgabe>Falls der Tag oder der Monat der Geburt unbekannt sind, können diese leer sein.</ns0:hilfetextAusgabe>
+                <ns0:regel>
+                  <ns0:identifikation>
+                    <ns0:id>R60000000023</ns0:id>
+                    <ns0:version>2.0.0</ns0:version>
+                  </ns0:identifikation>
+                  <ns0:name>MonatLeer</ns0:name>
+                  <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: R60000023
+				Version: 2.0
+				Status: aktiv</ns0:beschreibung>
+                  <ns0:freitextRegel>Wenn F60000000231 "Tag (ohne Monat und Jahr)" nicht leer, dann darf F60000000232 "Monat" nicht leer sein.</ns0:freitextRegel>
+                  <ns0:fachlicherErsteller>FIM Baustein Datenfelder</ns0:fachlicherErsteller>
+                  <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                  <ns0:typ listURI="urn:xoev-de:fim:codeliste:xdatenfelder.regeltyp" listVersionID="1.0">
+                    <code>K</code>
+                  </ns0:typ>
+                </ns0:regel>
+                <ns0:regel>
+                  <ns0:identifikation>
+                    <ns0:id>R60000000024</ns0:id>
+                    <ns0:version>2.0.0</ns0:version>
+                  </ns0:identifikation>
+                  <ns0:name>Datumkorrekt</ns0:name>
+                  <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: R60000024
+				Version: 2.0
+				Status: aktiv</ns0:beschreibung>
+                  <ns0:freitextRegel>Wenn alle drei Felder F60000000231 "Tag (ohne Monat und Jahr)", F60000000232 "Monat" und F60000000233 "Jahr" befüllt sind, muss die Validität des sich ergebenden Kalenderdatums sichergestellt werden. D.h. es muss z.B. 30.02.2019 oder der 31.11.1968 verhindert werden, da diese keine korrekten Datumsangaben sind.</ns0:freitextRegel>
+                  <ns0:fachlicherErsteller>FIM Baustein Datenfelder</ns0:fachlicherErsteller>
+                  <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                  <ns0:typ listURI="urn:xoev-de:fim:codeliste:xdatenfelder.regeltyp" listVersionID="1.0">
+                    <code>K</code>
+                  </ns0:typ>
+                </ns0:regel>
+                <ns0:struktur>
+                  <ns0:anzahl>0:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000231</ns0:id>
+                        <ns0:version>1.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Tag (ohne Monat und Jahr)</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000231
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Tag (ohne Monat und Jahr)</ns0:definition>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Tag</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Tag</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>num_int</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minValue="1" maxValue="31" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>0:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000232</ns0:id>
+                        <ns0:version>1.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Monat</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000232
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Monat</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Monat</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>num_int</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minValue="1" maxValue="12" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F60000000233</ns0:id>
+                        <ns0:version>1.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Jahr</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000233
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Jahr</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Jahr</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>input</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>num_int</code>
+                      </ns0:datentyp>
+                      <ns0:praezisierung minValue="1850" maxValue="2080" />
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+              </ns0:datenfeldgruppe>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+            <ns0:enthaelt>
+              <ns0:datenfeldgruppe>
+                <ns0:identifikation>
+                  <ns0:id>G00000002194</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Ort der Beschäftigung</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__17.html">§ 17 (2) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>Bundesredaktion</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>G17000005480</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>Ort der Beschäftigung</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Ort der Beschäftigung</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:regel>
+                  <ns0:identifikation>
+                    <ns0:id>R00000002568</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:identifikation>
+                  <ns0:name>Ort der Beschäftigung</ns0:name>
+                  <ns0:freitextRegel>WENN F00000003390 'Abfrage Beschäftigungsort' = 001 'Am angegebenen Unternehmensstandort', DANN deaktiviere G60000000086 'Anschrift Inland Straßenanschrift'.
+
+WENN F00000003390 'Abfrage Beschäftigungsort' = 002 'An einer anderen Betriebsstätte', DANN aktiviere G60000000086 'Anschrift Inland Straßenanschrift' und mache sie zu einer Pflichtangabe.</ns0:freitextRegel>
+                  <ns0:fachlicherErsteller>BMFSFJ</ns0:fachlicherErsteller>
+                  <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                  <ns0:typ listURI="urn:xoev-de:fim:codeliste:xdatenfelder.regeltyp" listVersionID="1.0">
+                    <code>K</code>
+                  </ns0:typ>
+                </ns0:regel>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:enthaelt>
+                    <ns0:datenfeld>
+                      <ns0:identifikation>
+                        <ns0:id>F00000003390</ns0:id>
+                        <ns0:version>1.0.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Abfrage Beschäftigungsort</ns0:name>
+                      <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__17.html">§ 17 (2) MuSchG</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>Bundesredaktion</ns0:statusGesetztDurch>
+                      <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                      <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                      <ns0:relation>
+                        <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                          <code>ABL</code>
+                        </ns0:praedikat>
+                        <ns0:objekt>
+                          <ns0:id>F17000009293</ns0:id>
+                          <ns0:version>1.0.0</ns0:version>
+                        </ns0:objekt>
+                      </ns0:relation>
+                      <ns0:bezeichnungEingabe>Wo befindet sich der Beschäftigungsort der Frau?</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Beschäftigungsort der Frau</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>RNG</code>
+                      </ns0:schemaelementart>
+                      <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                        <code>select</code>
+                      </ns0:feldart>
+                      <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                        <code>text</code>
+                      </ns0:datentyp>
+                      <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                        <code>keine</code>
+                      </ns0:vorbefuellung>
+                      <ns0:werte>
+                        <ns0:wert>
+                          <ns0:code>001</ns0:code>
+                          <ns0:name>Am angegebenen Unternehmensstandort</ns0:name>
+                        </ns0:wert>
+                        <ns0:wert>
+                          <ns0:code>002</ns0:code>
+                          <ns0:name>An einer anderen Betriebsstätte</ns0:name>
+                        </ns0:wert>
+                      </ns0:werte>
+                    </ns0:datenfeld>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+                <ns0:struktur>
+                  <ns0:anzahl>1:1</ns0:anzahl>
+                  <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__17.html">§ 17 (2) MuSchG</ns0:bezug>
+                  <ns0:enthaelt>
+                    <ns0:datenfeldgruppe>
+                      <ns0:identifikation>
+                        <ns0:id>G60000000086</ns0:id>
+                        <ns0:version>2.1.0</ns0:version>
+                      </ns0:identifikation>
+                      <ns0:name>Anschrift Inland Straßenanschrift</ns0:name>
+                      <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: G60000086
+				Version: 2.1
+				Status: aktiv</ns0:beschreibung>
+                      <ns0:definition>Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.</ns0:definition>
+                      <ns0:bezug>urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift</ns0:bezug>
+                      <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                        <code>6</code>
+                      </ns0:freigabestatus>
+                      <ns0:statusGesetztAm>2023-11-06</ns0:statusGesetztAm>
+                      <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                      <ns0:veroeffentlichungsdatum>2023-11-06</ns0:veroeffentlichungsdatum>
+                      <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                      <ns0:bezeichnungEingabe>Straßenanschrift</ns0:bezeichnungEingabe>
+                      <ns0:bezeichnungAusgabe>Straßenanschrift</ns0:bezeichnungAusgabe>
+                      <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                        <code>HAR</code>
+                      </ns0:schemaelementart>
+                      <ns0:hilfetextEingabe>Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.</ns0:hilfetextEingabe>
+                      <ns0:struktur>
+                        <ns0:anzahl>1:1</ns0:anzahl>
+                        <ns0:enthaelt>
+                          <ns0:datenfeld>
+                            <ns0:identifikation>
+                              <ns0:id>F60000000243</ns0:id>
+                              <ns0:version>1.2.0</ns0:version>
+                            </ns0:identifikation>
+                            <ns0:name>Straße</ns0:name>
+                            <ns0:beschreibung>Kompatibilität zu EPA in TR XhD v 1.4 sollte Feldlänge min. 50. Bei XInneres 8 ist die Feldlänge &lt;= 55 Zeichen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000243
+				Version: 1.2
+				Status: aktiv</ns0:beschreibung>
+                            <ns0:bezug>XInneres.Meldeanschrift.strasse Version 8</ns0:bezug>
+                            <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                              <code>6</code>
+                            </ns0:freigabestatus>
+                            <ns0:statusGesetztAm>2023-11-08</ns0:statusGesetztAm>
+                            <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                            <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                            <ns0:letzteAenderung>2025-01-09T07:46:45+00:00</ns0:letzteAenderung>
+                            <ns0:bezeichnungEingabe>Straße</ns0:bezeichnungEingabe>
+                            <ns0:bezeichnungAusgabe>Straße</ns0:bezeichnungAusgabe>
+                            <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                              <code>HAR</code>
+                            </ns0:schemaelementart>
+                            <ns0:hilfetextEingabe>Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße</ns0:hilfetextEingabe>
+                            <ns0:hilfetextAusgabe>Dieses Feld enthält den ungekürzten Straßennamen.</ns0:hilfetextAusgabe>
+                            <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                              <code>input</code>
+                            </ns0:feldart>
+                            <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                              <code>text</code>
+                            </ns0:datentyp>
+                            <ns0:praezisierung minLength="1" maxLength="55" />
+                            <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                              <code>keine</code>
+                            </ns0:vorbefuellung>
+                          </ns0:datenfeld>
+                        </ns0:enthaelt>
+                      </ns0:struktur>
+                      <ns0:struktur>
+                        <ns0:anzahl>0:1</ns0:anzahl>
+                        <ns0:enthaelt>
+                          <ns0:datenfeld>
+                            <ns0:identifikation>
+                              <ns0:id>F60000000244</ns0:id>
+                              <ns0:version>1.2.0</ns0:version>
+                            </ns0:identifikation>
+                            <ns0:name>Hausnummer</ns0:name>
+                            <ns0:beschreibung>Die Modellierung aus XInneres wurde nicht 1:1 übernommen, um die Komplexität für die Ausfüllenden nicht zu hoch zu setzen. Es wurde darauf verzichtet für das Ende von Hausnummernbereichen eigene Felder zu modellieren. Daher ist die Feldlänge hier heraufgesetzt und eine entsprechende Beschreibung wurde eingefügt. Die Feldlänge setzt sich aus der maximalen Feldlänge zweier Hausnummern (jeweils 4), zweier Buchstaben (jeweils 1) und eines Zeichen (-) zusammen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000244
+				Version: 1.2
+				Status: aktiv</ns0:beschreibung>
+                            <ns0:definition>Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d</ns0:definition>
+                            <ns0:bezug>XInneres.Meldeanschrift.hausnummer Version 8</ns0:bezug>
+                            <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                              <code>6</code>
+                            </ns0:freigabestatus>
+                            <ns0:statusGesetztAm>2021-03-31</ns0:statusGesetztAm>
+                            <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                            <ns0:versionshinweis>Hausnummerzusatz aufgenommen</ns0:versionshinweis>
+                            <ns0:veroeffentlichungsdatum>2021-03-31</ns0:veroeffentlichungsdatum>
+                            <ns0:letzteAenderung>2025-01-09T07:48:26+00:00</ns0:letzteAenderung>
+                            <ns0:bezeichnungEingabe>Hausnummer</ns0:bezeichnungEingabe>
+                            <ns0:bezeichnungAusgabe>Hausnummer</ns0:bezeichnungAusgabe>
+                            <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                              <code>HAR</code>
+                            </ns0:schemaelementart>
+                            <ns0:hilfetextEingabe>Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.</ns0:hilfetextEingabe>
+                            <ns0:hilfetextAusgabe>Dieses Feld enthält die Ziffern und Buchstaben der Hausnummer der Anschrift.</ns0:hilfetextAusgabe>
+                            <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                              <code>input</code>
+                            </ns0:feldart>
+                            <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                              <code>text</code>
+                            </ns0:datentyp>
+                            <ns0:praezisierung minLength="1" maxLength="11" />
+                            <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                              <code>keine</code>
+                            </ns0:vorbefuellung>
+                          </ns0:datenfeld>
+                        </ns0:enthaelt>
+                      </ns0:struktur>
+                      <ns0:struktur>
+                        <ns0:anzahl>1:1</ns0:anzahl>
+                        <ns0:enthaelt>
+                          <ns0:datenfeld>
+                            <ns0:identifikation>
+                              <ns0:id>F60000000246</ns0:id>
+                              <ns0:version>1.1.0</ns0:version>
+                            </ns0:identifikation>
+                            <ns0:name>Postleitzahl</ns0:name>
+                            <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000246
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                            <ns0:definition>Es ist die Postleitzahl anzugeben.
+
+Der Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.</ns0:definition>
+                            <ns0:bezug>XInneres.Meldeanschrift.postleitzahl Version 8</ns0:bezug>
+                            <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                              <code>6</code>
+                            </ns0:freigabestatus>
+                            <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                            <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                            <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                            <ns0:letzteAenderung>2025-01-09T07:48:26+00:00</ns0:letzteAenderung>
+                            <ns0:bezeichnungEingabe>Postleitzahl</ns0:bezeichnungEingabe>
+                            <ns0:bezeichnungAusgabe>Postleitzahl</ns0:bezeichnungAusgabe>
+                            <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                              <code>HAR</code>
+                            </ns0:schemaelementart>
+                            <ns0:hilfetextEingabe>Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.</ns0:hilfetextEingabe>
+                            <ns0:hilfetextAusgabe>Dieses Feld enthält die Postleitzahl des Ortes.</ns0:hilfetextAusgabe>
+                            <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                              <code>input</code>
+                            </ns0:feldart>
+                            <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                              <code>text</code>
+                            </ns0:datentyp>
+                            <ns0:praezisierung minLength="5" maxLength="5" pattern="([0]{1}[1-9]{1}|[1-9]{1}[0-9]{1})[0-9]{3}" />
+                            <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                              <code>keine</code>
+                            </ns0:vorbefuellung>
+                          </ns0:datenfeld>
+                        </ns0:enthaelt>
+                      </ns0:struktur>
+                      <ns0:struktur>
+                        <ns0:anzahl>1:1</ns0:anzahl>
+                        <ns0:enthaelt>
+                          <ns0:datenfeld>
+                            <ns0:identifikation>
+                              <ns0:id>F60000000247</ns0:id>
+                              <ns0:version>2.2.0</ns0:version>
+                            </ns0:identifikation>
+                            <ns0:name>Ort</ns0:name>
+                            <ns0:beschreibung>Kompatibilität zu EPA in TR XhD v 1.4 sollte Feldlänge min. 44. Laut PAuswV 2*25 = 50 Zeichen. Laut Xinneres.Meldeanschrift.Wohnort Version 8 = 40 Zeichen.
+Laut BSI TR-03123 kleiner gleich 105 Zeichen.
+					
+				Originalwerte der XDF2-Datei:
+				ID: F60000247
+				Version: 2.2
+				Status: aktiv</ns0:beschreibung>
+                            <ns0:definition>Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).</ns0:definition>
+                            <ns0:bezug>§ 5 (2) Nr. 9 PAuswG vom 21.6.2019</ns0:bezug>
+                            <ns0:bezug>Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017</ns0:bezug>
+                            <ns0:bezug>Tabelle 11 BSI TR-03123, Version 1.5.1</ns0:bezug>
+                            <ns0:bezug>Xinneres.Meldeanschrift.Wohnort Version 8</ns0:bezug>
+                            <ns0:bezug>XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020</ns0:bezug>
+                            <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                              <code>6</code>
+                            </ns0:freigabestatus>
+                            <ns0:statusGesetztAm>2023-11-08</ns0:statusGesetztAm>
+                            <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                            <ns0:veroeffentlichungsdatum>2023-11-08</ns0:veroeffentlichungsdatum>
+                            <ns0:letzteAenderung>2025-01-09T07:46:45+00:00</ns0:letzteAenderung>
+                            <ns0:bezeichnungEingabe>Ort</ns0:bezeichnungEingabe>
+                            <ns0:bezeichnungAusgabe>Ort</ns0:bezeichnungAusgabe>
+                            <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                              <code>HAR</code>
+                            </ns0:schemaelementart>
+                            <ns0:hilfetextEingabe>Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.</ns0:hilfetextEingabe>
+                            <ns0:hilfetextAusgabe>Dieses Feld enthält den Namen der Ortschaft, Gemeinde oder Stadt, ohne Verwendung von Ortsteilen.</ns0:hilfetextAusgabe>
+                            <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                              <code>input</code>
+                            </ns0:feldart>
+                            <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                              <code>text</code>
+                            </ns0:datentyp>
+                            <ns0:praezisierung minLength="1" maxLength="50" />
+                            <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                              <code>keine</code>
+                            </ns0:vorbefuellung>
+                          </ns0:datenfeld>
+                        </ns0:enthaelt>
+                      </ns0:struktur>
+                      <ns0:struktur>
+                        <ns0:anzahl>0:1</ns0:anzahl>
+                        <ns0:enthaelt>
+                          <ns0:datenfeld>
+                            <ns0:identifikation>
+                              <ns0:id>F60000000248</ns0:id>
+                              <ns0:version>1.1.0</ns0:version>
+                            </ns0:identifikation>
+                            <ns0:name>Anschrift Zusatzangaben</ns0:name>
+                            <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F60000248
+				Version: 1.1
+				Status: aktiv</ns0:beschreibung>
+                            <ns0:definition>Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.
+</ns0:definition>
+                            <ns0:bezug>XInneres.Meldeanschrift.zusatzangaben Version 8</ns0:bezug>
+                            <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                              <code>6</code>
+                            </ns0:freigabestatus>
+                            <ns0:statusGesetztAm>2020-11-02</ns0:statusGesetztAm>
+                            <ns0:statusGesetztDurch>FIM-Baustein Datenfelder</ns0:statusGesetztDurch>
+                            <ns0:veroeffentlichungsdatum>2020-11-02</ns0:veroeffentlichungsdatum>
+                            <ns0:letzteAenderung>2024-06-30T03:14:36+00:00</ns0:letzteAenderung>
+                            <ns0:bezeichnungEingabe>Adresszusatz</ns0:bezeichnungEingabe>
+                            <ns0:bezeichnungAusgabe>Adresszusatz</ns0:bezeichnungAusgabe>
+                            <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                              <code>HAR</code>
+                            </ns0:schemaelementart>
+                            <ns0:hilfetextEingabe>Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.</ns0:hilfetextEingabe>
+                            <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                              <code>input</code>
+                            </ns0:feldart>
+                            <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                              <code>text</code>
+                            </ns0:datentyp>
+                            <ns0:praezisierung minLength="1" maxLength="21" />
+                            <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                              <code>keine</code>
+                            </ns0:vorbefuellung>
+                          </ns0:datenfeld>
+                        </ns0:enthaelt>
+                      </ns0:struktur>
+                    </ns0:datenfeldgruppe>
+                  </ns0:enthaelt>
+                </ns0:struktur>
+              </ns0:datenfeldgruppe>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003391</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Beschäftigungsverhältnis</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>F17000009297</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>In welcher Art Beschäftigungsverhältnis steht die Frau?</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Beschäftigungsverhältnis der Frau</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>select</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+                <ns0:werte>
+                  <ns0:wert>
+                    <ns0:code>001</ns0:code>
+                    <ns0:name>Arbeitnehmerin</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>002</ns0:code>
+                    <ns0:name>Beamtin</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>003</ns0:code>
+                    <ns0:name>Studentin</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>004</ns0:code>
+                    <ns0:name>Auszubildende</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>005</ns0:code>
+                    <ns0:name>Schülerin</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>006</ns0:code>
+                    <ns0:name>Praktikantin i. S. v. § 26 BIBB</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>007</ns0:code>
+                    <ns0:name>Entwicklungshelferin i. S. v. EhfG</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>008</ns0:code>
+                    <ns0:name>Freiwillige i. S. v. JFDG oder i. S. v. BFDG</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>999</ns0:code>
+                    <ns0:name>Sonstiges Beschäftigungsverhältnis</ns0:name>
+                  </ns0:wert>
+                </ns0:werte>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F17000009298</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Beschreibung sonstiges Beschäftigungsverhältnis</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F17009298
+				Version: 1.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:bezug>§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug>§ 29 (3) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>3</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>Behörde für Justiz und Verbraucherschutz Hamburg</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:13:01+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Beschreibung sonstiges Beschäftigungsverhältnis</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Beschreibung sonstiges Beschäftigungsverhältnis</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F17000009294</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Status der Frau (schwanger / stillend)</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F17009294
+				Version: 1.0
+				Status: aktiv
+				Codeliste: C17000962
+				Kurzname: codelist
+				Codeliste-Canonical-Identification: urn:de:fim:codeliste:schwanger-stillende
+				Codeliste-Version: 2022-10-24</ns0:beschreibung>
+                <ns0:bezug>§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug>§ 29 (3) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>3</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>Behörde für Justiz und Verbraucherschutz Hamburg</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:13:01+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Auswahl zum Status der Frau (schwanger oder stillend)</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Status der Frau (schwanger / stillend)</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Wählen Sie aus, ob die Frau schwanger oder stillend ist.</ns0:hilfetextEingabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>select</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+                <ns0:werte>
+                  <ns0:wert>
+                    <ns0:code>001</ns0:code>
+                    <ns0:name>schwanger</ns0:name>
+                  </ns0:wert>
+                  <ns0:wert>
+                    <ns0:code>002</ns0:code>
+                    <ns0:name>stillend</ns0:name>
+                  </ns0:wert>
+                </ns0:werte>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F17000009295</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>(voraussichtlicher) Entbindungstermin</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F17009295
+				Version: 1.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:bezug>§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug>§ 29 (3) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>3</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>Behörde für Justiz und Verbraucherschutz Hamburg</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:13:01+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Geben Sie den (voraussichtlichen) Entbindungstermin an.</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>voraussichtlicher Entbindungstermin</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>date</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F17000009296</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>tatsächlicher Entbindungstermin</ns0:name>
+                <ns0:beschreibung>
+				Originalwerte der XDF2-Datei:
+				ID: F17009296
+				Version: 1.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:bezug>§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug>§ 29 (3) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>3</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>Behörde für Justiz und Verbraucherschutz Hamburg</ns0:statusGesetztDurch>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2024-06-30T03:13:01+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Wann war der tatsächliche Entbindungstermin?</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>tatsächlicher Entbindungstermin</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>date</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+        </ns0:datenfeldgruppe>
+      </ns0:enthaelt>
+    </ns0:struktur>
+    <ns0:struktur>
+      <ns0:anzahl>1:1</ns0:anzahl>
+      <ns0:enthaelt>
+        <ns0:datenfeldgruppe>
+          <ns0:identifikation>
+            <ns0:id>G00000002195</ns0:id>
+            <ns0:version>1.0.0</ns0:version>
+          </ns0:identifikation>
+          <ns0:name>Nachweise und begründende Angaben</ns0:name>
+          <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+          <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+          <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+            <code>6</code>
+          </ns0:freigabestatus>
+          <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+          <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+          <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+          <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+          <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+          <ns0:relation>
+            <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+              <code>ABL</code>
+            </ns0:praedikat>
+            <ns0:objekt>
+              <ns0:id>G17000005417</ns0:id>
+              <ns0:version>1.0.0</ns0:version>
+            </ns0:objekt>
+          </ns0:relation>
+          <ns0:bezeichnungEingabe>Abfrage über die Einhaltung der Bedingungen nach § 28 (1) MuSchG</ns0:bezeichnungEingabe>
+          <ns0:bezeichnungAusgabe>Abfrage über die Einhaltung der gesetzlichen Bedingungen</ns0:bezeichnungAusgabe>
+          <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+            <code>RNG</code>
+          </ns0:schemaelementart>
+          <ns0:struktur>
+            <ns0:anzahl>1:1</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003442</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Begründung für Ausnahme</ns0:name>
+                <ns0:beschreibung>Originalwerte der XDF2-Datei:
+				ID: F17009224
+				Version: 1.0
+				Status: aktiv</ns0:beschreibung>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>F17000009224</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>Begründung für die Beschäftigung</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Begründung für die Beschäftigung</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Die Begründung muss auf folgende Fragestellungen eingehen:
+- Warum muss die Frau in diesem Zeitraum beschäftigt werden?
+- Welche Art der Beschäftigung liegt vor?
+- Wie lange ist der Zeitraum der Beschäftigung in diesem Zeitraum angestrebt?</ns0:hilfetextEingabe>
+                <ns0:hilfetextAusgabe>Die Begründung muss auf folgende Fragestellungen eingehen:
+- Warum muss die Frau in diesem Zeitraum beschäftigt werden?
+- Welche Art der Beschäftigung liegt vor?
+- Wie lange ist der Zeitraum der Beschäftigung in diesem Zeitraum angestrebt?</ns0:hilfetextAusgabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>text</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:*</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003395</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Beurteilung der Arbeitsbedingungen</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:bezeichnungEingabe>Fügen Sie die Dokumentation zur Beurteilung der Arbeitsbedingungen nach § 10 (1) MuSchG bei.</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Beurteilung der Arbeitsbedingungen</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Der Arbeitgeber hat die Beurteilung der Arbeitsbedingungen nach § 10 durch Unterlagen zu dokumentieren, aus denen Folgendes ersichtlich ist:
+1. das Ergebnis der Gefährdungsbeurteilung nach § 10 Absatz 1 Satz 1 Nummer 1 und der Bedarf an Schutzmaßnahmen nach § 10 Absatz 1 Satz 1 Nummer 2,
+2. die Festlegung der erforderlichen Schutzmaßnahmen nach § 10 Absatz 2 Satz 1 sowie das Ergebnis ihrer Überprüfung nach § 9 Absatz 1 Satz 2 und
+3. das Angebot eines Gesprächs mit der Frau über weitere Anpassungen ihrer Arbeitsbedingungen nach § 10 Absatz 2 Satz 2 oder der Zeitpunkt eines solchen Gesprächs.</ns0:hilfetextEingabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>file</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:*</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003392</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Bereitschaftserklärung Arbeitnehmerin</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>F17000009301</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>Die Arbeitnehmerin erklärt sich ausdrücklich dazu bereit, zwischen 20 Uhr und 22 Uhr für das Unternehmen tätig zu sein.</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Bereitschaftserklärung der Arbeitnehmerin für die Ausnahmegenehmigung</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>file</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:*</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003393</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Ärztliches Zeugnis</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>F17000009302</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>Ärztliches Zeugnis aus dem hervorgeht, dass keine Bedenken gegen Nacht-, Mehr-, Akkord- oder Fließarbeit bestehen.</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Keine Bedenken gegen Nacht-, Mehr-, Akkord- oder Fließarbeit.</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Ärztliches Zeugnis muss beigelegt werden.</ns0:hilfetextEingabe>
+                <ns0:hilfetextAusgabe>Ärztliches Zeugnis muss beigelegt werden.</ns0:hilfetextAusgabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>file</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+          <ns0:struktur>
+            <ns0:anzahl>0:*</ns0:anzahl>
+            <ns0:enthaelt>
+              <ns0:datenfeld>
+                <ns0:identifikation>
+                  <ns0:id>F00000003394</ns0:id>
+                  <ns0:version>1.0.0</ns0:version>
+                </ns0:identifikation>
+                <ns0:name>Unbedenklichkeit für Gefährdung durch Alleinarbeit</ns0:name>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__28.html">§ 28 (1) MuSchG</ns0:bezug>
+                <ns0:bezug link="https://www.gesetze-im-internet.de/muschg_2018/__14.html">§ 14 (1) MuSchG</ns0:bezug>
+                <ns0:freigabestatus listURI="urn:xoev-de:xprozess:codeliste:status" listVersionID="2022-07-12">
+                  <code>6</code>
+                </ns0:freigabestatus>
+                <ns0:statusGesetztAm>2025-06-05</ns0:statusGesetztAm>
+                <ns0:statusGesetztDurch>BMFSFJ Ref. 211</ns0:statusGesetztDurch>
+                <ns0:versionshinweis>Automatisch versioniert im Zuge der Versionierung von Element S00000000372.</ns0:versionshinweis>
+                <ns0:veroeffentlichungsdatum>2025-06-05</ns0:veroeffentlichungsdatum>
+                <ns0:letzteAenderung>2025-06-05T08:26:37+00:00</ns0:letzteAenderung>
+                <ns0:relation>
+                  <ns0:praedikat listURI="urn:xoev-de:fim-datenfelder:codeliste:relation" listVersionID="1.2">
+                    <code>ABL</code>
+                  </ns0:praedikat>
+                  <ns0:objekt>
+                    <ns0:id>F17000009303</ns0:id>
+                    <ns0:version>1.0.0</ns0:version>
+                  </ns0:objekt>
+                </ns0:relation>
+                <ns0:bezeichnungEingabe>Eine unverantwortbare Gefährdung für die schwangere Frau oder ihr Kind durch Alleinarbeit, Art der Arbeit und das Arbeitstempo ist ausgeschlossen.</ns0:bezeichnungEingabe>
+                <ns0:bezeichnungAusgabe>Eine unverantwortbare Gefährdung ist ausgeschlossen.</ns0:bezeichnungAusgabe>
+                <ns0:schemaelementart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.schemaelementart" listVersionID="1.0">
+                  <code>RNG</code>
+                </ns0:schemaelementart>
+                <ns0:hilfetextEingabe>Alleinarbeit liegt vor, wenn die Arbeitnehmerin nicht jederzeit ihren Arbeitsplatz verlassen oder 
+nicht jederzeit Hilfe erreichen kann.</ns0:hilfetextEingabe>
+                <ns0:feldart listURI="urn:xoev-de:fim:codeliste:xdatenfelder.feldart" listVersionID="2.0">
+                  <code>input</code>
+                </ns0:feldart>
+                <ns0:datentyp listURI="urn:xoev-de:fim:codeliste:xdatenfelder.datentyp" listVersionID="2.0">
+                  <code>bool</code>
+                </ns0:datentyp>
+                <ns0:vorbefuellung listURI="urn:xoev-de:fim:codeliste:xdatenfelder.vorbefuellung" listVersionID="1.0">
+                  <code>keine</code>
+                </ns0:vorbefuellung>
+              </ns0:datenfeld>
+            </ns0:enthaelt>
+          </ns0:struktur>
+        </ns0:datenfeldgruppe>
+      </ns0:enthaelt>
+    </ns0:struktur>
+  </ns0:stammdatenschema>
+</ns0:xdatenfelder.stammdatenschema.0102>

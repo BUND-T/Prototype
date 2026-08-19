@@ -1,0 +1,30 @@
+{
+  "fim_id": "S05000001296",
+  "fim_version": "2.1.0",
+  "name": "Anzeige der Gewerbeanmeldung",
+  "bezeichnung": "Gewerbeanmeldung",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "Anlage 1 Nr. 1 GewAnzV vom 11.12.2024",
+    "Anlage 1 Nr. 2 GewAnzV vom 11.12.2024",
+    "§ 14 GewO vom 27.12.2024",
+    "§ 8a HGB",
+    "§ 11 GewO vom 27.12.2024",
+    "§ 705 BGB",
+    "§ 15 GewO  vom 22.02.1999",
+    "Anlage 1 GewAnzV vom 11.12.2024",
+    "§ 11GewO v. 27.12.2024",
+    "§ 11 (1) S. 2 Nr. 4 GewO  vom 27.12.2024",
+    "§ 8b HGB",
+    "§ 706 BGB",
+    "§ 707 BGB",
+    "§ 15 GewO vom 27.12.2024"
+  ],
+  "letzte_aenderung": "2025-12-10T13:01:11Z",
+  "n_rules": 52,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001296/2.1.0/xdf",
+  "fetched_at": "2026-08-12T13:17:18Z"
+}

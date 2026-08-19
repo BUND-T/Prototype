@@ -1,0 +1,22 @@
+{
+  "fim_id": "S05000001382",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Zertifizierung von Betrieben für die klimaschutzgerechte Installation, Wartung und Instandhaltung von Anlagen",
+  "bezeichnung": "Antrag auf Zertifizierung von Betrieben für die klimaschutzgerechte Installation, Wartung und Instandhaltung von Anlagen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 5 ChemKlimaschutzV vom 19.06.2020",
+    "§ 6 ChemKlimaschutzV vom 19.06.2020",
+    "Art. 3 (4) S. 2 VO (EU) Nr. 517/2014 vom 16.04.2014",
+    "Art. 4 (7) S. 2 VO (EU) 2024/573 vom 07.02.2024",
+    "Art. 6 DVO (EU) 2024/2215 vom 06.09.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-27T13:16:39Z",
+  "n_rules": 32,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001382/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:45Z"
+}

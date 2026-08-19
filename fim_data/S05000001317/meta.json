@@ -1,0 +1,19 @@
+{
+  "fim_id": "S05000001317",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erteilung der Erlaubnis zur gewerbsmäßigen Schaustellung von Personen",
+  "bezeichnung": "Antrag auf Erteilung der Erlaubnis zur gewerbsmäßigen Schaustellung von Personen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 33a GewO vom 22.02.1999",
+    "§ 49 GewO vom 22.02.1999",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-24T08:25:37Z",
+  "n_rules": 130,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001317/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:18Z"
+}

@@ -1,0 +1,188 @@
+---
+name: antrag-s07000000215
+description: Führt Antragstellende durch „Antrag auf Eintragung in einen Ausländerjagdschein" (FIM S07000000215 1.2.0). Fragt nur, was in der jeweiligen Situation gebraucht wird, und begründet jede Frage mit ihrer Rechtsgrundlage.
+---
+
+# Antrag auf Eintragung in einen Ausländerjagdschein
+
+- **FIM-ID:** `S07000000215 1.2.0` · **Reifegrad:** fachlich freigegeben (silber)
+- **Rechtsgrundlagen:** § 4 BJagdG vom 25.10.2024; § 11 BJagdG vom 25.10.2024; § 15 BJagdG vom 25.10.2024; § 24 (1) VwVfG vom 15.07.2024; § 25 (1), (2) VwVfG vom 15.07.2024; § 26 (1) VwVfG vom 15.07.2024
+- **Kompiliert:** 2026-08-13T15:58:16Z aus https://fimportal.de/api/v1/schemas/S07000000215/1.2.0/xdf
+- **Umfang:** 37 Felder, 6 gesicherte Bedingungen, 2 ungeklärt
+
+## Verbindliche Arbeitsweise
+
+1. **`graph.json` entscheidet, nicht du.** Ob ein Feld gebraucht wird, welcher Nachweis fehlt und welche Bedingung gilt, steht dort. Leite das nie selbst ab.
+2. **Übersetze nur.** Deine Aufgabe ist Alltagssprache ↔ Feldwert. Nenne auf Nachfrage die amtliche Formulierung und die Rechtsgrundlage.
+3. **Frage nur, was offen ist.** Felder, deren Bedingung nach den bisherigen Antworten nicht erfüllt ist, entfallen — frage sie nicht ab.
+4. **Bei ungeklärten Regeln sag das.** Der Abschnitt „Ungeklärte Regeln" enthält Bedingungen, die nicht maschinell gelesen werden konnten. Rate dort nicht, sondern verweise auf die zuständige Stelle.
+
+## Felder
+
+### Antragstellende Person (`G07000000817`)
+
+- **Familienname** (`F60000000227`) — Pflicht
+  - Rechtsgrundlage: § 5 (2) Nr. 1 PAuswG vom 21.6.2019; Anhang 3 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1; XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020
+  - Hilfe: Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.
+- **Geburtsname** (`F60000000230`) — optional
+  - Rechtsgrundlage: § 5 (2) Nr. 1 PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1; XOEV.Kernkomponente.NameNatuerlichePerson.geburtsname vom 31.01.2020
+  - Hilfe: Geben Sie den Geburtsnamen an. Manche Menschen ändern ihren Familiennamen, wenn sie heiraten oder eine Lebenspartnerschaft eingehen. Der  Geburtsname ist der Familienname den die Person bei der Geburt hatte, bevor sie ihren Namen geändert hat.
+- **Vornamen** (`F60000000228`) — Pflicht
+  - Rechtsgrundlage: § 5 (2) Nr. 2 PAuswG vom 21.6.2019; Anhang 3 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1; XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020
+  - Hilfe: Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.
+- **Doktorgrade** (`F60000000229`) — optional
+  - Rechtsgrundlage: § 5 (2) Nr. 3 PAuswG vom 21.6.2019; Tabelle 9 BSI TR-03123 Version 1.5.1 (dort als Titel); XMeld.type.NameNatuerlichePerson.doktorgrad Version 2.4.4
+  - Hilfe: Geben Sie anerkannte Doktorgrade an. Zulässig sind: "Dr.", "Dr.hc." und "Dr.eh.". Wollen Sie mehrere Doktorgrade angeben, trennen Sie diese durch ein Leerzeichen.
+- **Geburtsort** (`F60000000234`) — Pflicht
+  - Rechtsgrundlage: § 5 (2) Nr. 4 PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1; XOEV.Kernkomponente.Geburt.geburtsort vom 31.01.2020
+  - Hilfe: Geben Sie die Bezeichnung des Ortes an, in dem die Person geboren wurde, Beispiel Düsseldorf.
+- **Staat der Geburt** (`F60000000235`) — Pflicht
+  - Rechtsgrundlage: XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.3; Codeliste laut XMeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)
+- **Staatsangehörigkeit** (`F60000000236`) — Pflicht
+  - Rechtsgrundlage: XOEV.Kernkomponente.NatuerlichePerson.staatsangehoerigkeit vom 31.08.2020; Codeliste laut XMeld und DSMeld: Codeliste Destatis Staatsangehörigkeit (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehörigkeit)
+  - Hilfe: Wählen Sie aus, welcher Nationalität bzw. welchen Nationalitäten die Person angehört. Es ist auch die Auswahl "ohne Angabe" möglich, falls die Person keiner Nationalität angehört.
+- **Ausweisdokument** (`F07000001249`) — Pflicht
+  - Rechtsgrundlage: § 24 (1) VwVfG; § 25 (1), (2) VwVfG; § 26 (1) VwVfG
+
+### Antragstellende Person › Geburtsdatum (`G60000000083`)
+
+- **Tag** (`F60000000231`) — optional
+  - Rechtsgrundlage: § 5 (2) PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1 _(geerbt)_
+- **Monat** (`F60000000232`) — optional, conditional
+  - Rechtsgrundlage: § 5 (2) PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1 _(geerbt)_
+- **Jahr** (`F60000000233`) — Pflicht
+  - Rechtsgrundlage: § 5 (2) PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017; Tabelle 9 BSI TR-03123 Version 1.5.1 _(geerbt)_
+
+### Antragstellende Person › Wohnsitz (`G07000002558`)
+
+- **Wo befindet sich die Anschrift?** (`F60000000263`) — Pflicht
+  - Rechtsgrundlage: § 15 BJagdG _(geerbt)_
+  - Hilfe: Geben Sie an, ob sich die Anschrift im Inland oder im Ausland befindet.
+
+### Antragstellende Person › Wohnsitz › Straßenanschrift (`G60000000086`)
+
+- **Straße** (`F60000000243`) — Pflicht
+  - Rechtsgrundlage: XInneres.Meldeanschrift.strasse Version 8
+  - Hilfe: Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße
+- **Hausnummer** (`F60000000244`) — optional
+  - Rechtsgrundlage: XInneres.Meldeanschrift.hausnummer Version 8
+  - Hilfe: Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.
+- **Postleitzahl** (`F60000000246`) — Pflicht
+  - Rechtsgrundlage: XInneres.Meldeanschrift.postleitzahl Version 8
+  - Hilfe: Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.
+- **Ort** (`F60000000247`) — Pflicht
+  - Rechtsgrundlage: § 5 (2) Nr. 9 PAuswG vom 21.6.2019; Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017; Tabelle 11 BSI TR-03123, Version 1.5.1; Xinneres.Meldeanschrift.Wohnort Version 8; XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020
+  - Hilfe: Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.
+- **Adresszusatz** (`F60000000248`) — optional
+  - Rechtsgrundlage: XInneres.Meldeanschrift.zusatzangaben Version 8
+  - Hilfe: Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.
+
+### Antragstellende Person › Wohnsitz › Auslandsanschrift (`G60000000091`)
+
+- **Staat** (`F60000000261`) — Pflicht
+  - Rechtsgrundlage: XMeld.type.AnschriftMelderecht.Ausland.staat Version 2.4.4; Codeliste laut Xmeld und DSMeld: Codeliste Destatis Staat (urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat)
+  - Hilfe: Geben Sie den Namen des Staates bzw. des Landes an, Beispiel Deutschland, Frankreich, ...
+
+### Antragstellende Person › Wohnsitz › Auslandsanschrift › Ausländische Anschrift (`G60000000092`)
+
+- **Anschriftzeile** (`F60000000262`) — optional
+  - Rechtsgrundlage: XInneres.Auslandsanschrift.Anschriftzone.zeile.anschrift Version 8
+  - Hilfe: Geben Sie die ausländische Anschrift an
+
+### Antragstellende Person › Kontaktdaten (`G07000000827`)
+
+- **Telefonnummer** (`F60000000240`) — optional
+  - Rechtsgrundlage: ITU E.123
+  - Hilfe: Geben Sie bei Telefonnummern innerhalb Deutschlands zuerst die Ortsvorwahl bzw. Mobilnetzvorwahl in Klammern, gefolgt von der Rufnummer an, Beispiel (0211) 12345678.
+Geben Sie bei Telefonnummern außerhalb Deutschlands zuerst den Internationalen Ländercode mit vorgestelltem Plus, gefolgt von der Ortsvorwahl bzw. Mobilnetzvorwahl ohne der führenden Null, gefolgt von der Rufnummer an, Beispiel +49 211 123456789.
+- **E-Mail-Adresse** (`F60000000242`) — optional
+  - Rechtsgrundlage: RFC 5322; RFC 5321
+  - Hilfe: Geben Sie eine E-Mail-Adresse an, z.B. Max.Mustermann@email.de
+
+### Angaben zum Jagdschein (`G07000002576`)
+
+- **Beantragte Änderung** (`F07000001252`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+- **Landkreis, in dem der Jagdschein ausgestellt oder zuletzt verlängert wurde** (`F07000003635`) — Pflicht
+  - Rechtsgrundlage: urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis
+- **Jagdschein** (`F07000003660`) — Pflicht
+  - Rechtsgrundlage: § 15 BJagdG
+
+### Angaben zur Jagdfläche › Hinzugekommene Jagdflächen › Lage der Jagdfläche (`G07000000840`)
+
+- **Landkreis / Kreis** (`F17000004079`) — Pflicht
+  - Rechtsgrundlage: urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis
+- **Gemeinde** (`F07000001255`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+- **Bezeichnung des Jagdbezirks** (`F07000001254`) — Pflicht
+  - Rechtsgrundlage: § 4 BJagdG
+
+### Angaben zur Jagdfläche › Hinzugekommene Jagdflächen › Größe der Jagdfläche (`G07000000841`)
+
+- **Gesamtgröße des Jagdbezirks (in Hektar)** (`F07000001259`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+- **Anteil der Jagdfläche am Jagdbezirk (in Hektar)** (`F07000001261`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+
+### Angaben zur Jagdfläche › Hinzugekommene Jagdflächen (`G07000000834`)
+
+- **Beginn des Anrechnungszeitraums** (`F07000001408`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+
+### Angaben zur Jagdfläche › Entfallene Jagdflächen › Lage der Jagdfläche (`G07000000840`)
+
+- **Landkreis / Kreis** (`F17000004079`) — Pflicht
+  - Rechtsgrundlage: urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis
+- **Gemeinde** (`F07000001255`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+- **Bezeichnung des Jagdbezirks** (`F07000001254`) — Pflicht
+  - Rechtsgrundlage: § 4 BJagdG
+
+### Angaben zur Jagdfläche › Entfallene Jagdflächen › Größe der Jagdfläche (`G07000000841`)
+
+- **Gesamtgröße des Jagdbezirks (in Hektar)** (`F07000001259`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+- **Anteil der Jagdfläche am Jagdbezirk (in Hektar)** (`F07000001261`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+
+### Angaben zur Jagdfläche › Entfallene Jagdflächen (`G07000000836`)
+
+- **Ende des Anrechnungszeitraums** (`F07000001409`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG
+
+### Angaben zur Jagdfläche (`G07000000833`)
+
+- **Nachweis** (`F60000000296`) — Pflicht
+  - Rechtsgrundlage: § 11 BJagdG; § 4 BJagdG _(geerbt)_
+  - Hilfe: Fügen Sie einen Nachweis bei, der die Angaben bestätigt.
+
+## Bedingungen
+
+| Bedingung | Feld | Folge | Rechtsgrundlage | Regel |
+|---|---|---|---|---|
+| wenn „Tag" nicht leer ist | „Monat" | muss ausgefüllt werden | — | `G60000000083` |
+| wenn „Wo befindet sich die Anschrift?" gleich „001" ist | „Straßenanschrift" | muss ausgefüllt werden | — | `G07000002558` |
+| wenn „Wo befindet sich die Anschrift?" ungleich „001" ist | „Straßenanschrift" | darf nicht ausgefüllt werden | — | `G07000002558` |
+| wenn „Wo befindet sich die Anschrift?" gleich „002" ist | „Auslandsanschrift" | muss ausgefüllt werden | — | `G07000002558` |
+| wenn „Wo befindet sich die Anschrift?" ungleich „002" ist | „Auslandsanschrift" | darf nicht ausgefüllt werden | — | `G07000002558` |
+
+## Ungeklärte Regeln
+
+Diese Bedingungen standen im FIM-Freitext, ließen sich aber nicht eindeutig in eine Edge übersetzen. Sie sind **nicht** im Graphen wirksam und brauchen eine menschliche Entscheidung:
+
+- <mark>WENN G07000002576.F07000001252 = 001 "Eintragung hinzugekommener Jagdflächen" ODER 003 "Eintragung hinzugekommener Jagdflächen und Streichung entfallener Jagdflächen", DANN zeige als Pflicht G07000000833.G07000000834 Eintragung Jagdfläche in Jagdschein an, SONST zeige G07000000833.G07000000834 Eintragung Jagdfläche in Jagdschein nicht an.</mark> — Regel `R07000000791`
+- <mark>WENN G07000002576.F07000001252 = 002 "Streichung entfallener Jagdflächen" ODER 003 "Eintragung hinzugekommener Jagdflächen und Streichung entfallener Jagdflächen", DANN zeige als Pflicht G07000000833.G07000000836 Streichung Jagdfläche aus Jagdschein an, SONST zeige G07000000833.G07000000836 Streichung Jagdfläche aus Jagdschein nicht an.</mark> — Regel `R07000002225`
+
+## Abhängigkeitsgraph
+
+```mermaid
+flowchart TD
+  G07000000817_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G07000000817_G60000000083_F60000000232["Monat"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 001 → required"| G07000000817_G07000002558_G60000000086["Straßenanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 001 → forbidden"| G07000000817_G07000002558_G60000000086["Straßenanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 002 → required"| G07000000817_G07000002558_G60000000091["Auslandsanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 002 → forbidden"| G07000000817_G07000002558_G60000000091["Auslandsanschrift"]
+  unclear0["?: WENN G07000002576.F07000001252 = 001 "Eintragung hinzugekomm"]:::unclear
+  unclear1["?: WENN G07000002576.F07000001252 = 002 "Streichung entfallener"]:::unclear
+  classDef unclear fill:#fff3b0,stroke:#c9a227,color:#000
+```

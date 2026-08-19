@@ -1,0 +1,23 @@
+{
+  "fim_id": "S05000001299",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis zur Kindertagespflege",
+  "bezeichnung": "Antrag auf Erlaubnis zur Kindertagespflege",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 43 SGB VIII vom 03.04.2025",
+    "§ 43 (2) Nr. 1 SGB VIII vom 03.04.2025",
+    "§ 43 (2) Nr. 2 SGB VIII vom 03.04.2025",
+    "§ 20 (8) Nr 1 IfSG vom 03.04.2025",
+    "§ 33 Nr. 2 IfSG vom 12.12.2023",
+    "§ 22 SGB VIII vom 03.04.2025",
+    "§ 20 (8) Nr. 1 IfSG vom 12.12.2023"
+  ],
+  "letzte_aenderung": "2026-02-18T07:51:43Z",
+  "n_rules": 23,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001299/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:17:27Z"
+}

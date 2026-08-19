@@ -1,0 +1,19 @@
+{
+  "fim_id": "S05000001319",
+  "fim_version": "2.0.0",
+  "name": "Antrag auf Verlängerung der Frist für das Erlöschen der Erlaubnis zur gewerbsmäßigen Schaustellung von Personen",
+  "bezeichnung": "Antrag auf Verlängerung der Frist für das Erlöschen der Erlaubnis zur gewerbsmäßigen Schaustellung von Personen",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 33a GewO vom 22.02.1999",
+    "§ 49 GewO vom 22.02.1999",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-04-24T07:40:53Z",
+  "n_rules": 6,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001319/2.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:22Z"
+}

@@ -1,0 +1,8 @@
+flowchart TD
+  G07000000817_G60000000083_F60000000231["Tag"] ==>|"nicht leer ? → required"| G07000000817_G60000000083_F60000000232["Monat"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 001 → required"| G07000000817_G07000002558_G60000000086["Straßenanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 001 → forbidden"| G07000000817_G07000002558_G60000000086["Straßenanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] ==>|"= 002 → required"| G07000000817_G07000002558_G60000000091["Auslandsanschrift"]
+  G07000000817_G07000002558_F60000000263["Wo befindet sich die Anschrift?"] -.->|"<> 002 → forbidden"| G07000000817_G07000002558_G60000000091["Auslandsanschrift"]
+  G07000000963_G07000002555_F07000003636["Ist Ihre Jagdhaftpflichtversicherung z"] ==>|"= falsch → required"| G07000000963_G07000002555_F07000003637["Hinweis"]
+  G07000000963_G07000002555_F07000003636["Ist Ihre Jagdhaftpflichtversicherung z"] -.->|"= wahr → forbidden"| G07000000963_G07000002555_F07000003637["Hinweis"]

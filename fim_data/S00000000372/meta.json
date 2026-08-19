@@ -1,0 +1,18 @@
+{
+  "fim_id": "S00000000372",
+  "fim_version": "1.0.0",
+  "name": "Antrag Genehmigung Ausnahme Mehr- und Nachtarbeit, Art der Arbeit, Arbeitstempo schwangere oder stillende Frau",
+  "bezeichnung": "Ausnahmegenehmigung vom Verbot der Mehr- oder Nacharbeit einer schwangeren oder stillenden Frau",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 29 (3) Nr. 1 MuSchG v. 12.12.2019",
+    "§ 29 (3) Nr. 8 MuSchG v. 12.12.2019"
+  ],
+  "letzte_aenderung": "2025-06-05T08:27:14Z",
+  "n_rules": 5,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000372/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:20Z"
+}

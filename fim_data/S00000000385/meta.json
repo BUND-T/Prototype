@@ -1,0 +1,17 @@
+{
+  "fim_id": "S00000000385",
+  "fim_version": "1.0.0",
+  "name": "Antrag Verlängerung Ausbildungsduldung",
+  "bezeichnung": "Antrag auf Verlängerung einer Ausbildungsduldung",
+  "freigabe_status": 6,
+  "freigabe_status_label": "fachlich freigegeben (gold)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 60c AufenthG vom 08.05.2024"
+  ],
+  "letzte_aenderung": "2024-10-22T11:36:57Z",
+  "n_rules": 23,
+  "source_url": "https://fimportal.de/api/v1/schemas/S00000000385/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:12:36Z"
+}

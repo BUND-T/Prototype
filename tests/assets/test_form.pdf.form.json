@@ -1,0 +1,220 @@
+{
+  "document": "c:\\Users\\Lreich\\Documents\\GitHub\\Bewerbung\\prototype\\tests\\assets\\test_form.pdf",
+  "pages": 2,
+  "has_form": true,
+  "n_fields": 10,
+  "text_chars": 344,
+  "page_details": [
+    {
+      "page": 1,
+      "width": 595,
+      "height": 842,
+      "text": "Bund/t Testformular\r\nTest Antrag\r\nRechtsgrundlage: § 1 Absatz 2\r\nFeld Wert\r\nOrt Berlin\r\nPostleitzahl 10115\r\nName, Vorname:\r\nVorbelegtes Feld:\r\nVom System gesetzt:\r\nEinverstanden:\r\nStatus: schwanger stillend\r\nLandkreis:",
+      "chars": 218
+    },
+    {
+      "page": 2,
+      "width": 595,
+      "height": 842,
+      "text": "Seite 2 — Weitere Angaben\r\nDiese Seite prueft die seitenweise Zuordnung.\r\nName, Vorname (Wiederholung):\r\nDatum:\r\nAuswahlliste:",
+      "chars": 126
+    }
+  ],
+  "fields": [
+    {
+      "name": "Name",
+      "type": "textfield",
+      "tooltip": "Name, Vorname",
+      "value": "",
+      "options": [],
+      "state": "visible",
+      "required": true,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          596.0,
+          420.0,
+          614.0
+        ]
+      ]
+    },
+    {
+      "name": "Vorbelegt",
+      "type": "textfield",
+      "tooltip": "bereits ausgefuellt",
+      "value": "Musterwert",
+      "options": [],
+      "state": "visible",
+      "required": false,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          561.0,
+          420.0,
+          579.0
+        ]
+      ]
+    },
+    {
+      "name": "NurLesbar",
+      "type": "textfield",
+      "tooltip": "wird automatisch befuellt",
+      "value": "vom System gesetzt",
+      "options": [],
+      "state": "readonly",
+      "required": false,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          526.0,
+          420.0,
+          544.0
+        ]
+      ]
+    },
+    {
+      "name": "Versteckt",
+      "type": "textfield",
+      "tooltip": "unsichtbares Feld",
+      "value": "verborgen",
+      "options": [],
+      "state": "hidden",
+      "required": false,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          491.0,
+          420.0,
+          509.0
+        ]
+      ]
+    },
+    {
+      "name": "Einverstanden",
+      "type": "checkbox",
+      "tooltip": "Zustimmung zur Verarbeitung",
+      "value": "Off",
+      "options": [],
+      "state": "visible",
+      "required": true,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          451.0,
+          216.0,
+          467.0
+        ]
+      ]
+    },
+    {
+      "name": "Status",
+      "type": "radio",
+      "tooltip": "Status der Person",
+      "value": "Off",
+      "options": [],
+      "state": "visible",
+      "required": true,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          416.0,
+          216.0,
+          432.0
+        ],
+        [
+          300.0,
+          416.0,
+          316.0,
+          432.0
+        ]
+      ]
+    },
+    {
+      "name": "Landkreis",
+      "type": "combobox",
+      "tooltip": "Bitte den Landkreis waehlen",
+      "value": "Bitte waehlen",
+      "options": [
+        "Bitte waehlen",
+        "Darmstadt",
+        "Offenbach",
+        "Bergstrasse"
+      ],
+      "state": "visible",
+      "required": false,
+      "page": 1,
+      "widgets": [
+        [
+          200.0,
+          381.0,
+          420.0,
+          401.0
+        ]
+      ]
+    },
+    {
+      "name": "Name",
+      "type": "textfield",
+      "tooltip": "Name, Vorname",
+      "value": "",
+      "options": [],
+      "state": "visible",
+      "required": true,
+      "page": 2,
+      "widgets": [
+        [
+          260.0,
+          706.0,
+          460.0,
+          724.0
+        ]
+      ]
+    },
+    {
+      "name": "Datum",
+      "type": "textfield",
+      "tooltip": "Datum des Antrags",
+      "value": "",
+      "options": [],
+      "state": "visible",
+      "required": true,
+      "page": 2,
+      "widgets": [
+        [
+          260.0,
+          671.0,
+          460.0,
+          689.0
+        ]
+      ]
+    },
+    {
+      "name": "Auswahlliste",
+      "type": "listbox",
+      "tooltip": "Liste zum Aufklappen",
+      "value": "A",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "state": "visible",
+      "required": false,
+      "page": 2,
+      "widgets": [
+        [
+          260.0,
+          626.0,
+          460.0,
+          666.0
+        ]
+      ]
+    }
+  ]
+}

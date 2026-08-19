@@ -1,0 +1,22 @@
+{
+  "fim_id": "S05000001316",
+  "fim_version": "1.0.0",
+  "name": "Antrag auf Erlaubnis zum Versand von apothekenpflichtigen Arzneimitteln",
+  "bezeichnung": "Antrag auf Erlaubnis zum Versand von apothekenpflichtigen Arzneimitteln",
+  "freigabe_status": 5,
+  "freigabe_status_label": "fachlich freigegeben (silber)",
+  "steckbrief_id": "D99000000001",
+  "xdf_version": "3.0.0",
+  "bezug": [
+    "§ 11a ApoG vom 19.7.2023",
+    "§ 4 (4) ApBetrO vom 12.12.2023",
+    "§ 43 (1) AMG vom 23.10.2024",
+    "§ 67 (8) AMG vom 23.10.2024",
+    "§ 41 (1) VwVfG vom 15.7.2024",
+    "referenzbasiert"
+  ],
+  "letzte_aenderung": "2026-03-31T13:28:40Z",
+  "n_rules": 19,
+  "source_url": "https://fimportal.de/api/v1/schemas/S05000001316/1.0.0/xdf",
+  "fetched_at": "2026-08-12T13:18:13Z"
+}

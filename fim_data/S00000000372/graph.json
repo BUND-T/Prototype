@@ -1,0 +1,2235 @@
+{
+  "schema": {
+    "fim_id": "S00000000372",
+    "fim_version": "1.0.0",
+    "bezeichnung": "Ausnahmegenehmigung vom Verbot der Mehr- oder Nacharbeit einer schwangeren oder stillenden Frau",
+    "definition": "",
+    "freigabe_status_label": "fachlich freigegeben (gold)",
+    "bezug": [
+      "§ 29 (3) Nr. 1 MuSchG v. 12.12.2019",
+      "§ 29 (3) Nr. 8 MuSchG v. 12.12.2019"
+    ],
+    "source_url": "https://fimportal.de/api/v1/schemas/S00000000372/1.0.0/xdf",
+    "compiled_at": "2026-08-13T15:34:51Z"
+  },
+  "leistung": {
+    "leistungsschluessel": "99006054273000",
+    "join": "bestaetigt",
+    "evidence": "§ 29 · muschg",
+    "leistungsbezeichnung": "Verbot der Mehrarbeit, Nachtarbeit,  Fließarbeit, Akkordarbeit oder Ähnliches bei einer schwangeren oder stillenden Frau Ausnahmebewilligung",
+    "leistungsbezeichnung_2": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen",
+    "rechtsgrundlagen": "§ 29 Absatz 3 Nummer 1 und 8 Mutterschutzgesetz (MuSchG)",
+    "texte": {
+      "leistungsbezeichnung": "Verbot der Mehrarbeit, Nachtarbeit,  Fließarbeit, Akkordarbeit oder Ähnliches bei einer schwangeren oder stillenden Frau Ausnahmebewilligung",
+      "leistungsname": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen",
+      "teaser": "<p>Sie beschäftigen als Arbeitgeberin oder Arbeitgeber eine schwangere oder stillende Frau? Dann können Sie unter bestimmten Voraussetzungen eine Ausnahme vom Verbot der Nachtarbeit und Mehrarbeit sowie der Art und dem Arbeitstempo beantragen.&#xa0; &#xa0;</p>",
+      "unterlagen": "<ul>\n <li>\n  ärztliches Zeugnis darüber, dass nichts gegen eine Beschäftigung der Frau spricht in Bezug auf:\n  <ul>\n   <li>Nacht-,</li>\n   <li>Mehr-,</li>\n   <li>Akkord- oder</li>\n   <li>Fließarbeit.</li>\n  </ul>\n </li>\n <li>\n  zustimmende Erklärung der schwangeren oder stillenden Frau\n  <ul>\n   <li>die Frau kann Ihre Erklärung jederzeit widerrufen</li>\n  </ul>\n </li>\n</ul>\n<p>Das zuständige Amt kann bei Bedarf weitere Informationen und Unterlagen anfordern, wenn es zu den gemachten Angaben Rückfragen gibt.</p>",
+      "volltext": "<p>Das Mutterschutzgesetz gilt für alle schwangeren und stillenden Frauen, die in einem Beschäftigungsverhältnis stehen. Eine Frau im Sinne des Mutterschutzgesetzes ist jede Person, die schwanger ist, ein Kind geboren hat oder stillt – unabhängig von dem im Geburtseintrag angegebenen Geschlecht.</p>\n<p>Dementsprechend gelten für schwangere und stillende Frauen besondere Regeln, wenn es um körperlich oder psychisch anstrengende Arbeiten geht.</p>\n<p>So dürfen Sie als Unternehmerin oder Unternehmer schwangere oder stillende Frauen nicht in folgenden Tätigkeiten beschäftigen:</p>\n<ul>\n <li>Nachtarbeit</li>\n <li>Mehrarbeit</li>\n <li>Fließarbeit</li>\n <li>Akkordarbeit</li>\n <li>sonstige Arbeiten, in denen gegen ein höheres Arbeitstempo ein höheres Entgelt erzielt werden kann</li>\n</ul>\n<p>Dafür können Sie eine Ausnahme durch die für Arbeitsschutz zuständige Behörde beantragen.</p>\n<p>Von Nachtarbeit ist die Rede, wenn eine Tätigkeit zwischen 22 Uhr und 6 Uhr ausgeführt wird.</p>\n<p>Bei einer schwangeren oder stillenden Frau von 18 Jahren oder älter wird von Mehrarbeit gesprochen, wenn ihre Arbeit eines der folgenden Kriterien erfüllt:</p>\n<ul>\n <li>über 8,5 Stunden täglich</li>\n <li>über 90 Stunden in der Doppelwoche (inklusive Sonntage)</li>\n <li>die vertraglich vereinbarte Wochenarbeitszeit den Monatsdurchschnitt übersteigend</li>\n</ul>\n<p>Bei einer schwangeren oder stillenden Frau unter 18 Jahren wird von Mehrarbeit gesprochen, wenn ihre Arbeit eines der folgenden Kriterien erfüllt:&#xa0;</p>\n<ul>\n <li>über 8 Stunden täglich</li>\n <li>über 80 Stunden in der Doppelwoche (inklusive Sonntage)</li>\n <li>die vertraglich vereinbarte Wochenarbeitszeit den Monatsdurchschnitt übersteigend</li>\n</ul>\n<p>Sind neben Ihnen noch weitere Arbeitgeberinnen oder Arbeitgeber vorhanden, ist die Arbeitszeit zusammenzurechnen.</p>\n<p>Eine Bewilligung von Mehrarbeit, Nachtarbeit, Fließ- oder Akkordarbeit ersetzt nicht die grundsätzlich notwendige Mitteilung an die Aufsichtsbehörde, dass eine Mitarbeiterin schwanger ist. Diese Mitteilung muss erfolgen, sobald die Arbeitgeberin oder der Arbeitgeber über die Schwangerschaft informiert wurde.</p>",
+      "kurztext": "<ul>\n <li>Arbeit darf weder Gesundheit der Frau noch Gesundheit des Kindes gefährden</li>\n <li>eine Ausnahme für die Beschäftigung einer schwangeren oder stillenden Person in körperlich oder psychisch anstrengender Arbeit muss bewilligt werden</li>\n <li>\n  Ausnahme notwendig für:\n  <ul>\n   <li>Nachtarbeit</li>\n   <li>Mehrarbeit</li>\n   <li>Fließarbeit</li>\n   <li>Akkordarbeit</li>\n   <li>sonstige Arbeiten, in denen gegen ein höheres Arbeitstempo ein höheres Entgelt erzielt werden kann</li>\n  </ul>\n </li>\n <li>Nachtarbeit: Tätigkeit zwischen 22 und 6 Uhr &#xa0;</li>\n <li>\n  Mehrarbeit&#xa0;\n  <ul>\n   <li>\n    wenn Frauen über 18 Jahren\n    <ul>\n     <li>über 8,5 Stunden täglich arbeiten</li>\n     <li>über 90 Stunden in der Doppelwoche (inklusive Sonntage) arbeiten</li>\n     <li>die vertraglich vereinbarte Wochenarbeitszeit den Monatsdurchschnitt übersteigt</li>\n    </ul>\n   </li>\n   <li>\n    wenn Frauen unter 18 Jahren\n    <ul>\n     <li>über 8 Stunden täglich arbeiten</li>\n     <li>über 80 Stunden in der Doppelwoche (inklusive Sonntage) arbeiten</li>\n     <li>die vertraglich vereinbarte Wochenarbeitszeit den Monatsdurchschnitt übersteigt</li>\n    </ul>\n   </li>\n  </ul>\n </li>\n <li>Frau kann Zustimmung jederzeit widerrufen</li>\n</ul>",
+      "hinweise": "<p>Das Mutterschutzgesetz gilt grundsätzlich nicht für:</p>\n<ul>\n <li>Selbständige</li>\n <li>Organmitglieder und Geschäftsführerinnen juristischer Personen oder Gesellschaften (soweit sie nicht überwiegend auch als Beschäftigte tätig sind)</li>\n <li>Hausfrauen</li>\n</ul>\n<p>Grund hierfür ist, dass diese nicht in einem Beschäftigungsverhältnis stehen.</p>",
+      "voraussetzungen": "<ul>\n <li>Als Antragstellerin oder Antragsteller sind Sie Arbeitgeberin oder Arbeitgeber.</li>\n <li>Die schwangere oder stillende Frau erklärt sich ausdrücklich dazu bereit.</li>\n <li>\n  Das ärztliche Zeugnis spricht nicht gegen die geplante &#xa0;&#xa0;\n  <ul>\n   <li>Nacht-,</li>\n   <li>Mehr-,</li>\n   <li>Akkord- oder</li>\n   <li>Fließarbeit.</li>\n  </ul>\n </li>\n <li>Eine unverantwortbare Gefährdung für die schwangere Frau durch Alleinarbeit, Art der Arbeit und das Arbeitstempo ist ausgeschlossen.</li>\n <li>Eine unverantwortbare Gefährdung für das Kind durch Alleinarbeit, Art der Arbeit und das Arbeitstempo ist ausgeschlossen.</li>\n</ul>",
+      "urheber": "Weiterleitungsdienst: Deep-Link zum Ursprungsportal"
+    },
+    "frist": null,
+    "kosten": null,
+    "bearbeitungsdauer": null,
+    "laendertexte": [
+      {
+        "redaktion_id": "L100038",
+        "leistung_id": "215251175",
+        "source": "landesredaktion",
+        "title": "Mutterschutz: Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit beantragen"
+      },
+      {
+        "redaktion_id": "L100040",
+        "leistung_id": "489306325",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit, der Nachtarbeit, der Akkordarbeit oder der Fließarbeit beantragen"
+      },
+      {
+        "redaktion_id": "L100027",
+        "leistung_id": "130037379",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für schwangere oder stillende Frauen beantragen"
+      },
+      {
+        "redaktion_id": "L100012",
+        "leistung_id": "295045269",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen"
+      },
+      {
+        "redaktion_id": "L100008",
+        "leistung_id": "405457185",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen"
+      },
+      {
+        "redaktion_id": "L100039",
+        "leistung_id": "273840100",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen"
+      },
+      {
+        "redaktion_id": "L100001",
+        "leistung_id": "403825428",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen"
+      },
+      {
+        "redaktion_id": "L100010",
+        "leistung_id": "103989720",
+        "source": "landesredaktion",
+        "title": "Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit für eine schwangere oder stillende Person beantragen"
+      },
+      {
+        "redaktion_id": "L100022",
+        "leistung_id": "6022769-99006054273000",
+        "source": "pvog",
+        "title": "Antrag auf Ausnahme vom Verbot der Mehrarbeit und vom Verbot der Nachtarbeit in besonderen Fällen, sowie der Art der Arbeit und dem Arbeitstempo"
+      },
+      {
+        "redaktion_id": "S100003",
+        "leistung_id": "S1000030003102404",
+        "source": "pvog",
+        "title": "Verbot der Mehrarbeit, Nachtarbeit,  Fließarbeit, Akkordarbeit oder Ähnliches bei einer schwangeren oder stillenden Frau Ausnahmebewilligung"
+      }
+    ]
+  },
+  "statistics": {
+    "nodes": 35,
+    "fields": 28,
+    "edges_contains": 31,
+    "edges_condition": 11,
+    "edges_certain": 11,
+    "edges_unclear": 0,
+    "edges_from_api": 11,
+    "edges_from_freitext": 0,
+    "edges_unresolved": 0,
+    "cycles": 0,
+    "order_violations": 0
+  },
+  "ask_order": [
+    "G00000002191.F60000000319",
+    "G00000002191.G60000000086.F60000000243",
+    "G00000002191.G60000000086.F60000000244",
+    "G00000002191.G60000000086.F60000000246",
+    "G00000002191.G60000000086.F60000000247",
+    "G00000002191.G60000000086.F60000000248",
+    "G00000002193.F60000000228",
+    "G00000002193.F60000000227",
+    "G00000002193.G60000000083.F60000000231",
+    "G00000002193.G60000000083.F60000000232",
+    "G00000002193.G60000000083.F60000000233",
+    "G00000002193.G00000002194.F00000003390",
+    "G00000002193.G00000002194.G60000000086.F60000000243",
+    "G00000002193.G00000002194.G60000000086.F60000000244",
+    "G00000002193.G00000002194.G60000000086.F60000000246",
+    "G00000002193.G00000002194.G60000000086.F60000000247",
+    "G00000002193.G00000002194.G60000000086.F60000000248",
+    "G00000002193.F00000003391",
+    "G00000002193.F17000009298",
+    "G00000002193.F17000009294",
+    "G00000002193.F17000009295",
+    "G00000002193.F17000009296",
+    "F00000003396",
+    "G00000002195.F00000003442",
+    "G00000002195.F00000003395",
+    "G00000002195.F00000003392",
+    "G00000002195.F00000003393",
+    "G00000002195.F00000003394"
+  ],
+  "cycles_detail": [],
+  "order_violations": [],
+  "mermaid": "flowchart TD\n  G00000002193_F00000003391[\"In welcher Art Beschäftigungsverhältni\"] ==>|\"= 999 → required\"| G00000002193_F17000009298[\"Beschreibung sonstiges Beschäftigungsv\"]\n  G00000002193_F00000003391[\"In welcher Art Beschäftigungsverhältni\"] -.->|\"<> 999 → forbidden\"| G00000002193_F17000009298[\"Beschreibung sonstiges Beschäftigungsv\"]\n  G00000002193_F17000009294[\"Auswahl zum Status der Frau (schwanger\"] ==>|\"= 001 → required\"| G00000002193_F17000009295[\"Geben Sie den (voraussichtlichen) Entb\"]\n  G00000002193_F17000009294[\"Auswahl zum Status der Frau (schwanger\"] -.->|\"<> 001 → forbidden\"| G00000002193_F17000009295[\"Geben Sie den (voraussichtlichen) Entb\"]\n  G00000002193_F17000009294[\"Auswahl zum Status der Frau (schwanger\"] -.->|\"= 001 → forbidden\"| G00000002193_F17000009296[\"Wann war der tatsächliche Entbindungst\"]\n  G00000002193_F17000009294[\"Auswahl zum Status der Frau (schwanger\"] ==>|\"= 002 → required\"| G00000002193_F17000009296[\"Wann war der tatsächliche Entbindungst\"]\n  G00000002193_F17000009294[\"Auswahl zum Status der Frau (schwanger\"] -.->|\"<> 002 → forbidden\"| G00000002193_F17000009296[\"Wann war der tatsächliche Entbindungst\"]\n  G00000002193_G60000000083_F60000000231[\"Tag\"] ==>|\"nicht leer ? → required\"| G00000002193_G60000000083_F60000000232[\"Monat\"]\n  G00000002193_G00000002194_F00000003390[\"Wo befindet sich der Beschäftigungsort\"] -.->|\"= 001 → forbidden\"| G00000002193_G00000002194_G60000000086[\"Straßenanschrift\"]\n  G00000002193_G00000002194_F00000003390[\"Wo befindet sich der Beschäftigungsort\"] ==>|\"= 002 → required\"| G00000002193_G00000002194_G60000000086[\"Straßenanschrift\"]",
+  "nodes": [
+    {
+      "path_id": "G00000002191",
+      "id": "G00000002191",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Angaben zum Unternehmen",
+      "name": "Angaben zum antragstellenden Unternehmen",
+      "definition": "Diese Gruppe enthält Angaben zum Unternehmen (Eingetragener Name und Straßenanschrift Inland), basierend auf BOB-Elementen.",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "wird im Verwendungsbezug ergänzt"
+      ],
+      "bezug_effective": [
+        "wird im Verwendungsbezug ergänzt"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G00000002191.F60000000319",
+        "G00000002191.G60000000086"
+      ]
+    },
+    {
+      "path_id": "G00000002191.F60000000319",
+      "id": "F60000000319",
+      "version": "1.3.0",
+      "kind": "field",
+      "label": "Eingetragener Name",
+      "name": "Eingetragener Name / Organisationsname",
+      "definition": "Die im Handels- oder Genossenschaftsregister eingetragene Firma eines wirtschaftlich Tätigen bzw. einer wirtschaftlichen Tätigkeit (z. B. eingetragenes Einzelunternehmen,eingetragene Zweigniederlassung) bzw. der im Vereinsregister, Partnerschaftsregister oder Stiftungsverzeichnis eingetragene Name.\n\nDer eingetragene Name kann auch in einem Register festgehalten sein, welches in einem anderen Staat geführt wird.\n\nDer eingetragene Name ist abzugrenzen von der Geschäftsbezeichnung. \n\nDas Kerndatenobjekt bildet auch die Namen juristischer Personen, Personengesellschaften oder sonstiger Personenvereinigungen ab, die nicht in einem Register, aber kraft Gesetz geführt werden.",
+      "hilfetext": "Geben Sie den im Handelsregister, im Genossenschaftsregister, im Vereinsregister oder im Stiftungsverzeichnis eingetragenen Namen mit Rechtsform an, soweit eine Eintragung vorliegt.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XOEV.Kernkomponente.NameOrganisation.name vom 01.08.2017",
+        "XGewerbeanzeige.Betrieb.eingetragenerName Version 2.2",
+        "XUnternehmen.Kerndatenmodell.Eingetragener Name Version 1.1"
+      ],
+      "bezug_effective": [
+        "XOEV.Kernkomponente.NameOrganisation.name vom 01.08.2017",
+        "XGewerbeanzeige.Betrieb.eingetragenerName Version 2.2",
+        "XUnternehmen.Kerndatenmodell.Eingetragener Name Version 1.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191"
+      ],
+      "parent": "G00000002191",
+      "children": []
+    },
+    {
+      "path_id": "G00000002191.G60000000086",
+      "id": "G60000000086",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Straßenanschrift",
+      "name": "Anschrift Inland Straßenanschrift",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_effective": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191"
+      ],
+      "parent": "G00000002191",
+      "children": [
+        "G00000002191.G60000000086.F60000000243",
+        "G00000002191.G60000000086.F60000000244",
+        "G00000002191.G60000000086.F60000000246",
+        "G00000002191.G60000000086.F60000000247",
+        "G00000002191.G60000000086.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G00000002191.G60000000086.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191",
+        "G60000000086"
+      ],
+      "parent": "G00000002191.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002191.G60000000086.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191",
+        "G60000000086"
+      ],
+      "parent": "G00000002191.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002191.G60000000086.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191",
+        "G60000000086"
+      ],
+      "parent": "G00000002191.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002191.G60000000086.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191",
+        "G60000000086"
+      ],
+      "parent": "G00000002191.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002191.G60000000086.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002191",
+        "G60000000086"
+      ],
+      "parent": "G00000002191.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193",
+      "id": "G00000002193",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Angaben zur schwangeren oder stillenden Frau",
+      "name": "Angaben zur schwangeren oder stillenden Frau",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 28 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G00000002193.F60000000228",
+        "G00000002193.F60000000227",
+        "G00000002193.G60000000083",
+        "G00000002193.G00000002194",
+        "G00000002193.F00000003391",
+        "G00000002193.F17000009298",
+        "G00000002193.F17000009294",
+        "G00000002193.F17000009295",
+        "G00000002193.F17000009296"
+      ]
+    },
+    {
+      "path_id": "G00000002193.F60000000228",
+      "id": "F60000000228",
+      "version": "2.0.0",
+      "kind": "field",
+      "label": "Vornamen",
+      "name": "Vornamen",
+      "definition": "Plural zu Vorname",
+      "hilfetext": "Geben Sie die Vornamen so an, wie sie auf den offiziellen Ausweisen angegeben sind, zum Beispiel im Personalausweis.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 2 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.vorname vom 31.08.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F60000000227",
+      "id": "F60000000227",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Familienname",
+      "name": "Familienname",
+      "definition": "Familienname einer natürlichen Person bestehend aus Nachname, Zuname bzw. Familienname.",
+      "hilfetext": "Geben Sie den Nachnamen, Familiennamen bzw. Zunamen an.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 1 PAuswG vom 21.6.2019",
+        "Anhang 3 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1",
+        "XOEV.Kernkomponente.NameNatuerlichePerson.familienname vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G60000000083",
+      "id": "G60000000083",
+      "version": "2.0.0",
+      "kind": "group",
+      "label": "Geburtsdatum",
+      "name": "Geburtsdatum (teilbekannt)",
+      "definition": "Dieses Feld beinhaltet das Geburtsdatum, also Tag, Monat und Jahr der Vollendung der Geburt.",
+      "hilfetext": "Geben Sie das Geburtsdatum so an, wie auf den Ausweisdokumenten hinterlegt. Nur falls der Tag oder der Monat der Geburt unbekannt sind, dürfen diese weggelassen werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": [
+        "G00000002193.G60000000083.F60000000231",
+        "G00000002193.G60000000083.F60000000232",
+        "G00000002193.G60000000083.F60000000233"
+      ]
+    },
+    {
+      "path_id": "G00000002193.G60000000083.F60000000231",
+      "id": "F60000000231",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Tag",
+      "name": "Tag (ohne Monat und Jahr)",
+      "definition": "Tag (ohne Monat und Jahr)",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G00000002193.G60000000083",
+      "path": [
+        "G00000002193",
+        "G60000000083"
+      ],
+      "parent": "G00000002193.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G60000000083.F60000000232",
+      "id": "F60000000232",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Monat",
+      "name": "Monat",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G00000002193.G60000000083",
+      "path": [
+        "G00000002193",
+        "G60000000083"
+      ],
+      "parent": "G00000002193.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G60000000083.F60000000233",
+      "id": "F60000000233",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Jahr",
+      "name": "Jahr",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [],
+      "bezug_effective": [
+        "§ 5 (2) PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 PAuswV vom 28.9.2017",
+        "Tabelle 9 BSI TR-03123 Version 1.5.1"
+      ],
+      "bezug_source": "G00000002193.G60000000083",
+      "path": [
+        "G00000002193",
+        "G60000000083"
+      ],
+      "parent": "G00000002193.G60000000083",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194",
+      "id": "G00000002194",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Ort der Beschäftigung",
+      "name": "Ort der Beschäftigung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 17 (2) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 17 (2) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": [
+        "G00000002193.G00000002194.F00000003390",
+        "G00000002193.G00000002194.G60000000086"
+      ]
+    },
+    {
+      "path_id": "G00000002193.G00000002194.F00000003390",
+      "id": "F00000003390",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Wo befindet sich der Beschäftigungsort der Frau?",
+      "name": "Abfrage Beschäftigungsort",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Am angegebenen Unternehmensstandort"
+        },
+        {
+          "code": "002",
+          "name": "An einer anderen Betriebsstätte"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 17 (2) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 17 (2) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194"
+      ],
+      "parent": "G00000002193.G00000002194",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086",
+      "id": "G60000000086",
+      "version": "2.1.0",
+      "kind": "group",
+      "label": "Straßenanschrift",
+      "name": "Anschrift Inland Straßenanschrift",
+      "definition": "Angaben für die Adressierung im Inland, soweit es sich um die Anschrift eines Gebäudes handelt.",
+      "hilfetext": "Geben Sie die Anschrift mit Straße, Hausnummer, Postleitzahl und Ort an. Eine Angabe eines Postfachs ist nicht möglich.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_effective": [
+        "urn:xoevde:xunternehmen:kerndatenobjekt:anschriftinlandstrassenanschrift"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194"
+      ],
+      "parent": "G00000002193.G00000002194",
+      "children": [
+        "G00000002193.G00000002194.G60000000086.F60000000243",
+        "G00000002193.G00000002194.G60000000086.F60000000244",
+        "G00000002193.G00000002194.G60000000086.F60000000246",
+        "G00000002193.G00000002194.G60000000086.F60000000247",
+        "G00000002193.G00000002194.G60000000086.F60000000248"
+      ]
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086.F60000000243",
+      "id": "F60000000243",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Straße",
+      "name": "Straße",
+      "definition": "",
+      "hilfetext": "Geben Sie an, wie die Straße heißt, ohne Abkürzungen zu verwenden, Beispiel Bischöflich-Geistlicher-Rat-Josef-Zinnbauer-Straße",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.strasse Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194",
+        "G60000000086"
+      ],
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086.F60000000244",
+      "id": "F60000000244",
+      "version": "1.2.0",
+      "kind": "field",
+      "label": "Hausnummer",
+      "name": "Hausnummer",
+      "definition": "Es sind die Ziffern und Buchstabeneiner Hausnummer anzugeben. Eine Hausnummer dient der genauen Lokalisierung eines Grundstücks, Gebäudes oder Gebäudeteils (Eingang) in einer Straße. Geben Sie Hausnummernbereiche immer nach folgendem Beispiel ohne Leerzeichen an: 12a-14d",
+      "hilfetext": "Geben Sie die Ziffern und ggf. Buchstaben der Hausnummer der Anschrift an, Beispiel 124a.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.hausnummer Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194",
+        "G60000000086"
+      ],
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086.F60000000246",
+      "id": "F60000000246",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Postleitzahl",
+      "name": "Postleitzahl",
+      "definition": "Es ist die Postleitzahl anzugeben.\n\nDer Typ dieses Elements ist eine Einschränkung des Basistyps String.Latin.",
+      "hilfetext": "Geben Sie die Postleitzahl des Ortes an, Beispiel 10115.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.postleitzahl Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194",
+        "G60000000086"
+      ],
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086.F60000000247",
+      "id": "F60000000247",
+      "version": "2.2.0",
+      "kind": "field",
+      "label": "Ort",
+      "name": "Ort",
+      "definition": "Enthält den Namen eines Ortes (Gemeinde, Ortschaft oder Stadt).",
+      "hilfetext": "Geben Sie an, wie der Ort heißt. Benennen Sie dafür den Namen der Ortschaft, Gemeinde oder Stadt; nicht jedoch den Namen des Ortsteils, Beispiel Berlin.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_effective": [
+        "§ 5 (2) Nr. 9 PAuswG vom 21.6.2019",
+        "Anhang 3 Abschnitt 1 (Wohnort) PAuswV vom 28.9.2017",
+        "Tabelle 11 BSI TR-03123, Version 1.5.1",
+        "Xinneres.Meldeanschrift.Wohnort Version 8",
+        "XOEV.Kernkomponente.Anschrift.ort vom 31.01.2020"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194",
+        "G60000000086"
+      ],
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.G00000002194.G60000000086.F60000000248",
+      "id": "F60000000248",
+      "version": "1.1.0",
+      "kind": "field",
+      "label": "Adresszusatz",
+      "name": "Anschrift Zusatzangaben",
+      "definition": "Es sind Zusatzangaben zur Anschrift anzugeben, z.B. Hinterhaus, Gartenhaus.",
+      "hilfetext": "Geben Sie Zusatzangaben zur Anschrift an. Beispiele: Hinterhaus, Gartenhaus.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_effective": [
+        "XInneres.Meldeanschrift.zusatzangaben Version 8"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193",
+        "G00000002194",
+        "G60000000086"
+      ],
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F00000003391",
+      "id": "F00000003391",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "In welcher Art Beschäftigungsverhältnis steht die Frau?",
+      "name": "Beschäftigungsverhältnis",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Arbeitnehmerin"
+        },
+        {
+          "code": "002",
+          "name": "Beamtin"
+        },
+        {
+          "code": "003",
+          "name": "Studentin"
+        },
+        {
+          "code": "004",
+          "name": "Auszubildende"
+        },
+        {
+          "code": "005",
+          "name": "Schülerin"
+        },
+        {
+          "code": "006",
+          "name": "Praktikantin i. S. v. § 26 BIBB"
+        },
+        {
+          "code": "007",
+          "name": "Entwicklungshelferin i. S. v. EhfG"
+        },
+        {
+          "code": "008",
+          "name": "Freiwillige i. S. v. JFDG oder i. S. v. BFDG"
+        },
+        {
+          "code": "999",
+          "name": "Sonstiges Beschäftigungsverhältnis"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 28 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F17000009298",
+      "id": "F17000009298",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Beschreibung sonstiges Beschäftigungsverhältnis",
+      "name": "Beschreibung sonstiges Beschäftigungsverhältnis",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F17000009294",
+      "id": "F17000009294",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Auswahl zum Status der Frau (schwanger oder stillend)",
+      "name": "Status der Frau (schwanger / stillend)",
+      "definition": "",
+      "hilfetext": "Wählen Sie aus, ob die Frau schwanger oder stillend ist.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "schwanger"
+        },
+        {
+          "code": "002",
+          "name": "stillend"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F17000009295",
+      "id": "F17000009295",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Geben Sie den (voraussichtlichen) Entbindungstermin an.",
+      "name": "(voraussichtlicher) Entbindungstermin",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "G00000002193.F17000009296",
+      "id": "F17000009296",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Wann war der tatsächliche Entbindungstermin?",
+      "name": "tatsächlicher Entbindungstermin",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:1",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 29 (3) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002193"
+      ],
+      "parent": "G00000002193",
+      "children": []
+    },
+    {
+      "path_id": "F00000003396",
+      "id": "F00000003396",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Welche Art der Ausnahmegenehmigung möchten Sie beantragen?",
+      "name": "Art der Ausnahmegenehmigung",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [
+        {
+          "code": "001",
+          "name": "Ausnahme vom Verbot der Mehrarbeit"
+        },
+        {
+          "code": "002",
+          "name": "Ausnahme vom Verbot der Nachtarbeit zwischen 22 Uhr und 06 Uhr"
+        },
+        {
+          "code": "003",
+          "name": "Akkordarbeit"
+        },
+        {
+          "code": "004",
+          "name": "Fließarbeit"
+        }
+      ],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 29 (3) Nr. 1 und 8 MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 29 (3) Nr. 1 und 8 MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": []
+    },
+    {
+      "path_id": "G00000002195",
+      "id": "G00000002195",
+      "version": "1.0.0",
+      "kind": "group",
+      "label": "Abfrage über die Einhaltung der Bedingungen nach § 28 (1) MuSchG",
+      "name": "Nachweise und begründende Angaben",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [],
+      "parent": null,
+      "children": [
+        "G00000002195.F00000003442",
+        "G00000002195.F00000003395",
+        "G00000002195.F00000003392",
+        "G00000002195.F00000003393",
+        "G00000002195.F00000003394"
+      ]
+    },
+    {
+      "path_id": "G00000002195.F00000003442",
+      "id": "F00000003442",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Begründung für die Beschäftigung",
+      "name": "Begründung für Ausnahme",
+      "definition": "",
+      "hilfetext": "Die Begründung muss auf folgende Fragestellungen eingehen:\n- Warum muss die Frau in diesem Zeitraum beschäftigt werden?\n- Welche Art der Beschäftigung liegt vor?\n- Wie lange ist der Zeitraum der Beschäftigung in diesem Zeitraum angestrebt?",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "1:1",
+      "required": true,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002195"
+      ],
+      "parent": "G00000002195",
+      "children": []
+    },
+    {
+      "path_id": "G00000002195.F00000003395",
+      "id": "F00000003395",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Fügen Sie die Dokumentation zur Beurteilung der Arbeitsbedingungen nach § 10 (1) MuSchG bei.",
+      "name": "Beurteilung der Arbeitsbedingungen",
+      "definition": "",
+      "hilfetext": "Der Arbeitgeber hat die Beurteilung der Arbeitsbedingungen nach § 10 durch Unterlagen zu dokumentieren, aus denen Folgendes ersichtlich ist:\n1. das Ergebnis der Gefährdungsbeurteilung nach § 10 Absatz 1 Satz 1 Nummer 1 und der Bedarf an Schutzmaßnahmen nach § 10 Absatz 1 Satz 1 Nummer 2,\n2. die Festlegung der erforderlichen Schutzmaßnahmen nach § 10 Absatz 2 Satz 1 sowie das Ergebnis ihrer Überprüfung nach § 9 Absatz 1 Satz 2 und\n3. das Angebot eines Gesprächs mit der Frau über weitere Anpassungen ihrer Arbeitsbedingungen nach § 10 Absatz 2 Satz 2 oder der Zeitpunkt eines solchen Gesprächs.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002195"
+      ],
+      "parent": "G00000002195",
+      "children": []
+    },
+    {
+      "path_id": "G00000002195.F00000003392",
+      "id": "F00000003392",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Die Arbeitnehmerin erklärt sich ausdrücklich dazu bereit, zwischen 20 Uhr und 22 Uhr für das Unternehmen tätig zu sein.",
+      "name": "Bereitschaftserklärung Arbeitnehmerin",
+      "definition": "",
+      "hilfetext": "",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002195"
+      ],
+      "parent": "G00000002195",
+      "children": []
+    },
+    {
+      "path_id": "G00000002195.F00000003393",
+      "id": "F00000003393",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Ärztliches Zeugnis aus dem hervorgeht, dass keine Bedenken gegen Nacht-, Mehr-, Akkord- oder Fließarbeit bestehen.",
+      "name": "Ärztliches Zeugnis",
+      "definition": "",
+      "hilfetext": "Ärztliches Zeugnis muss beigelegt werden.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002195"
+      ],
+      "parent": "G00000002195",
+      "children": []
+    },
+    {
+      "path_id": "G00000002195.F00000003394",
+      "id": "F00000003394",
+      "version": "1.0.0",
+      "kind": "field",
+      "label": "Eine unverantwortbare Gefährdung für die schwangere Frau oder ihr Kind durch Alleinarbeit, Art der Arbeit und das Arbeitstempo ist ausgeschlossen.",
+      "name": "Unbedenklichkeit für Gefährdung durch Alleinarbeit",
+      "definition": "",
+      "hilfetext": "Alleinarbeit liegt vor, wenn die Arbeitnehmerin nicht jederzeit ihren Arbeitsplatz verlassen oder \nnicht jederzeit Hilfe erreichen kann.",
+      "feldart": "",
+      "datentyp": "",
+      "werte": [],
+      "anzahl": "0:*",
+      "required": false,
+      "bezug": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_effective": [
+        "§ 28 (1) MuSchG",
+        "§ 14 (1) MuSchG"
+      ],
+      "bezug_source": "self",
+      "path": [
+        "G00000002195"
+      ],
+      "parent": "G00000002195",
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "parent": "G00000002191",
+      "child": "G00000002191.F60000000319",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191",
+      "child": "G00000002191.G60000000086",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191.G60000000086",
+      "child": "G00000002191.G60000000086.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191.G60000000086",
+      "child": "G00000002191.G60000000086.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191.G60000000086",
+      "child": "G00000002191.G60000000086.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191.G60000000086",
+      "child": "G00000002191.G60000000086.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002191.G60000000086",
+      "child": "G00000002191.G60000000086.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F60000000228",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F60000000227",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.G60000000083",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G60000000083",
+      "child": "G00000002193.G60000000083.F60000000231",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G60000000083",
+      "child": "G00000002193.G60000000083.F60000000232",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G60000000083",
+      "child": "G00000002193.G60000000083.F60000000233",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.G00000002194",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194",
+      "child": "G00000002193.G00000002194.F00000003390",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194",
+      "child": "G00000002193.G00000002194.G60000000086",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "child": "G00000002193.G00000002194.G60000000086.F60000000243",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "child": "G00000002193.G00000002194.G60000000086.F60000000244",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "child": "G00000002193.G00000002194.G60000000086.F60000000246",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "child": "G00000002193.G00000002194.G60000000086.F60000000247",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.G60000000086",
+      "child": "G00000002193.G00000002194.G60000000086.F60000000248",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F00000003391",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F17000009298",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F17000009294",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F17000009295",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193",
+      "child": "G00000002193.F17000009296",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002195",
+      "child": "G00000002195.F00000003442",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002195",
+      "child": "G00000002195.F00000003395",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002195",
+      "child": "G00000002195.F00000003392",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002195",
+      "child": "G00000002195.F00000003393",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002195",
+      "child": "G00000002195.F00000003394",
+      "kind": "contains",
+      "operator": null,
+      "values": [],
+      "actions": [],
+      "scope": null,
+      "rule_id": null,
+      "text": "",
+      "bezug": [],
+      "certain": true,
+      "origin": "",
+      "condition": null,
+      "source_id": null,
+      "target_id": null,
+      "context": [],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F00000003391",
+      "child": "G00000002193.F17000009298",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "999"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld 'Beschreibung sonstiges Beschäftigungsverhältnis' muss angegeben werden, wenn 'Beschäftigungsverhältnis' den Wert '999' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F00000003391"
+          },
+          "999"
+        ]
+      },
+      "source_id": "F00000003391",
+      "target_id": "F17000009298",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F00000003391",
+      "child": "G00000002193.F17000009298",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "999"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld 'Beschreibung sonstiges Beschäftigungsverhältnis' darf nicht angegeben werden, wenn 'Beschäftigungsverhältnis' nicht den Wert '999' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F00000003391"
+          },
+          "999"
+        ]
+      },
+      "source_id": "F00000003391",
+      "target_id": "F17000009298",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F17000009294",
+      "child": "G00000002193.F17000009295",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld '(voraussichtlicher) Entbindungstermin' muss angegeben werden, wenn 'Status der Frau (schwanger / stillend)' den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F17000009294"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F17000009294",
+      "target_id": "F17000009295",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F17000009294",
+      "child": "G00000002193.F17000009295",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld '(voraussichtlicher) Entbindungstermin' darf nicht angegeben werden, wenn 'Status der Frau (schwanger / stillend)' nicht den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F17000009294"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F17000009294",
+      "target_id": "F17000009295",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F17000009294",
+      "child": "G00000002193.F17000009296",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld 'tatsächlicher Entbindungstermin' darf nicht angegeben werden, wenn 'Status der Frau (schwanger / stillend)' den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F17000009294"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F17000009294",
+      "target_id": "F17000009296",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F17000009294",
+      "child": "G00000002193.F17000009296",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld 'tatsächlicher Entbindungstermin' muss angegeben werden, wenn 'Status der Frau (schwanger / stillend)' den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F17000009294"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F17000009294",
+      "target_id": "F17000009296",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.F17000009294",
+      "child": "G00000002193.F17000009296",
+      "kind": "condition",
+      "operator": "<>",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G00000002193",
+      "text": "Das Feld 'tatsächlicher Entbindungstermin' darf nicht angegeben werden, wenn 'Status der Frau (schwanger / stillend)' nicht den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not_equal": [
+          {
+            "identifier": "self.F17000009294"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F17000009294",
+      "target_id": "F17000009296",
+      "context": [
+        "G00000002193"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G60000000083.F60000000231",
+      "child": "G00000002193.G60000000083.F60000000232",
+      "kind": "condition",
+      "operator": "nicht leer",
+      "values": [],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Monat muss angegeben werden, wenn Tag (ohne Monat und Jahr) angegeben ist.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "not": {
+          "is_empty": {
+            "identifier": "F60000000231"
+          }
+        }
+      },
+      "source_id": "F60000000231",
+      "target_id": "F60000000232",
+      "context": [
+        "G00000002193",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": null,
+      "child": null,
+      "kind": "condition",
+      "operator": null,
+      "values": [],
+      "actions": [
+        "validation"
+      ],
+      "scope": null,
+      "rule_id": "G60000000083",
+      "text": "Das angegebene Datum muss ein gültiges Kalenderdatum sein.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "or": [
+          {
+            "and": [
+              {
+                "is_empty": {
+                  "identifier": "F60000000231"
+                }
+              },
+              {
+                "is_empty": {
+                  "identifier": "F60000000232"
+                }
+              }
+            ]
+          },
+          {
+            "is_valid_date": [
+              {
+                "identifier": "F60000000231"
+              },
+              {
+                "identifier": "F60000000232"
+              },
+              {
+                "identifier": "F60000000233"
+              }
+            ]
+          }
+        ]
+      },
+      "source_id": null,
+      "target_id": null,
+      "context": [
+        "G00000002193",
+        "G60000000083"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.F00000003390",
+      "child": "G00000002193.G00000002194.G60000000086",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "001"
+      ],
+      "actions": [
+        "forbidden"
+      ],
+      "scope": null,
+      "rule_id": "G00000002194",
+      "text": "Die Anschrift Inland Straßenanschrift darf nicht angegeben werden, wenn Abfrage Beschäftigungsort den Wert '001' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F00000003390"
+          },
+          "001"
+        ]
+      },
+      "source_id": "F00000003390",
+      "target_id": "G60000000086",
+      "context": [
+        "G00000002193",
+        "G00000002194"
+      ],
+      "resolved": true
+    },
+    {
+      "parent": "G00000002193.G00000002194.F00000003390",
+      "child": "G00000002193.G00000002194.G60000000086",
+      "kind": "condition",
+      "operator": "=",
+      "values": [
+        "002"
+      ],
+      "actions": [
+        "required"
+      ],
+      "scope": null,
+      "rule_id": "G00000002194",
+      "text": "Die Anschrift Inland Straßenanschrift muss angegeben werden, wenn Abfrage Beschäftigungsort den Wert '002' hat.",
+      "bezug": [],
+      "certain": true,
+      "origin": "api",
+      "condition": {
+        "equal": [
+          {
+            "identifier": "self.F00000003390"
+          },
+          "002"
+        ]
+      },
+      "source_id": "F00000003390",
+      "target_id": "G60000000086",
+      "context": [
+        "G00000002193",
+        "G00000002194"
+      ],
+      "resolved": true
+    }
+  ]
+}
